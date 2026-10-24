@@ -1,6 +1,10 @@
 import { JsonStreamParser, SequenceCounter, USB_SEGMENT_LIMIT, segment } from '../protocol/framing';
 import { BAUD_RATE, USB_FILTER, type Transport, type TransportEvents } from './types';
 
+/** Pause between the segments of one command (see `write`). */
+const SEGMENT_GAP_MS = 15;
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
 export const isSerialSupported = () => typeof navigator !== 'undefined' && 'serial' in navigator;
 
 export async function requestSerialPort(): Promise<SerialPort> {
@@ -70,7 +74,14 @@ export class SerialTransport implements Transport {
     if (!writable) throw new Error('Serial port is not writable');
     const writer = writable.getWriter();
     try {
-      for (const seg of segment(data, USB_SEGMENT_LIMIT, this.seq.next())) await writer.write(seg);
+      const segments = segment(data, USB_SEGMENT_LIMIT, this.seq.next());
+      for (const [i, seg] of segments.entries()) {
+        await writer.write(seg);
+        // The firmware treats each USB packet as one segment. Web Serial has no
+        // drain(), so back-to-back writes can be merged into one transfer and
+        // split across packet boundaries. Pace them so each goes out alone.
+        if (i < segments.length - 1) await sleep(SEGMENT_GAP_MS);
+      }
     } finally {
       writer.releaseLock();
     }

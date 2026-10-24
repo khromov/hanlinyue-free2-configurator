@@ -48,7 +48,7 @@ Notes on the commands:
 - `r` is the repeat count, or `"forever"`.
 - Models with a P/M/R slide switch also get `"s":"P"|"M"|"R"` on every `set`.
 
-Commands longer than 64 bytes are split into 55-byte chunks. Each chunk is prefixed with `S{seq}[{i}/{n}]`, where `seq` cycles from 1 to 9. The device doesn't acknowledge `set` commands. A malformed frame (for example, an unsplit command over 64 bytes) makes it repeat its last reply. Settings are stored right away but only take effect after the USB cable is unplugged and plugged back in; verified on a Free2 running firmware V0.15. See [`src/lib/protocol`](src/lib/protocol).
+Commands longer than 64 bytes are split into 55-byte chunks. Each chunk is prefixed with `S{seq}[{i}/{n}]`, where `seq` cycles from 1 to 9. The device doesn't acknowledge `set` commands. A malformed frame makes it repeat its last reply. Examples are an unsplit command over 64 bytes, or several segments arriving merged in one USB transfer. Write each segment separately; Web Serial has no `drain()`, so the app waits 15 ms between segments. Settings are stored right away but only take effect after the USB cable is unplugged and plugged back in; verified on a Free2 running firmware V0.15. See [`src/lib/protocol`](src/lib/protocol).
 
 ## Development
 
