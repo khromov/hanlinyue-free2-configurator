@@ -107,12 +107,13 @@
     "power": "Luce",
     "on": "Accesa",
     "off": "Spenta",
-    "saveKey": "Salva pulsante {n}",
     "modeHint": {
       "lucky": "Alterna colori casuali.",
       "rainbow": "Scorre dolcemente lo spettro dei colori.",
       "custom": "Un colore e una luminosità fissi a tua scelta."
-    }
+    },
+    "saveAll": "Salva luci",
+    "replugHint": "Le modifiche alle luci hanno effetto dopo aver scollegato e ricollegato il voltapagine."
   },
   "more": {
     "reportedModel": "Modello rilevato",

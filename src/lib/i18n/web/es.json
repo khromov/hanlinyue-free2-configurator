@@ -107,12 +107,13 @@
     "power": "Luz",
     "on": "Encendida",
     "off": "Apagada",
-    "saveKey": "Guardar botón {n}",
     "modeHint": {
       "lucky": "Alterna entre colores aleatorios.",
       "rainbow": "Recorre suavemente el espectro de colores.",
       "custom": "Un color y un brillo fijos a tu elección."
-    }
+    },
+    "saveAll": "Guardar luces",
+    "replugHint": "Los cambios de iluminación se aplican al desconectar y volver a conectar el pasador de página."
   },
   "more": {
     "reportedModel": "Modelo detectado",

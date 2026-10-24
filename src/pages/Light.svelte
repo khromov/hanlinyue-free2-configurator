@@ -9,6 +9,8 @@
   import { setLight, type LightValue } from '../lib/protocol/commands';
   import { sendAndReport } from '../lib/save';
   import { deviceKey, load, save } from '../lib/storage';
+  import { toasts } from '../lib/toast.svelte';
+  import Icon from '../components/Icon.svelte';
 
   let { def }: { def: DeviceDef } = $props();
 
@@ -94,10 +96,12 @@
   }
 
   async function onsave() {
-    const ok = await sendAndReport([setLight(key, lightValue(current))]);
+    // Send every button so the device always matches what the page shows.
+    const cmds = buttons.map((n) => setLight(n, lightValue(settings[n] ?? DEFAULT)));
+    const ok = await sendAndReport(cmds);
     if (ok) {
-      // Only the key that was actually sent is remembered as "on the device".
-      save(storeKey, { ...load<Record<number, KeyLight>>(storeKey, {}), [key]: $state.snapshot(current) });
+      save(storeKey, $state.snapshot(settings));
+      toasts.show(t('web.light.replugHint'), 'info', 8000);
       flash = true;
       setTimeout(() => (flash = false), 950);
     }
@@ -120,8 +124,10 @@
   {/snippet}
 
   {#snippet actions()}
-    <SaveButton {onsave} disabled={!device.ready} label={t('web.light.saveKey', { n: key })} />
+    <SaveButton {onsave} disabled={!device.ready} label={t('web.light.saveAll')} />
   {/snippet}
+
+  <div class="callout info"><Icon name="info" /><p>{t('web.light.replugHint')}</p></div>
 
   <section class="card block">
     <div class="line">

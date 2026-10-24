@@ -51,7 +51,7 @@
       return false;
     }
     save(storeKey, { chosen: { ...chosen }, repeat });
-    return sendAndReport(cmds);
+    return sendAndReport(cmds, { afterSaveDialog: true });
   }
 </script>
 

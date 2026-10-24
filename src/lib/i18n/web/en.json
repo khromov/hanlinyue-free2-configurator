@@ -107,12 +107,13 @@
     "power": "Light",
     "on": "On",
     "off": "Off",
-    "saveKey": "Save button {n}",
     "modeHint": {
       "lucky": "Cycles through random colors.",
       "rainbow": "Fades smoothly through the color spectrum.",
       "custom": "A fixed color and brightness of your choice."
-    }
+    },
+    "saveAll": "Save lights",
+    "replugHint": "Lighting changes take effect after you unplug the page turner and plug it back in."
   },
   "more": {
     "reportedModel": "Reported model",

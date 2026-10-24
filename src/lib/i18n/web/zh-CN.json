@@ -107,12 +107,13 @@
     "power": "灯光",
     "on": "开启",
     "off": "关闭",
-    "saveKey": "保存按键 {n}",
     "modeHint": {
       "lucky": "随机切换颜色。",
       "rainbow": "在色谱中平滑渐变。",
       "custom": "自选固定的颜色和亮度。"
-    }
+    },
+    "saveAll": "保存灯光",
+    "replugHint": "灯光设置需在拔下并重新插入翻页器后生效。"
   },
   "more": {
     "reportedModel": "设备报告型号",

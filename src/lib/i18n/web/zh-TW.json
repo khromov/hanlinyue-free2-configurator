@@ -107,12 +107,13 @@
     "power": "燈光",
     "on": "開啟",
     "off": "關閉",
-    "saveKey": "儲存按鍵 {n}",
     "modeHint": {
       "lucky": "隨機切換顏色。",
       "rainbow": "在色譜中平滑漸變。",
       "custom": "自選固定的顏色和亮度。"
-    }
+    },
+    "saveAll": "儲存燈光",
+    "replugHint": "燈光設定需在拔下並重新插入翻頁器後生效。"
   },
   "more": {
     "reportedModel": "裝置回報型號",

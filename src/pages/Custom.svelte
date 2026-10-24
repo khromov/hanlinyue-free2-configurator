@@ -80,7 +80,7 @@
     }
     if (activeProfile) profiles[activeProfile] = plain(layers);
     persist();
-    const ok = await sendAndReport(cmds);
+    const ok = await sendAndReport(cmds, { afterSaveDialog: true });
     if (ok) {
       flash = true;
       setTimeout(() => (flash = false), 950);

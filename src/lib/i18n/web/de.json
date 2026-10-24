@@ -107,12 +107,13 @@
     "power": "Licht",
     "on": "An",
     "off": "Aus",
-    "saveKey": "Taste {n} speichern",
     "modeHint": {
       "lucky": "Wechselt zufällig zwischen Farben.",
       "rainbow": "Läuft sanft durch das Farbspektrum.",
       "custom": "Eine feste Farbe und Helligkeit Ihrer Wahl."
-    }
+    },
+    "saveAll": "Beleuchtung speichern",
+    "replugHint": "Beleuchtungsänderungen werden wirksam, nachdem Sie den Seitenumblätterer ab- und wieder anstecken."
   },
   "more": {
     "reportedModel": "Gemeldetes Modell",

@@ -107,12 +107,13 @@
     "power": "Éclairage",
     "on": "Activé",
     "off": "Désactivé",
-    "saveKey": "Enregistrer le bouton {n}",
     "modeHint": {
       "lucky": "Alterne entre des couleurs aléatoires.",
       "rainbow": "Parcourt en douceur le spectre des couleurs.",
       "custom": "Une couleur et une luminosité fixes de votre choix."
-    }
+    },
+    "saveAll": "Enregistrer l’éclairage",
+    "replugHint": "Les modifications de l’éclairage s’appliquent après avoir débranché puis rebranché le tourne-page."
   },
   "more": {
     "reportedModel": "Modèle détecté",
