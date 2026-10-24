@@ -1,0 +1,138 @@
+{
+  "app": {
+    "tagline": "Configurateur de tourne-page",
+    "disclaimer": "Projet open source non officiel, sans lien avec Hanlinyue. Les paramètres sont enregistrés uniquement dans ce navigateur."
+  },
+  "nav": {
+    "label": "Navigation principale",
+    "presets": "Préréglages",
+    "custom": "Personnaliser",
+    "scripts": "Macros",
+    "light": "Lumière",
+    "more": "Plus"
+  },
+  "status": {
+    "usb": "USB",
+    "ble": "Bluetooth",
+    "disconnect": "Déconnecter",
+    "demo": "Démo"
+  },
+  "saving": "Enregistrement…",
+  "savedShort": "Enregistré",
+  "errors": {
+    "sendFailed": "Impossible d’envoyer à l’appareil : {message}"
+  },
+  "afterSave": {
+    "body": "Débranchez le câble USB-C une fois terminé. Le tourne-page passe alors en mode d’appairage (le voyant pulse) et vous pouvez l’appairer en Bluetooth avec votre liseuse, votre téléphone ou votre ordinateur."
+  },
+  "connect": {
+    "eyebrow": "Hanlinyue Free2 · Free3 · E1 Pro · E3 Control",
+    "title": "Connectez votre tourne-page",
+    "subtitle": "Réattribuez les boutons, enregistrez des macros et réglez l’éclairage directement dans votre navigateur. Rien à installer.",
+    "usb": "Connecter en USB",
+    "ble": "Bluetooth (bêta)",
+    "connecting": "Connexion…",
+    "reading": "Lecture des informations de l’appareil…",
+    "step1": "Branchez le tourne-page à cet ordinateur avec un câble USB-C.",
+    "step2": "Cliquez sur « Connecter en USB » et choisissez l’appareil dans la liste du navigateur. Il peut apparaître sous le nom « USB Composite Device ».",
+    "step3": "Modifiez les paramètres et enregistrez. Débranchez ensuite le câble pour l’utiliser en Bluetooth.",
+    "unsupportedTitle": "Ce navigateur ne peut pas communiquer avec les appareils USB",
+    "unsupportedBody": "Ouvrez cette page dans Chrome, Edge ou Opera sur un ordinateur. Safari, Firefox et les navigateurs mobiles ne prennent pas en charge Web Serial.",
+    "noSerial": "L’USB nécessite Chrome, Edge ou Opera sur ordinateur.",
+    "failed": "Connexion impossible : {message}",
+    "busy": "L’appareil est occupé. Fermez l’application officielle Hanlinyue et tout autre onglet qui l’utilise, puis réessayez.",
+    "closeOfficial": "Fermez l’application officielle Hanlinyue et les autres onglets du navigateur susceptibles d’utiliser l’appareil.",
+    "linuxHint": "Sous Linux, vérifiez que votre utilisateur peut ouvrir les ports série (par exemple en l’ajoutant au groupe dialout), puis reconnectez-vous.",
+    "bleNote": "La configuration en Bluetooth est expérimentale et peut ne pas fonctionner avec tous les modèles ou toutes les versions du firmware. L’USB est recommandé.",
+    "demo": "Pas d’appareil sous la main ? Essayez la démo →"
+  },
+  "unsupported": {
+    "title": "Ce modèle n’est pas encore pris en charge",
+    "body": "L’appareil connecté s’identifie comme « {model} », un modèle que ce configurateur ne connaît pas encore. Ouvrez un ticket avec ce nom de modèle pour que sa prise en charge puisse être ajoutée.",
+    "report": "Signaler sur GitHub"
+  },
+  "presets": {
+    "subtitle": "Choisissez une disposition prête à l’emploi pour les boutons, puis enregistrez-la sur l’appareil.",
+    "pick": "Choisir un préréglage",
+    "lastSaved": "Dernier enregistré"
+  },
+  "slot": {
+    "plus": "Latéral +",
+    "minus": "Latéral −",
+    "switch": "Autre"
+  },
+  "shift": {
+    "label": "Interrupteur coulissant",
+    "hint": "Les paramètres sont enregistrés pour la position sélectionnée de l’interrupteur."
+  },
+  "layer": {
+    "title": "Déclenchement",
+    "click": "Clic",
+    "doubleclick": "Double-clic",
+    "longpress": "Appui long"
+  },
+  "custom": {
+    "subtitle": "Cliquez sur un bouton de l’appareil pour choisir les touches ou l’action téléphone qu’il envoie.",
+    "buttons": "Boutons",
+    "choose": "Choisir",
+    "change": "Modifier",
+    "clear": "Effacer",
+    "notSet": "Non défini",
+    "nothingToSave": "Choisissez d’abord une action pour au moins un bouton.",
+    "profiles": "Profils rapides",
+    "profile": "Profil {n}",
+    "profilesHint": "Conservez jusqu’à trois dispositions dans ce navigateur. Sélectionnez un profil pour le charger ; si vous enregistrez alors qu’un profil est sélectionné, la disposition y est aussi stockée.",
+    "saveProfile": "Enregistrer sur l’appareil et le profil {n}"
+  },
+  "picker": {
+    "title": "Bouton {n}",
+    "listen": "Saisir des touches",
+    "listening": "En écoute…",
+    "remove": "Retirer"
+  },
+  "scripts": {
+    "phoneTab": "Actions téléphone",
+    "keyboardTab": "Macro clavier",
+    "phoneTitle": "Actions téléphone",
+    "keyboardTitle": "Macro clavier",
+    "actionPerButton": "Action par bouton",
+    "noAction": "Aucune action",
+    "record": "Capturer",
+    "recordHint": "Appuyez sur « Capturer », puis tapez les touches que le bouton doit rejouer.",
+    "saveTarget": "Enregistrer ici",
+    "saveTo": "Enregistrer sur le bouton {n}"
+  },
+  "light": {
+    "subtitle": "Choisissez un bouton, puis le comportement de son éclairage.",
+    "power": "Éclairage",
+    "on": "Activé",
+    "off": "Désactivé",
+    "saveKey": "Enregistrer le bouton {n}",
+    "modeHint": {
+      "lucky": "Alterne entre des couleurs aléatoires.",
+      "rainbow": "Parcourt en douceur le spectre des couleurs.",
+      "custom": "Une couleur et une luminosité fixes de votre choix."
+    }
+  },
+  "more": {
+    "reportedModel": "Modèle détecté",
+    "refresh": "Actualiser",
+    "firmwareNote": "Les mises à jour du firmware passent par l’outil Windows de Hanlinyue, qui ne peut pas fonctionner dans un navigateur. Utilisez un PC Windows avec le client officiel pour mettre à jour, ou contactez le support.",
+    "preferences": "Préférences",
+    "appearance": "Apparence",
+    "theme": {
+      "system": "Système",
+      "light": "Clair",
+      "dark": "Sombre"
+    },
+    "manual": "Manuel d’utilisation",
+    "log": "Journal développeur",
+    "logHint": "Commandes brutes échangées avec l’appareil. Utile pour signaler un problème.",
+    "show": "Afficher",
+    "hide": "Masquer",
+    "copyLog": "Copier",
+    "clearLog": "Effacer",
+    "about": "Ce configurateur open source communique avec votre tourne-page directement depuis le navigateur, en utilisant le même protocole que l’application officielle Hanlinyue. Vos paramètres sont mémorisés uniquement dans ce navigateur.",
+    "source": "Code source sur GitHub"
+  }
+}

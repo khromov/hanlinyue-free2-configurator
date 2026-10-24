@@ -1,0 +1,570 @@
+{
+  "name": "English",
+  "sidebar": {
+    "/": "Home",
+    "function": "Preset Functions",
+    "general": "General Settings",
+    "custom": "Custom",
+    "script": "Script (Macro)",
+    "more": "More",
+    "specification": "Manual",
+    "light": "Light",
+    "about": "About",
+    "device": {
+      "connectEq": "Connect Device",
+      "connectType": "Connection Type",
+      "title": "Connected",
+      "power": "Device Battery",
+      "mac": "SN",
+      "firmware": "Firmware Version"
+    }
+  },
+  "common": {
+    "tip": "Friendly Reminder",
+    "customFunctionTip": "After saving custom content, only custom functions are supported (not stacked with previous firmware functions).",
+    "customFunctionTip2": "To restore default firmware: with the page turner powered on, long-press the power key for 30 seconds.",
+    "bluetooth": "Bluetooth Mode",
+    "usb": "USB",
+    "more": "See More",
+    "cancel": "Cancel",
+    "save": "Save Settings",
+    "saved": "Settings Saved",
+    "saveFailed": "Save Failed",
+    "iUnderstand": "I Understand",
+    "iSure": "I Confirm",
+    "alertDiscount": "<div style=\"color: grey\">1. Click \"I Understand\" below<br>2. Click \"×\" in upper right corner to close software<br>3. Disconnect Type-C cable connection<br>4. Remote control will automatically enter \"Pairing Mode (indicator light breathing flash)\" to connect with other device Bluetooth</div>",
+    "alertDiscountTitle": "🎉Congratulations! Function settings completed, one more step to use!",
+    "haveQuestion": "Device cannot be used due to incomplete firmware update. Please connect remote control to computer USB with Type-C cable, plug firmly. Click button below to repair device",
+    "help": "Troubleshooting",
+    "fixAndReset": "Repair Device, Update Firmware, Restore Factory",
+    "fixAndReseting": "Restoring factory settings, please wait patiently until software connection succeeds",
+    "alertDouble": "Double Confirmation",
+    "alertContact": "Please confirm again! Do not remove USB during factory reset"
+  },
+  "layer": {
+    "click": "Click Layer",
+    "doubleclick": "Double Click Layer",
+    "longpress": "Long Press Layer",
+    "clickDesc": "Triggered by click",
+    "doubleclickDesc": "Triggered by double click",
+    "longpressDesc": "Triggered by long press",
+    "clickTooltip": "Click Layer: Layer 1 | Click device button to trigger this layer's function",
+    "doubleclickTooltip": "Double Click Layer: Layer 2 | Double click device button to trigger this layer's function",
+    "longpressTooltip": "Long Press Layer: Layer 3 | Long press device button to trigger this layer's function"
+  },
+  "function": {
+    "title": "Preset Functions",
+    "saveBtn": "Save Settings",
+    "free2": {
+      "description": "Free2 dual-key page turner, lightweight and easy to use",
+      "func1": {
+        "name": "Set as [Android E-reader Page Turn]",
+        "keys": {
+          "k1": "Previous Page",
+          "k2": "Next Page"
+        }
+      },
+      "func2": {
+        "name": "Set as Keyboard [Left/Right Arrow Keys]",
+        "keys": {
+          "k1": "Left Key ←",
+          "k2": "Right Key →"
+        }
+      },
+      "func3": {
+        "name": "Set as Keyboard [Page Up/Down]",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down"
+        }
+      },
+      "func4": {
+        "name": "Set as Keyboard [Copy/Paste]",
+        "keys": {
+          "k1": "Copy",
+          "k2": "Paste"
+        }
+      },
+      "func5": {
+        "name": "Phone [Short Video Switch] iOS requires zoom function enabled",
+        "keys": {
+          "k1": "Previous Video",
+          "k2": "Next Video"
+        }
+      },
+      "func6": {
+        "name": "Set as Phone [Music Switch]",
+        "keys": {
+          "k1": "Previous Song",
+          "k2": "Next Song"
+        }
+      },
+      "func7": {
+        "name": "Set as Keyboard [Up/Down Arrow Keys]",
+        "keys": {
+          "k1": "Up Key ↑",
+          "k2": "Down Key ↓"
+        }
+      },
+      "func8": {
+        "name": "Phone [Camera] iOS requires zoom function enabled",
+        "keys": {
+          "k1": "Click: Zoom+ Long Press: Zoom- ",
+          "k2": "Capture",
+          "switch": "Switch Camera"
+        }
+      }
+    },
+    "free3": {
+      "description": "Free3 triple-key page turner, supports multiple preset functions",
+      "func1": {
+        "name": "Set as [Android E-reader Page Turn]",
+        "keys": {
+          "k1": "Previous Page",
+          "k2": "Next Page",
+          "k3": "Long Press: Lock Screen"
+        }
+      },
+      "func2": {
+        "name": "Set as Keyboard [Left/Right Arrow Keys]",
+        "keys": {
+          "k1": "Keyboard Left Key",
+          "k2": "Keyboard Right Key",
+          "k3": "Long Press: Lock Screen"
+        }
+      },
+      "func3": {
+        "name": "Set as Keyboard [Page Up/Down]",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "Long Press: Lock Screen"
+        }
+      },
+      "func4": {
+        "name": "Set as Keyboard [Copy/Paste/Cut]",
+        "keys": {
+          "k1": "Copy",
+          "k2": "Paste",
+          "k3": "Cut"
+        }
+      },
+      "func5": {
+        "name": "Set as Keyboard [Up/Down Arrow Keys]",
+        "keys": {
+          "k1": "Keyboard Up Key",
+          "k2": "Keyboard Down Key",
+          "k3": "Long Press: Lock Screen"
+        }
+      },
+      "func6": {
+        "name": "Phone [Short Video Switch] iOS requires zoom function enabled",
+        "keys": {
+          "k1": "Swipe Down",
+          "k2": "Swipe Up",
+          "k3": "Click: Pause\nDouble Click: Like\nLong Press: Lock Screen"
+        }
+      },
+      "func7": {
+        "name": "Set as Phone [Music Switch]",
+        "keys": {
+          "k1": "Previous Song",
+          "k2": "Next Song",
+          "k3": "Click: Pause\nLong Press: Lock Screen"
+        }
+      },
+      "func8": {
+        "name": "Phone [Camera] iOS requires zoom function enabled",
+        "keys": {
+          "k1": "Zoom+",
+          "k2": "Zoom-",
+          "k3": "Capture",
+          "switch": "Switch Camera"
+        }
+      }
+    },
+    "e1pro": {
+      "description": "E1 Pro triple-key page turner, supports multiple preset functions",
+      "func1": {
+        "name": "Set as [Android E-reader Page Turn]",
+        "keys": {
+          "k1": "Previous Page",
+          "k2": "Next Page",
+          "k3": "Home",
+          "plus": "Volume Key+",
+          "minus": "Volume Key-"
+        }
+      },
+      "func2": {
+        "name": "Set as [Kobo Reader Page Turn]",
+        "keys": {
+          "k1": "Previous Page",
+          "k2": "Next Page",
+          "k3": "Home",
+          "plus": "Volume Key+",
+          "minus": "Volume Key-"
+        }
+      },
+      "func3": {
+        "name": "Set as Keyboard [Up/Down Arrow Keys]",
+        "keys": {
+          "k1": "Up Key ↑",
+          "k2": "Down Key ↓",
+          "k3": "Home",
+          "plus": "Volume Key+",
+          "minus": "Volume Key-"
+        }
+      },
+      "func4": {
+        "name": "Set as Keyboard [Left/Right Arrow Keys]",
+        "keys": {
+          "k1": "Left Key ←",
+          "k2": "Right Key →",
+          "k3": "Home",
+          "plus": "Volume Key+",
+          "minus": "Volume Key-"
+        }
+      },
+      "func5": {
+        "name": "Set as Keyboard [Page Up/Down]",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "Home",
+          "plus": "Volume Key+",
+          "minus": "Volume Key-"
+        }
+      },
+      "func6": {
+        "name": "Set as [Win, Android Copy/Paste]",
+        "keys": {
+          "k1": "Copy",
+          "k2": "Paste",
+          "k3": "Home",
+          "plus": "Volume Key+",
+          "minus": "Volume Key-"
+        }
+      },
+      "func7": {
+        "name": "Set as [Mac, iOS Copy/Paste]",
+        "keys": {
+          "k1": "Copy",
+          "k2": "Paste",
+          "k3": "Home",
+          "plus": "Volume Key+",
+          "minus": "Volume Key-"
+        }
+      },
+      "func8": {
+        "name": "Set as [Phone Camera] iOS requires zoom function enabled",
+        "keys": {
+          "k1": "Zoom+",
+          "k2": "Zoom-",
+          "k3": "Capture",
+          "plus": "Switch Camera",
+          "minus": "Switch Camera"
+        }
+      }
+    }
+  },
+  "custom": {
+    "header": {
+      "h1": "Custom",
+      "h5": "Click the blue area to customize the function"
+    },
+    "keyRecorderPlaceholder": "Click to choose key",
+    "content": {
+      "light": {
+        "h1": "Light Settings",
+        "close": "Close",
+        "open": "Open",
+        "colorMode": "Color Mode",
+        "luckyColor": "Lucky Color",
+        "rainbowColor": "Rainbow Color",
+        "customColor": "Custom Color",
+        "brightness": "Brightness",
+        "selectKey": "Select Key",
+        "key1": "Key 1",
+        "key2": "Key 2",
+        "key3": "Key 3",
+        "save": "Save Settings",
+        "notSupported": "Current device does not support light settings",
+        "colorPicker": "Color Picker",
+        "hexExample": "Please enter HEX color data without # symbol",
+        "hexFormatError": "Invalid HEX format, should be #FFFFFF"
+      },
+      "setting": {
+        "h1": "Please click the button you want to set first",
+        "content": {
+          "p1": "Custom",
+          "p2": "Button Function",
+          "span": "The device will cyclically trigger the single-click bound function when long pressed"
+        },
+        "button": {
+          "p1": "Save",
+          "p2": "Button"
+        }
+      }
+    },
+    "newContent": {
+      "placeholder": "Click keyboard to input key position",
+      "keyboard": "Shortcut Key",
+      "quick": "Set as this shortcut function"
+    }
+  },
+  "keyboard": {
+    "title": "Select keys",
+    "mode": {
+      "keyboard": "Keyboard",
+      "phone": "Phone"
+    },
+    "section": {
+      "navigation": "Navigation keys",
+      "arrow": "Arrow keys",
+      "mac": "Mac keys",
+      "phone": "Phone touch actions"
+    },
+    "selectedLabel": "Selected:",
+    "actions": {
+      "clear": "Clear",
+      "confirm": "Confirm"
+    },
+    "tip": {
+      "keyboard": "Tip: Keyboard mode supports key operations and combo keys (e.g. Ctrl+C), up to 5 keys.",
+      "phone": "Tip: Phone mode is for touch actions (like, swipe, etc.), only one action can be selected.",
+      "ios": "iOS requires AssistiveTouch enabled"
+    },
+    "warning": {
+      "phoneSingle": "Phone mode only allows one action",
+      "maxKeys": "You can select up to 5 keys"
+    },
+    "none": "None",
+    "media": {
+      "mute": "Mute",
+      "volumeDown": "Volume -",
+      "volumeUp": "Volume +",
+      "previous": "Previous",
+      "pause": "Pause",
+      "next": "Next"
+    },
+    "phone": {
+      "like": "Like",
+      "lockScreen": "Lock screen",
+      "speed": "Speed",
+      "slideLeft": "Swipe left",
+      "slideRight": "Swipe right",
+      "slideUp": "Swipe up",
+      "slideDown": "Swipe down",
+      "pause": "Pause",
+      "back": "Back",
+      "home": "Home"
+    }
+  },
+  "script": {
+    "describe": "Macro runs automatically after saving",
+    "startRecording": "Click to start recording",
+    "stopRecording": "Stop recording",
+    "clear": "Clear",
+    "delaySetting": "Delay Settings",
+    "recordDelay": "Record Delay",
+    "defaultDelay": "Default Delay",
+    "fixedDelay": "Fixed Delay",
+    "recordTip": "Record the time during recording, using recording time as delay time",
+    "defaultTip": "Default delay time is 30 milliseconds",
+    "milliseconds": "Milliseconds",
+    "tPlaceholder": "Enter time",
+    "repeatSetting": "Execution Count",
+    "repeatForever": "Infinite Loop",
+    "repeatNumber": "Repeat N times",
+    "repeatPlaceholder": "Enter count",
+    "macroSetting": "Record Macro",
+    "recordTipPressKey": "Press the keys you want to record",
+    "recordTipClickStart": "Click the start recording button",
+    "tip1": "Click start recording first.",
+    "tip2": "Click end recording after recording is complete",
+    "tip3": "Save to specified button",
+    "macroRecord": "Macro Record",
+    "saveToKey": "Key {keyNumber}",
+    "commandSizeExceeded": "Command size {size}KB exceeds limit {limit}KB, please reduce recording",
+    "noKeyEvents": "No key actions detected, please record again",
+    "macroCleared": "Recorded macro cleared",
+    "event": {
+      "keyDown": "{key} key down",
+      "keyUp": "{key} key up",
+      "wait": "Wait {ms} ms",
+      "unknown": "Unknown event"
+    }
+  },
+  "scriptPhone": {
+    "tab1": "Macro(Phone)",
+    "tab2": "Macro(Keyboard)",
+    "describe": "Preset macros for phone vertical short videos/live streaming likes/reading automation settings",
+    "placeholder": "Please select",
+    "opt1": "Like",
+    "opt2": "Swipe Left",
+    "opt3": "Swipe Right",
+    "opt4": "Swipe Up",
+    "opt5": "Swipe Down",
+    "buttonName": "Button {index}",
+    "needSelectKey": "Please select at least one key configuration"
+  },
+  "more": {
+    "h1": "More Settings",
+    "languageLabel": "Language",
+    "languagePlaceholder": "Please select language",
+    "specificationLabel": "Specifications",
+    "specificationView": "View specifications",
+    "firmwareLabel": "Firmware Upgrade",
+    "firmwareUpdate": "Upgrade firmware",
+    "firmwareDialogTitle": "Firmware Upgrade",
+    "deviceFirmwareVersion": "Device firmware version",
+    "softwareVersion": "Software version",
+    "downloadFirmware": "Download firmware",
+    "updateFirmware": "Update firmware",
+    "macFirmwareHint": "Firmware download and online upgrade are not offered on Mac. Install the Hanlinyue Windows client on a PC and connect your device there."
+  },
+  "macSupport": {
+    "title": "Firmware Upgrade on Mac",
+    "hint": "Firmware download and online upgrade are not available in the Mac app yet. Please install the Hanlinyue Windows client on a PC, then connect your device to complete the firmware upgrade.",
+    "wechatTip": "Users in mainland China: scan the QR code below to add our WeCom (Enterprise WeChat) support for upgrade and technical assistance.",
+    "noWechatTip": "If you don't use WeChat, please email {email} to reach our team for upgrade and technical support.",
+    "qrcodeAlt": "WeCom customer service QR code",
+    "email": "hly{'@'}hanlinyue.com.cn"
+  },
+  "specification": {
+    "kobo": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=8",
+    "link": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=12"
+  },
+  "about": {
+    "deviceInfo": {
+      "h2": "Device Information",
+      "deviceName": "Device Name",
+      "deviceNameValue": "Page Turner",
+      "model": "Model Name",
+      "bluetoothVersion": "Bluetooth Version",
+      "transmitPower": "Transmit Power",
+      "frequency": "Frequency(Hz)",
+      "communicationDistance": "Communication Distance",
+      "bluetoothAddress": "Bluetooth Address",
+      "batteryCapacity": "Battery Capacity",
+      "remainingBattery": "Remaining Battery",
+      "execStandard": "Execution Standard",
+      "cmiitID": "CMIIT ID",
+      "manufacturer": "Manufacturer",
+      "origin": "Origin",
+      "E1Pro": {
+        "deviceName": "Page Turner",
+        "model": "E1 Pro",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "Approx. 5 meters",
+        "bluetoothAddress": "81-0D-E0-E3-7E-CE",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "24J44M8R0001",
+        "manufacturer": "Hanlin Reading (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "Free2": {
+        "deviceName": "Page Turner",
+        "model": "Free2",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Approx. 10 meters",
+        "bluetoothAddress": "",
+        "batteryCapacity": "Low-profile version 130mAh/3.7v; High-profile version 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "Hanlin Reading (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "Free2_2026": {
+        "deviceName": "Page Turner",
+        "model": "Free2 2026",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Approx. 10 meters",
+        "bluetoothAddress": "",
+        "batteryCapacity": "Low-profile version 130mAh/3.7v; High-profile version 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "Hanlin Reading (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "Free3": {
+        "deviceName": "Page Turner",
+        "model": "Free3",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "Approx. 10 meters",
+        "bluetoothAddress": "",
+        "batteryCapacity": "380mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T 26572-2011",
+        "cmiitID": "",
+        "manufacturer": "Hanlin Reading (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "E3Control": {
+        "deviceName": "Page Turner",
+        "model": "E3 Control",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Approx. 10 meters",
+        "bluetoothAddress": "",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T26572-2011",
+        "cmiitID": "",
+        "manufacturer": "Hanlin Reading (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      }
+    }
+  },
+  "stateMark": {
+    "usb": {
+      "state": {
+        "finding": "Detecting, please connect via Type-C",
+        "ready": "Connected via Type-C",
+        "disconnect": "Device cable connection disconnected"
+      },
+      "p1": "Connect E1 Pro to computer USB using Type-C cable",
+      "li1": "USB connection can only be used for remote control settings, not for use",
+      "li2": "After completing function settings, please remove USB cable connection, refer to Bluetooth connection tutorial to pair with target device",
+      "li3": "<span style=\"color: red\">To use functions, disconnect the cable and connect using Bluetooth mode</span>",
+      "title": "Unable to enter program after connecting device, please resolve as follows",
+      "text1": "Change computer USB port, if it's a PC, change to rear USB port and plug in firmly",
+      "text2": "Replace phone data cable and retry",
+      "text2_1": "Please unplug and replug Type-C to try again",
+      "text3": "For technical support, please join QQ group: "
+    }
+  },
+  "app": {
+    "unsupported": {
+      "title": "Your Hanlinyue device is connected, but this version does not support it. Please update the software.",
+      "tip": "If this is due to firmware version, please follow the steps below.",
+      "downloadFirmware": "Download firmware",
+      "updateFirmware": "Update firmware",
+      "macFirmwareHint": "This is the Mac app: firmware download and upgrade are only supported in the Windows Hanlinyue client. Connect your device to a Windows PC and use the official Windows build."
+    },
+    "firmware": {
+      "updateDone": "Firmware Update Complete",
+      "bluetoothWarning": "Cannot update firmware in Bluetooth mode, please switch to USB and try again",
+      "sameWarning": "Current firmware version is same as latest cloud firmware version, skipping update",
+      "updating": "Firmware updating, please wait patiently",
+      "tip": "Do not unplug cable or close software during upgrade, update should complete within 5 minutes",
+      "childProcessDone": "A child process completed",
+      "SHA512Mismatch": "Firmware file HASH mismatch, please retry or contact customer service",
+      "firmwareDownloaded": "Cloud firmware download complete",
+      "notSupportedOnMac": "Firmware download and upgrade are not available on Mac. Connect your device to a Windows PC and use the Windows Hanlinyue client."
+    }
+  }
+}

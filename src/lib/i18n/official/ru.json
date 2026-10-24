@@ -1,0 +1,570 @@
+{
+  "name": "Русский",
+  "sidebar": {
+    "/": "Главная",
+    "function": "Предустановки",
+    "general": "Настройки",
+    "custom": "Кастом",
+    "script": "Макрос",
+    "more": "Больше",
+    "specification": "Инструкция",
+    "light": "Подсветка",
+    "about": "О нас",
+    "device": {
+      "connectEq": "Устройство",
+      "connectType": "Подключение",
+      "title": "Подключено",
+      "power": "Батарея",
+      "mac": "SN",
+      "firmware": "Прошивка"
+    }
+  },
+  "common": {
+    "tip": "Дружеское Напоминание",
+    "customFunctionTip": "После сохранения поддерживаются только пользовательские функции (не в дополнение к прежней прошивке).",
+    "customFunctionTip2": "Восстановление прошивки по умолчанию: при включённом устройстве удерживайте кнопку питания 30 секунд.",
+    "bluetooth": "Режим Bluetooth",
+    "usb": "USB",
+    "more": "Подробнее",
+    "cancel": "Отмена",
+    "save": "Сохранить Настройки",
+    "saved": "Настройки Сохранены",
+    "saveFailed": "Сохранение Не Удалось",
+    "iUnderstand": "Я Понимаю",
+    "iSure": "Я Подтверждаю",
+    "alertDiscount": "<div style=\"color: grey\">1. Нажмите \"Я Понимаю\" ниже<br>2. Нажмите \"×\" в правом верхнем углу, чтобы закрыть программное обеспечение<br>3. Отключите соединение кабеля Type-C<br>4. Пульт автоматически войдет в \"Режим Сопряжения (индикатор мигает)\", чтобы подключиться к Bluetooth другого устройства</div>",
+    "alertDiscountTitle": "🎉Поздравляем! Настройки функций завершены, еще один шаг до использования!",
+    "haveQuestion": "Устройство не может быть использовано из-за неполного обновления прошивки. Пожалуйста, подключите пульт к USB компьютера с помощью кабеля Type-C, подключите плотно. Нажмите кнопку ниже, чтобы восстановить устройство",
+    "help": "Устранение Неполадок",
+    "fixAndReset": "Восстановить Устройство, Обновить Прошивку, Восстановить Заводские Настройки",
+    "fixAndReseting": "Восстановление заводских настроек, пожалуйста, подождите, пока соединение программного обеспечения не будет успешным",
+    "alertDouble": "Двойное Подтверждение",
+    "alertContact": "Пожалуйста, подтвердите снова! Не удаляйте USB во время восстановления заводских настроек"
+  },
+  "layer": {
+    "click": "Слой Клика",
+    "doubleclick": "Слой Двойного Клика",
+    "longpress": "Слой Долгого Нажатия",
+    "clickDesc": "Активируется кликом",
+    "doubleclickDesc": "Активируется двойным кликом",
+    "longpressDesc": "Активируется долгим нажатием",
+    "clickTooltip": "Слой Клика: Слой 1 | Нажмите кнопку устройства, чтобы активировать функцию этого слоя",
+    "doubleclickTooltip": "Слой Двойного Клика: Слой 2 | Дважды нажмите кнопку устройства, чтобы активировать функцию этого слоя",
+    "longpressTooltip": "Слой Долгого Нажатия: Слой 3 | Долго нажмите кнопку устройства, чтобы активировать функцию этого слоя"
+  },
+  "function": {
+    "title": "Предустановленные Функции",
+    "saveBtn": "Сохранить Настройки",
+    "free2": {
+      "description": "Free2 двухкнопочный переключатель страниц, легкий и простой в использовании",
+      "func1": {
+        "name": "Android E-книга",
+        "keys": {
+          "k1": "Предыдущая Страница",
+          "k2": "Следующая Страница"
+        }
+      },
+      "func2": {
+        "name": "Клавиатура ←→",
+        "keys": {
+          "k1": "Левая Клавиша ←",
+          "k2": "Правая Клавиша →"
+        }
+      },
+      "func3": {
+        "name": "Page Up/Down",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down"
+        }
+      },
+      "func4": {
+        "name": "Копировать/Вставить",
+        "keys": {
+          "k1": "Копировать",
+          "k2": "Вставить"
+        }
+      },
+      "func5": {
+        "name": "Видео (iOS)",
+        "keys": {
+          "k1": "Предыдущее Видео",
+          "k2": "Следующее Видео"
+        }
+      },
+      "func6": {
+        "name": "Музыка",
+        "keys": {
+          "k1": "Предыдущая Песня",
+          "k2": "Следующая Песня"
+        }
+      },
+      "func7": {
+        "name": "Клавиатура ↑↓",
+        "keys": {
+          "k1": "Клавиша Вверх ↑",
+          "k2": "Клавиша Вниз ↓"
+        }
+      },
+      "func8": {
+        "name": "Камера (iOS)",
+        "keys": {
+          "k1": "Клик: Масштаб+ Долгое Нажатие: Масштаб- ",
+          "k2": "Снять",
+          "switch": "Переключить Камеру"
+        }
+      }
+    },
+    "free3": {
+      "description": "Free3 трехкнопочный переключатель страниц, поддерживает несколько предустановленных функций",
+      "func1": {
+        "name": "Android E-книга",
+        "keys": {
+          "k1": "Предыдущая Страница",
+          "k2": "Следующая Страница",
+          "k3": "Долгое Нажатие: Заблокировать Экран"
+        }
+      },
+      "func2": {
+        "name": "Клавиатура ←→",
+        "keys": {
+          "k1": "Левая Клавиша Клавиатуры",
+          "k2": "Правая Клавиша Клавиатуры",
+          "k3": "Долгое Нажатие: Заблокировать Экран"
+        }
+      },
+      "func3": {
+        "name": "Page Up/Down",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "Долгое Нажатие: Заблокировать Экран"
+        }
+      },
+      "func4": {
+        "name": "Копировать/Вставить/Вырезать",
+        "keys": {
+          "k1": "Копировать",
+          "k2": "Вставить",
+          "k3": "Вырезать"
+        }
+      },
+      "func5": {
+        "name": "Клавиатура ↑↓",
+        "keys": {
+          "k1": "Клавиша Вверх Клавиатуры",
+          "k2": "Клавиша Вниз Клавиатуры",
+          "k3": "Долгое Нажатие: Заблокировать Экран"
+        }
+      },
+      "func6": {
+        "name": "Видео (iOS)",
+        "keys": {
+          "k1": "Смахнуть Вниз",
+          "k2": "Смахнуть Вверх",
+          "k3": "Клик: Пауза\nДвойной Клик: Нравится\nДолгое Нажатие: Заблокировать Экран"
+        }
+      },
+      "func7": {
+        "name": "Музыка",
+        "keys": {
+          "k1": "Предыдущая Песня",
+          "k2": "Следующая Песня",
+          "k3": "Клик: Пауза\nДолгое Нажатие: Заблокировать Экран"
+        }
+      },
+      "func8": {
+        "name": "Камера (iOS)",
+        "keys": {
+          "k1": "Масштаб+",
+          "k2": "Масштаб-",
+          "k3": "Снять",
+          "switch": "Переключить Камеру"
+        }
+      }
+    },
+    "e1pro": {
+      "description": "E1 Pro трехкнопочный переключатель страниц, поддерживает несколько предустановленных функций",
+      "func1": {
+        "name": "Android E-книга",
+        "keys": {
+          "k1": "Предыдущая Страница",
+          "k2": "Следующая Страница",
+          "k3": "Главная",
+          "plus": "Клавиша Громкости+",
+          "minus": "Клавиша Громкости-"
+        }
+      },
+      "func2": {
+        "name": "Kobo",
+        "keys": {
+          "k1": "Предыдущая Страница",
+          "k2": "Следующая Страница",
+          "k3": "Главная",
+          "plus": "Клавиша Громкости+",
+          "minus": "Клавиша Громкости-"
+        }
+      },
+      "func3": {
+        "name": "Клавиатура ↑↓",
+        "keys": {
+          "k1": "Клавиша Вверх ↑",
+          "k2": "Клавиша Вниз ↓",
+          "k3": "Главная",
+          "plus": "Клавиша Громкости+",
+          "minus": "Клавиша Громкости-"
+        }
+      },
+      "func4": {
+        "name": "Клавиатура ←→",
+        "keys": {
+          "k1": "Левая Клавиша ←",
+          "k2": "Правая Клавиша →",
+          "k3": "Главная",
+          "plus": "Клавиша Громкости+",
+          "minus": "Клавиша Громкости-"
+        }
+      },
+      "func5": {
+        "name": "Page Up/Down",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "Главная",
+          "plus": "Клавиша Громкости+",
+          "minus": "Клавиша Громкости-"
+        }
+      },
+      "func6": {
+        "name": "Win/Android",
+        "keys": {
+          "k1": "Копировать",
+          "k2": "Вставить",
+          "k3": "Главная",
+          "plus": "Клавиша Громкости+",
+          "minus": "Клавиша Громкости-"
+        }
+      },
+      "func7": {
+        "name": "Mac/iOS",
+        "keys": {
+          "k1": "Копировать",
+          "k2": "Вставить",
+          "k3": "Главная",
+          "plus": "Клавиша Громкости+",
+          "minus": "Клавиша Громкости-"
+        }
+      },
+      "func8": {
+        "name": "Камера (iOS)",
+        "keys": {
+          "k1": "Масштаб+",
+          "k2": "Масштаб-",
+          "k3": "Снять",
+          "plus": "Переключить Камеру",
+          "minus": "Переключить Камеру"
+        }
+      }
+    }
+  },
+  "custom": {
+    "header": {
+      "h1": "Пользовательские настройки",
+      "h5": "Нажмите на синюю область, чтобы настроить функции"
+    },
+    "keyRecorderPlaceholder": "Click to choose key",
+    "content": {
+      "light": {
+        "h1": "Настройки подсветки",
+        "close": "Выключить",
+        "open": "Включить",
+        "colorMode": "Режим Цвета",
+        "luckyColor": "Счастливый Цвет",
+        "rainbowColor": "Радужный Цвет",
+        "customColor": "Пользовательский Цвет",
+        "brightness": "Яркость",
+        "selectKey": "Выбрать Клавишу",
+        "key1": "Клавиша 1",
+        "key2": "Клавиша 2",
+        "key3": "Клавиша 3",
+        "save": "Сохранить Настройки",
+        "notSupported": "Текущее устройство не поддерживает настройки подсветки",
+        "colorPicker": "Выбор Цвета",
+        "hexExample": "Пожалуйста, введите данные цвета HEX без символа #",
+        "hexFormatError": "Invalid HEX format, should be #FFFFFF"
+      },
+      "setting": {
+        "h1": "Сначала нажмите на кнопку, которую хотите настроить",
+        "content": {
+          "p1": "Пользовательские",
+          "p2": "функции кнопки",
+          "span": "При длительном нажатии устройство будет циклически выполнять привязанную функцию"
+        },
+        "button": {
+          "p1": "Сохранить",
+          "p2": "настройки кнопки"
+        }
+      }
+    },
+    "newContent": {
+      "placeholder": "Нажмите на клавиатуру, чтобы ввести позицию клавиши",
+      "keyboard": "Горячая Клавиша",
+      "quick": "Установить как эту функцию горячей клавиши"
+    }
+  },
+  "keyboard": {
+    "title": "Select keys",
+    "mode": {
+      "keyboard": "Keyboard",
+      "phone": "Phone"
+    },
+    "section": {
+      "navigation": "Navigation keys",
+      "arrow": "Arrow keys",
+      "mac": "Mac keys",
+      "phone": "Phone touch actions"
+    },
+    "selectedLabel": "Selected:",
+    "actions": {
+      "clear": "Clear",
+      "confirm": "Confirm"
+    },
+    "tip": {
+      "keyboard": "Tip: Keyboard mode supports key operations and combo keys (e.g. Ctrl+C), up to 5 keys.",
+      "phone": "Tip: Phone mode is for touch actions (like, swipe, etc.), only one action can be selected.",
+      "ios": "iOS requires AssistiveTouch enabled"
+    },
+    "warning": {
+      "phoneSingle": "Phone mode only allows one action",
+      "maxKeys": "You can select up to 5 keys"
+    },
+    "none": "None",
+    "media": {
+      "mute": "Mute",
+      "volumeDown": "Volume -",
+      "volumeUp": "Volume +",
+      "previous": "Previous",
+      "pause": "Pause",
+      "next": "Next"
+    },
+    "phone": {
+      "like": "Like",
+      "lockScreen": "Lock screen",
+      "speed": "Speed",
+      "slideLeft": "Swipe left",
+      "slideRight": "Swipe right",
+      "slideUp": "Swipe up",
+      "slideDown": "Swipe down",
+      "pause": "Pause",
+      "back": "Back",
+      "home": "Home"
+    }
+  },
+  "script": {
+    "describe": "Макрос автоматически выполняется после сохранения",
+    "startRecording": "Click to start recording",
+    "stopRecording": "Stop recording",
+    "clear": "Clear",
+    "delaySetting": "Настройки задержки",
+    "recordDelay": "Запись задержки",
+    "defaultDelay": "Задержка по умолчанию",
+    "fixedDelay": "Фиксированная задержка",
+    "recordTip": "Записать время во время записи, использовать время записи как время задержки",
+    "defaultTip": "Время задержки по умолчанию составляет 30 миллисекунд",
+    "milliseconds": "Миллисекунды",
+    "tPlaceholder": "Введите время",
+    "repeatSetting": "Количество Выполнений",
+    "repeatForever": "Бесконечный Цикл",
+    "repeatNumber": "Повторить N раз",
+    "repeatPlaceholder": "Введите количество",
+    "macroSetting": "Записать Макрос",
+    "recordTipPressKey": "Press the keys you want to record",
+    "recordTipClickStart": "Click the start recording button",
+    "tip1": "Сначала нажмите начать запись.",
+    "tip2": "После завершения записи нажмите завершить запись",
+    "tip3": "Сохранить на указанную кнопку",
+    "macroRecord": "Запись Макроса",
+    "saveToKey": "Клавиша {keyNumber}",
+    "commandSizeExceeded": "Command size {size}KB exceeds limit {limit}KB, please reduce recording",
+    "noKeyEvents": "No key actions detected, please record again",
+    "macroCleared": "Recorded macro cleared",
+    "event": {
+      "keyDown": "{key} key down",
+      "keyUp": "{key} key up",
+      "wait": "Wait {ms} ms",
+      "unknown": "Unknown event"
+    }
+  },
+  "scriptPhone": {
+    "tab1": "Макрос(Телефон)",
+    "tab2": "Макрос(Клавиатура)",
+    "describe": "Предустановленные макросы для вертикальных коротких видео телефона/лайков прямой трансляции/настроек автоматизации чтения",
+    "placeholder": "Пожалуйста, выберите",
+    "opt1": "Нравится",
+    "opt2": "Смахнуть Влево",
+    "opt3": "Смахнуть Вправо",
+    "opt4": "Смахнуть Вверх",
+    "opt5": "Смахнуть Вниз",
+    "buttonName": "Button {index}",
+    "needSelectKey": "Please select at least one key configuration"
+  },
+  "more": {
+    "h1": "Дополнительные Настройки",
+    "languageLabel": "Language",
+    "languagePlaceholder": "Please select language",
+    "specificationLabel": "Specifications",
+    "specificationView": "View specifications",
+    "firmwareLabel": "Firmware Upgrade",
+    "firmwareUpdate": "Upgrade firmware",
+    "firmwareDialogTitle": "Firmware Upgrade",
+    "deviceFirmwareVersion": "Device firmware version",
+    "softwareVersion": "Software version",
+    "downloadFirmware": "Download firmware",
+    "updateFirmware": "Update firmware",
+    "macFirmwareHint": "Firmware download and online upgrade are not offered on Mac. Install the Hanlinyue Windows client on a PC and connect your device there."
+  },
+  "macSupport": {
+    "title": "Обновление прошивки на Mac",
+    "hint": "Загрузка и онлайн-обновление прошивки пока недоступны в приложении для Mac. Установите клиент Hanlinyue для Windows на ПК и подключите устройство, чтобы выполнить обновление прошивки.",
+    "wechatTip": "Пользователи материкового Китая: отсканируйте QR-код ниже, чтобы добавить нашу службу поддержки WeCom (Enterprise WeChat) и получить помощь с обновлением и технической поддержкой.",
+    "noWechatTip": "Если вы не пользуетесь WeChat, напишите на {email}, чтобы связаться с нашей командой и получить поддержку по обновлению и техническим вопросам.",
+    "qrcodeAlt": "QR-код службы поддержки WeCom",
+    "email": "hly{'@'}hanlinyue.com.cn"
+  },
+  "specification": {
+    "kobo": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=8",
+    "link": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=12"
+  },
+  "about": {
+    "deviceInfo": {
+      "h2": "Информация об Устройстве",
+      "deviceName": "Название Устройства",
+      "deviceNameValue": "Переключатель Страниц",
+      "model": "Название Модели",
+      "bluetoothVersion": "Версия Bluetooth",
+      "transmitPower": "Мощность Передатчика",
+      "frequency": "Частота(Hz)",
+      "communicationDistance": "Расстояние Связи",
+      "bluetoothAddress": "Адрес Bluetooth",
+      "batteryCapacity": "Емкость Батареи",
+      "remainingBattery": "Остаточный Заряд",
+      "execStandard": "Стандарт Выполнения",
+      "cmiitID": "CMIIT ID",
+      "manufacturer": "Производитель",
+      "origin": "Происхождение",
+      "E1Pro": {
+        "deviceName": "Переключатель Страниц",
+        "model": "E1 Pro",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "Около 5 метров",
+        "bluetoothAddress": "81-0D-E0-E3-7E-CE",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "24J44M8R0001",
+        "manufacturer": "Hanlinyue (Шэньчжэнь) Технологии Ко., Лтд.",
+        "origin": "Шэньчжэнь, Китай"
+      },
+      "Free2": {
+        "deviceName": "Переключатель Страниц",
+        "model": "Free2",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Около 10 метров",
+        "bluetoothAddress": "",
+        "batteryCapacity": "Версия низкого профиля 130mAh/3.7v; Версия высокого профиля 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "Hanlinyue (Шэньчжэнь) Технологии Ко., Лтд.",
+        "origin": "Шэньчжэнь, Китай"
+      },
+      "Free2_2026": {
+        "deviceName": "Переключатель Страниц",
+        "model": "Free2 2026",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Около 10 метров",
+        "bluetoothAddress": "",
+        "batteryCapacity": "Версия низкого профиля 130mAh/3.7v; Версия высокого профиля 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "Hanlinyue (Шэньчжэнь) Технологии Ко., Лтд.",
+        "origin": "Шэньчжэнь, Китай"
+      },
+      "Free3": {
+        "deviceName": "Переключатель Страниц",
+        "model": "Free3",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "Около 10 метров",
+        "bluetoothAddress": "",
+        "batteryCapacity": "380mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T 26572-2011",
+        "cmiitID": "",
+        "manufacturer": "Hanlinyue (Шэньчжэнь) Технологии Ко., Лтд.",
+        "origin": "Шэньчжэнь, Китай"
+      },
+      "E3Control": {
+        "deviceName": "Переключатель Страниц",
+        "model": "E3 Control",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Около 10 метров",
+        "bluetoothAddress": "",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T26572-2011",
+        "cmiitID": "",
+        "manufacturer": "Hanlinyue (Шэньчжэнь) Технологии Ко., Лтд.",
+        "origin": "Шэньчжэнь, Китай"
+      }
+    }
+  },
+  "stateMark": {
+    "usb": {
+      "state": {
+        "finding": "Обнаружение, пожалуйста подключите через Type-C",
+        "ready": "Подключено через Type-C",
+        "disconnect": "Соединение кабеля устройства отключено"
+      },
+      "p1": "Подключите E1 Pro к USB компьютера с помощью кабеля Type-C",
+      "li1": "USB-соединение может использоваться только для настройки пульта, не для использования",
+      "li2": "После завершения настройки функций удалите USB-кабель, обратитесь к руководству по подключению Bluetooth для сопряжения с целевым устройством",
+      "li3": "<span style=\"color: red\">Для использования функций отключите кабель и используйте режим Bluetooth для подключения</span>",
+      "title": "Невозможно войти в программу после подключения устройства, решите следующим образом",
+      "text1": "Измените USB-порт компьютера, если это ПК, измените на задний USB-порт и подключите плотно",
+      "text2": "Замените кабель данных телефона и повторите попытку",
+      "text2_1": "Пожалуйста, отсоедините и снова подключите Type-C",
+      "text3": "Для технической поддержки присоединитесь к группе QQ: "
+    }
+  },
+  "app": {
+    "unsupported": {
+      "title": "Your Hanlinyue device is connected, but this version does not support it. Please update the software.",
+      "tip": "If this is due to firmware version, please follow the steps below.",
+      "downloadFirmware": "Download firmware",
+      "updateFirmware": "Update firmware",
+      "macFirmwareHint": "This is the Mac app: firmware download and upgrade are only supported in the Windows Hanlinyue client. Connect your device to a Windows PC and use the official Windows build."
+    },
+    "firmware": {
+      "updateDone": "Обновление Прошивки Завершено",
+      "bluetoothWarning": "Невозможно обновить прошивку в режиме Bluetooth, пожалуйста, переключитесь на USB и повторите попытку",
+      "sameWarning": "Текущая версия прошивки совпадает с последней версией облачной прошивки, пропуская это обновление",
+      "updating": "Прошивка обновляется, пожалуйста, подождите",
+      "tip": "Не отключайте кабель и не закрывайте программное обеспечение во время обновления, обновление должно завершиться в течение 5 минут",
+      "childProcessDone": "Дочерний процесс завершен",
+      "SHA512Mismatch": "Хэш файла прошивки не совпадает, пожалуйста, повторите попытку или свяжитесь со службой поддержки",
+      "firmwareDownloaded": "Загрузка облачной прошивки завершена",
+      "notSupportedOnMac": "Обновление прошивки не поддерживается на Mac. Пожалуйста, используйте компьютер с Windows для обновления."
+    }
+  }
+}

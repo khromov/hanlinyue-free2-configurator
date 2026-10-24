@@ -1,0 +1,138 @@
+{
+  "app": {
+    "tagline": "翻頁器設定工具",
+    "disclaimer": "非官方開源專案，與翰林閱無關。設定僅儲存在此瀏覽器中。"
+  },
+  "nav": {
+    "label": "主要導覽",
+    "presets": "預設",
+    "custom": "自訂",
+    "scripts": "宏",
+    "light": "燈光",
+    "more": "更多"
+  },
+  "status": {
+    "usb": "USB",
+    "ble": "藍牙",
+    "disconnect": "中斷連線",
+    "demo": "示範"
+  },
+  "saving": "儲存中…",
+  "savedShort": "已儲存",
+  "errors": {
+    "sendFailed": "無法傳送至裝置：{message}"
+  },
+  "afterSave": {
+    "body": "完成後請拔除 USB-C 傳輸線。翻頁器隨即進入配對模式（指示燈呼吸閃爍），即可透過藍牙與閱讀器、手機或電腦配對。"
+  },
+  "connect": {
+    "eyebrow": "翰林閱 Free2 · Free3 · E1 Pro · E3 Control",
+    "title": "連接翻頁器",
+    "subtitle": "直接在瀏覽器中重新設定按鍵、錄製宏、調整燈光，無需安裝任何軟體。",
+    "usb": "透過 USB 連接",
+    "ble": "藍牙（測試版）",
+    "connecting": "連線中…",
+    "reading": "正在讀取裝置資訊…",
+    "step1": "使用 USB-C 傳輸線將翻頁器連接到這台電腦。",
+    "step2": "點擊「透過 USB 連接」，然後在瀏覽器的清單中選擇該裝置。它可能顯示為「USB Composite Device」。",
+    "step3": "修改設定並儲存。完成後拔除傳輸線，即可透過藍牙使用。",
+    "unsupportedTitle": "此瀏覽器無法存取 USB 裝置",
+    "unsupportedBody": "請在電腦上使用 Chrome、Edge 或 Opera 開啟此頁面。Safari、Firefox 及行動瀏覽器不支援 Web Serial。",
+    "noSerial": "USB 連線需要電腦版 Chrome、Edge 或 Opera。",
+    "failed": "連線失敗：{message}",
+    "busy": "裝置忙碌中。請關閉翰林閱官方軟體及其他正在使用該裝置的分頁，然後再試一次。",
+    "closeOfficial": "請關閉翰林閱官方軟體，以及可能正在使用該裝置的其他瀏覽器分頁。",
+    "linuxHint": "在 Linux 上，請確認目前使用者有權限開啟序列埠（例如將其加入 dialout 群組），然後重新連接。",
+    "bleNote": "藍牙設定為實驗性功能，可能不適用於所有型號或固件版本。建議使用 USB。",
+    "demo": "手邊沒有裝置？試試示範 →"
+  },
+  "unsupported": {
+    "title": "尚未支援此型號",
+    "body": "已連接的裝置回報型號為「{model}」，本設定工具尚無法辨識。請附上該型號名稱提交回報，以便新增支援。",
+    "report": "在 GitHub 上回報"
+  },
+  "presets": {
+    "subtitle": "為按鍵選擇一組現成的配置，然後儲存到裝置。",
+    "pick": "選擇預設",
+    "lastSaved": "上次儲存"
+  },
+  "slot": {
+    "plus": "側鍵 +",
+    "minus": "側鍵 −",
+    "switch": "其他"
+  },
+  "shift": {
+    "label": "撥動開關",
+    "hint": "設定將儲存至目前選擇的開關檔位。"
+  },
+  "layer": {
+    "title": "觸發方式",
+    "click": "單擊",
+    "doubleclick": "雙擊",
+    "longpress": "長按"
+  },
+  "custom": {
+    "subtitle": "點擊裝置上的按鍵，選擇它要送出的鍵盤按鍵或手機操作。",
+    "buttons": "按鍵",
+    "choose": "選擇",
+    "change": "變更",
+    "clear": "清除",
+    "notSet": "未設定",
+    "nothingToSave": "請先為至少一個按鍵選擇操作。",
+    "profiles": "快速方案",
+    "profile": "方案 {n}",
+    "profilesHint": "最多可在此瀏覽器中保留三組配置。選擇方案即可載入；選取方案時儲存，也會將配置存入該方案。",
+    "saveProfile": "儲存到裝置和方案 {n}"
+  },
+  "picker": {
+    "title": "按鍵 {n}",
+    "listen": "鍵盤輸入",
+    "listening": "等待輸入…",
+    "remove": "移除"
+  },
+  "scripts": {
+    "phoneTab": "手機操作",
+    "keyboardTab": "鍵盤宏",
+    "phoneTitle": "手機操作",
+    "keyboardTitle": "鍵盤宏",
+    "actionPerButton": "各按鍵操作",
+    "noAction": "無操作",
+    "record": "錄製",
+    "recordHint": "點擊「錄製」，然後按下要讓此按鍵重播的鍵。",
+    "saveTarget": "儲存至此",
+    "saveTo": "儲存到按鍵 {n}"
+  },
+  "light": {
+    "subtitle": "選擇一個按鍵，然後設定它的燈光效果。",
+    "power": "燈光",
+    "on": "開啟",
+    "off": "關閉",
+    "saveKey": "儲存按鍵 {n}",
+    "modeHint": {
+      "lucky": "隨機切換顏色。",
+      "rainbow": "在色譜中平滑漸變。",
+      "custom": "自選固定的顏色和亮度。"
+    }
+  },
+  "more": {
+    "reportedModel": "裝置回報型號",
+    "refresh": "重新整理",
+    "firmwareNote": "固件更新需使用翰林閱自家的 Windows 工具，無法在瀏覽器中執行。請在裝有官方用戶端的 Windows 電腦上更新，或聯絡客服。",
+    "preferences": "偏好設定",
+    "appearance": "外觀",
+    "theme": {
+      "system": "跟隨系統",
+      "light": "淺色",
+      "dark": "深色"
+    },
+    "manual": "說明書",
+    "log": "開發者記錄",
+    "logHint": "與裝置之間交換的原始指令，回報問題時很有用。",
+    "show": "顯示",
+    "hide": "隱藏",
+    "copyLog": "複製",
+    "clearLog": "清除",
+    "about": "這個開源設定工具使用與翰林閱官方軟體相同的協定，直接從瀏覽器與翻頁器通訊。你的設定僅儲存在此瀏覽器中。",
+    "source": "GitHub 原始碼"
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "name": "Deutsch",
+  "sidebar": {
+    "/": "Startseite",
+    "function": "Voreingestellte Funktionen",
+    "general": "Allgemeine Einstellungen",
+    "custom": "Anpassen",
+    "script": "Skript (Macro)",
+    "more": "Mehr",
+    "specification": "Handbuch",
+    "light": "Licht",
+    "about": "Über",
+    "device": {
+      "connectEq": "Gerät verbinden",
+      "connectType": "Verbindungstyp",
+      "title": "Verbunden",
+      "power": "Gerätebatterie",
+      "mac": "SN",
+      "firmware": "Firmware-Version"
+    }
+  },
+  "common": {
+    "tip": "Freundliche Erinnerung",
+    "customFunctionTip": "Nach dem Speichern gelten nur benutzerdefinierte Funktionen (nicht zusätzlich zur vorherigen Firmware).",
+    "customFunctionTip2": "Standard-Firmware wiederherstellen: Bei eingeschaltetem Gerät Ein/Aus-Taste 30 Sekunden gedrückt halten.",
+    "bluetooth": "Bluetooth-Modus",
+    "usb": "USB",
+    "more": "Mehr anzeigen",
+    "cancel": "Abbrechen",
+    "save": "Einstellungen speichern",
+    "saved": "Einstellungen gespeichert",
+    "saveFailed": "Speichern fehlgeschlagen",
+    "iUnderstand": "Ich verstehe",
+    "iSure": "Ich bestätige",
+    "alertDiscount": "<div style=\"color: grey\">1. Klicken Sie unten auf \"Ich verstehe\"<br>2. Klicken Sie auf \"×\" oben rechts, um die Software zu schließen<br>3. Type-C-Kabelverbindung trennen<br>4. Fernbedienung tritt automatisch in \"Kopplungsmodus (Anzeigeleuchte blinkt im Atemmodus)\" ein, um mit anderem Gerät-Bluetooth verbunden zu werden</div>",
+    "alertDiscountTitle": "🎉Glückwunsch! Funktionseinstellungen abgeschlossen, noch einen Schritt bis zur Nutzung!",
+    "haveQuestion": "Gerät kann aufgrund unvollständiger Firmware-Aktualisierung nicht verwendet werden. Bitte verbinden Sie die Fernbedienung mit Computer-USB über Type-C-Kabel, fest einstecken. Klicken Sie auf die Schaltfläche unten, um das Gerät zu reparieren",
+    "help": "Fehlerbehebung",
+    "fixAndReset": "Gerät reparieren, Firmware aktualisieren, Werkseinstellungen wiederherstellen",
+    "fixAndReseting": "Werkseinstellungen werden wiederhergestellt, bitte warten Sie geduldig, bis die Softwareverbindung erfolgreich ist",
+    "alertDouble": "Doppelbestätigung",
+    "alertContact": "Bitte bestätigen Sie erneut! Entfernen Sie USB nicht während der Werkseinstellungs-Wiederherstellung"
+  },
+  "layer": {
+    "click": "Klick-Ebene",
+    "doubleclick": "Doppelklick-Ebene",
+    "longpress": "Langdruck-Ebene",
+    "clickDesc": "Durch Klick ausgelöst",
+    "doubleclickDesc": "Durch Doppelklick ausgelöst",
+    "longpressDesc": "Durch Langdruck ausgelöst",
+    "clickTooltip": "Klick-Ebene: Ebene 1 | Gerätetaste klicken, um diese Ebenenfunktion auszulösen",
+    "doubleclickTooltip": "Doppelklick-Ebene: Ebene 2 | Gerätetaste doppelklicken, um diese Ebenenfunktion auszulösen",
+    "longpressTooltip": "Langdruck-Ebene: Ebene 3 | Gerätetaste lang drücken, um diese Ebenenfunktion auszulösen"
+  },
+  "function": {
+    "title": "Voreingestellte Funktionen",
+    "saveBtn": "Einstellungen speichern",
+    "free2": {
+      "description": "Free2 Dual-Key-Seitenwender, leicht und einfach zu bedienen",
+      "func1": {
+        "name": "Als [Android E-Reader Seitenwechsel] einstellen",
+        "keys": {
+          "k1": "Vorherige Seite",
+          "k2": "Nächste Seite"
+        }
+      },
+      "func2": {
+        "name": "Als Tastatur [Links/Rechts-Pfeiltasten] einstellen",
+        "keys": {
+          "k1": "Linke Taste ←",
+          "k2": "Rechte Taste →"
+        }
+      },
+      "func3": {
+        "name": "Als Tastatur [Page Up/Down] einstellen",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down"
+        }
+      },
+      "func4": {
+        "name": "Als Tastatur [Kopieren/Einfügen] einstellen",
+        "keys": {
+          "k1": "Kopieren",
+          "k2": "Einfügen"
+        }
+      },
+      "func5": {
+        "name": "Handy [Kurzvideo-Wechsel] iOS benötigt aktivierte Zoom-Funktion",
+        "keys": {
+          "k1": "Vorheriges Video",
+          "k2": "Nächstes Video"
+        }
+      },
+      "func6": {
+        "name": "Als Handy [Musik-Wechsel] einstellen",
+        "keys": {
+          "k1": "Vorheriges Lied",
+          "k2": "Nächstes Lied"
+        }
+      },
+      "func7": {
+        "name": "Als Tastatur [Auf/Ab-Pfeiltasten] einstellen",
+        "keys": {
+          "k1": "Auf-Taste ↑",
+          "k2": "Ab-Taste ↓"
+        }
+      },
+      "func8": {
+        "name": "Handy [Kamera] iOS benötigt aktivierte Zoom-Funktion",
+        "keys": {
+          "k1": "Klick: Zoom+ Lang drücken: Zoom- ",
+          "k2": "Aufnehmen",
+          "switch": "Kamera wechseln"
+        }
+      }
+    },
+    "free3": {
+      "description": "Free3 Triple-Key-Seitenwender, unterstützt mehrere voreingestellte Funktionen",
+      "func1": {
+        "name": "Als [Android E-Reader Seitenwechsel] einstellen",
+        "keys": {
+          "k1": "Vorherige Seite",
+          "k2": "Nächste Seite",
+          "k3": "Lang drücken: Bildschirm sperren"
+        }
+      },
+      "func2": {
+        "name": "Als Tastatur [Links/Rechts-Pfeiltasten] einstellen",
+        "keys": {
+          "k1": "Tastatur-Linkstaste",
+          "k2": "Tastatur-Rechtstaste",
+          "k3": "Lang drücken: Bildschirm sperren"
+        }
+      },
+      "func3": {
+        "name": "Als Tastatur [Page Up/Down] einstellen",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "Lang drücken: Bildschirm sperren"
+        }
+      },
+      "func4": {
+        "name": "Als Tastatur [Kopieren/Einfügen/Ausschneiden] einstellen",
+        "keys": {
+          "k1": "Kopieren",
+          "k2": "Einfügen",
+          "k3": "Ausschneiden"
+        }
+      },
+      "func5": {
+        "name": "Als Tastatur [Auf/Ab-Pfeiltasten] einstellen",
+        "keys": {
+          "k1": "Tastatur-Auf-Taste",
+          "k2": "Tastatur-Ab-Taste",
+          "k3": "Lang drücken: Bildschirm sperren"
+        }
+      },
+      "func6": {
+        "name": "Handy [Kurzvideo-Wechsel] iOS benötigt aktivierte Zoom-Funktion",
+        "keys": {
+          "k1": "Nach unten wischen",
+          "k2": "Nach oben wischen",
+          "k3": "Klick: Pause\nDoppelklick: Gefällt mir\nLang drücken: Bildschirm sperren"
+        }
+      },
+      "func7": {
+        "name": "Als Handy [Musik-Wechsel] einstellen",
+        "keys": {
+          "k1": "Vorheriges Lied",
+          "k2": "Nächstes Lied",
+          "k3": "Klick: Pause\nLang drücken: Bildschirm sperren"
+        }
+      },
+      "func8": {
+        "name": "Handy [Kamera] iOS benötigt aktivierte Zoom-Funktion",
+        "keys": {
+          "k1": "Zoom+",
+          "k2": "Zoom-",
+          "k3": "Aufnehmen",
+          "switch": "Kamera wechseln"
+        }
+      }
+    },
+    "e1pro": {
+      "description": "E1 Pro Triple-Key-Seitenwender, unterstützt mehrere voreingestellte Funktionen",
+      "func1": {
+        "name": "Als [Android E-Reader Seitenwechsel] einstellen",
+        "keys": {
+          "k1": "Vorherige Seite",
+          "k2": "Nächste Seite",
+          "k3": "Startseite",
+          "plus": "Lautstärke-Taste+",
+          "minus": "Lautstärke-Taste-"
+        }
+      },
+      "func2": {
+        "name": "Als [Kobo Reader Seitenwechsel] einstellen",
+        "keys": {
+          "k1": "Vorherige Seite",
+          "k2": "Nächste Seite",
+          "k3": "Startseite",
+          "plus": "Lautstärke-Taste+",
+          "minus": "Lautstärke-Taste-"
+        }
+      },
+      "func3": {
+        "name": "Als Tastatur [Auf/Ab-Pfeiltasten] einstellen",
+        "keys": {
+          "k1": "Auf-Taste ↑",
+          "k2": "Ab-Taste ↓",
+          "k3": "Startseite",
+          "plus": "Lautstärke-Taste+",
+          "minus": "Lautstärke-Taste-"
+        }
+      },
+      "func4": {
+        "name": "Als Tastatur [Links/Rechts-Pfeiltasten] einstellen",
+        "keys": {
+          "k1": "Linke Taste ←",
+          "k2": "Rechte Taste →",
+          "k3": "Startseite",
+          "plus": "Lautstärke-Taste+",
+          "minus": "Lautstärke-Taste-"
+        }
+      },
+      "func5": {
+        "name": "Als Tastatur [Page Up/Down] einstellen",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "Startseite",
+          "plus": "Lautstärke-Taste+",
+          "minus": "Lautstärke-Taste-"
+        }
+      },
+      "func6": {
+        "name": "Als [Win, Android Kopieren/Einfügen] einstellen",
+        "keys": {
+          "k1": "Kopieren",
+          "k2": "Einfügen",
+          "k3": "Startseite",
+          "plus": "Lautstärke-Taste+",
+          "minus": "Lautstärke-Taste-"
+        }
+      },
+      "func7": {
+        "name": "Als [Mac, iOS Kopieren/Einfügen] einstellen",
+        "keys": {
+          "k1": "Kopieren",
+          "k2": "Einfügen",
+          "k3": "Startseite",
+          "plus": "Lautstärke-Taste+",
+          "minus": "Lautstärke-Taste-"
+        }
+      },
+      "func8": {
+        "name": "Als [Handy-Kamera] einstellen iOS benötigt aktivierte Zoom-Funktion",
+        "keys": {
+          "k1": "Zoom+",
+          "k2": "Zoom-",
+          "k3": "Aufnehmen",
+          "plus": "Kamera wechseln",
+          "minus": "Kamera wechseln"
+        }
+      }
+    }
+  },
+  "custom": {
+    "header": {
+      "h1": "Anpassen",
+      "h5": "Klicken Sie auf den blauen Bereich, um Funktionen anzupassen"
+    },
+    "keyRecorderPlaceholder": "Click to choose key",
+    "content": {
+      "light": {
+        "h1": "Lichteinstellungen",
+        "close": "Schließen",
+        "open": "Öffnen",
+        "colorMode": "Farbmodus",
+        "luckyColor": "Glücksfarbe",
+        "rainbowColor": "Regenbogenfarbe",
+        "customColor": "Benutzerdefinierte Farbe",
+        "brightness": "Helligkeit",
+        "selectKey": "Taste auswählen",
+        "key1": "Taste 1",
+        "key2": "Taste 2",
+        "key3": "Taste 3",
+        "save": "Einstellungen speichern",
+        "notSupported": "Aktuelles Gerät unterstützt keine Lichteinstellungen",
+        "colorPicker": "Farbauswahl",
+        "hexExample": "Bitte geben Sie HEX-Farbdaten ohne #-Symbol ein",
+        "hexFormatError": "Invalid HEX format, should be #FFFFFF"
+      },
+      "setting": {
+        "h1": "Bitte klicken Sie zuerst auf die zu konfigurierende Taste",
+        "content": {
+          "p1": "Anpassen",
+          "p2": "Tastenfunktion",
+          "span": "Wenn das Gerät gedrückt gehalten wird, wird die zugewiesene Einzelfunktion in Schleife ausgelöst"
+        },
+        "button": {
+          "p1": "Speichern",
+          "p2": "Taste"
+        }
+      }
+    },
+    "newContent": {
+      "placeholder": "Tastatur klicken, um Tastenposition einzugeben",
+      "keyboard": "Tastenkürzel",
+      "quick": "Als diese Tastenkürzel-Funktion einstellen"
+    }
+  },
+  "keyboard": {
+    "title": "Select keys",
+    "mode": {
+      "keyboard": "Keyboard",
+      "phone": "Phone"
+    },
+    "section": {
+      "navigation": "Navigation keys",
+      "arrow": "Arrow keys",
+      "mac": "Mac keys",
+      "phone": "Phone touch actions"
+    },
+    "selectedLabel": "Selected:",
+    "actions": {
+      "clear": "Clear",
+      "confirm": "Confirm"
+    },
+    "tip": {
+      "keyboard": "Tip: Keyboard mode supports key operations and combo keys (e.g. Ctrl+C), up to 5 keys.",
+      "phone": "Tip: Phone mode is for touch actions (like, swipe, etc.), only one action can be selected.",
+      "ios": "iOS requires AssistiveTouch enabled"
+    },
+    "warning": {
+      "phoneSingle": "Phone mode only allows one action",
+      "maxKeys": "You can select up to 5 keys"
+    },
+    "none": "None",
+    "media": {
+      "mute": "Mute",
+      "volumeDown": "Volume -",
+      "volumeUp": "Volume +",
+      "previous": "Previous",
+      "pause": "Pause",
+      "next": "Next"
+    },
+    "phone": {
+      "like": "Like",
+      "lockScreen": "Lock screen",
+      "speed": "Speed",
+      "slideLeft": "Swipe left",
+      "slideRight": "Swipe right",
+      "slideUp": "Swipe up",
+      "slideDown": "Swipe down",
+      "pause": "Pause",
+      "back": "Back",
+      "home": "Home"
+    }
+  },
+  "script": {
+    "describe": "Makro läuft nach Speichern automatisch",
+    "startRecording": "Click to start recording",
+    "stopRecording": "Stop recording",
+    "clear": "Clear",
+    "delaySetting": "Verzögerungseinstellungen",
+    "recordDelay": "Verzögerung aufzeichnen",
+    "defaultDelay": "Standardverzögerung",
+    "fixedDelay": "Feste Verzögerung",
+    "recordTip": "Zeit während der Aufzeichnung aufzeichnen, Aufzeichnungszeit als Verzögerungszeit verwenden",
+    "defaultTip": "Standardverzögerungszeit beträgt 30 Millisekunden",
+    "milliseconds": "Millisekunden",
+    "tPlaceholder": "Zeit eingeben",
+    "repeatSetting": "Ausführungsanzahl",
+    "repeatForever": "Endlosschleife",
+    "repeatNumber": "N Mal wiederholen",
+    "repeatPlaceholder": "Anzahl eingeben",
+    "macroSetting": "Makro aufzeichnen",
+    "recordTipPressKey": "Press the keys you want to record",
+    "recordTipClickStart": "Click the start recording button",
+    "tip1": "Klicken Sie zuerst auf Aufzeichnung starten.",
+    "tip2": "Klicken Sie nach Abschluss der Aufzeichnung auf Aufzeichnung beenden",
+    "tip3": "Auf angegebene Taste speichern",
+    "macroRecord": "Makro-Aufzeichnung",
+    "saveToKey": "Taste {keyNumber}",
+    "commandSizeExceeded": "Command size {size}KB exceeds limit {limit}KB, please reduce recording",
+    "noKeyEvents": "No key actions detected, please record again",
+    "macroCleared": "Recorded macro cleared",
+    "event": {
+      "keyDown": "{key} key down",
+      "keyUp": "{key} key up",
+      "wait": "Wait {ms} ms",
+      "unknown": "Unknown event"
+    }
+  },
+  "scriptPhone": {
+    "tab1": "Makro(Telefon)",
+    "tab2": "Makro(Tastatur)",
+    "describe": "Voreingestellte Makros für Handy-Hochformat-Kurzvideos/Live-Streaming-Likes/Leseautomatisierungseinstellungen",
+    "placeholder": "Bitte auswählen",
+    "opt1": "Gefällt mir",
+    "opt2": "Nach links wischen",
+    "opt3": "Nach rechts wischen",
+    "opt4": "Nach oben wischen",
+    "opt5": "Nach unten wischen",
+    "buttonName": "Button {index}",
+    "needSelectKey": "Please select at least one key configuration"
+  },
+  "more": {
+    "h1": "Weitere Einstellungen",
+    "languageLabel": "Language",
+    "languagePlaceholder": "Please select language",
+    "specificationLabel": "Specifications",
+    "specificationView": "View specifications",
+    "firmwareLabel": "Firmware Upgrade",
+    "firmwareUpdate": "Upgrade firmware",
+    "firmwareDialogTitle": "Firmware Upgrade",
+    "deviceFirmwareVersion": "Device firmware version",
+    "softwareVersion": "Software version",
+    "downloadFirmware": "Download firmware",
+    "updateFirmware": "Update firmware",
+    "macFirmwareHint": "Firmware download and online upgrade are not offered on Mac. Install the Hanlinyue Windows client on a PC and connect your device there."
+  },
+  "macSupport": {
+    "title": "Firmware-Upgrade auf dem Mac",
+    "hint": "Firmware-Download und Online-Upgrade sind in der Mac-App noch nicht verfügbar. Bitte installieren Sie den Hanlinyue-Windows-Client auf einem PC und verbinden Sie Ihr Gerät, um das Firmware-Upgrade durchzuführen.",
+    "wechatTip": "Nutzer in Festlandchina: Scannen Sie den untenstehenden QR-Code, um unseren WeCom-Support (Enterprise WeChat) für Upgrade- und technische Unterstützung hinzuzufügen.",
+    "noWechatTip": "Wenn Sie WeChat nicht nutzen, schreiben Sie an {email}, um unser Team für Upgrade- und technischen Support zu erreichen.",
+    "qrcodeAlt": "QR-Code des WeCom-Kundendienstes",
+    "email": "hly{'@'}hanlinyue.com.cn"
+  },
+  "specification": {
+    "kobo": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=8",
+    "link": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=12"
+  },
+  "about": {
+    "deviceInfo": {
+      "h2": "Geräteinformationen",
+      "deviceName": "Gerätename",
+      "deviceNameValue": "Seitenumblätterer",
+      "model": "Modellname",
+      "bluetoothVersion": "Bluetooth-Version",
+      "transmitPower": "Sendeleistung",
+      "frequency": "Frequenz(Hz)",
+      "communicationDistance": "Kommunikationsdistanz",
+      "bluetoothAddress": "Bluetooth-Adresse",
+      "batteryCapacity": "Batteriekapazität",
+      "remainingBattery": "Verbleibende Batterie",
+      "execStandard": "Ausführungsstandard",
+      "cmiitID": "CMIIT ID",
+      "manufacturer": "Hersteller",
+      "origin": "Herkunft",
+      "E1Pro": {
+        "deviceName": "Seitenumblätterer",
+        "model": "E1 Pro",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "Ca. 5 Meter",
+        "bluetoothAddress": "81-0D-E0-E3-7E-CE",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "24J44M8R0001",
+        "manufacturer": "Hanlin Yue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "Free2": {
+        "deviceName": "Seitenumblätterer",
+        "model": "Free2",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Ca. 10 Meter",
+        "bluetoothAddress": "",
+        "batteryCapacity": "Niedrigprofil-Version 130mAh/3.7v; Hochprofil-Version 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "Hanlin Yue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "Free2_2026": {
+        "deviceName": "Seitenumblätterer",
+        "model": "Free2 2026",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Ca. 10 Meter",
+        "bluetoothAddress": "",
+        "batteryCapacity": "Niedrigprofil-Version 130mAh/3.7v; Hochprofil-Version 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "Hanlin Yue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "Free3": {
+        "deviceName": "Seitenumblätterer",
+        "model": "Free3",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "Ca. 10 Meter",
+        "bluetoothAddress": "",
+        "batteryCapacity": "380mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T 26572-2011",
+        "cmiitID": "",
+        "manufacturer": "Hanlin Yue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "E3Control": {
+        "deviceName": "Seitenumblätterer",
+        "model": "E3 Control",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Ca. 10 Meter",
+        "bluetoothAddress": "",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T26572-2011",
+        "cmiitID": "",
+        "manufacturer": "Hanlin Yue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      }
+    }
+  },
+  "stateMark": {
+    "usb": {
+      "state": {
+        "finding": "Erkennung läuft, bitte über Type-C verbinden",
+        "ready": "Über Type-C verbunden",
+        "disconnect": "Gerätekabelverbindung getrennt"
+      },
+      "p1": "Verbinden Sie E1 Pro mit dem Computer-USB über Type-C-Kabel",
+      "li1": "USB-Verbindung kann nur für Fernbedienungseinstellungen verwendet werden, nicht für die Nutzung",
+      "li2": "Nach Abschluss der Funktionseinstellungen bitte USB-Kabelverbindung entfernen, siehe Bluetooth-Verbindungstutorial zum Pairing mit Zielgerät",
+      "li3": "<span style=\"color: red\">Zum Verwenden der Funktionen müssen Sie das Kabel trennen und im Bluetooth-Modus verbinden</span>",
+      "title": "Nach dem Verbinden des Geräts kann das Programm nicht gestartet werden, bitte wie folgt lösen",
+      "text1": "Computer-USB-Port wechseln, bei PC bitte auf hinteren USB-Port wechseln und fest einstecken",
+      "text2": "Handy-Datenkabel wechseln und erneut versuchen",
+      "text2_1": "Bitte Type-C abziehen und wieder einstecken",
+      "text3": "Für technischen Support bitte QQ-Gruppe beitreten: "
+    }
+  },
+  "app": {
+    "unsupported": {
+      "title": "Your Hanlinyue device is connected, but this version does not support it. Please update the software.",
+      "tip": "If this is due to firmware version, please follow the steps below.",
+      "downloadFirmware": "Download firmware",
+      "updateFirmware": "Update firmware",
+      "macFirmwareHint": "This is the Mac app: firmware download and upgrade are only supported in the Windows Hanlinyue client. Connect your device to a Windows PC and use the official Windows build."
+    },
+    "firmware": {
+      "updateDone": "Firmware-Aktualisierung abgeschlossen",
+      "bluetoothWarning": "Firmware kann im Bluetooth-Modus nicht aktualisiert werden, bitte auf USB wechseln und erneut versuchen",
+      "sameWarning": "Aktuelle Firmware-Version ist identisch mit der neuesten Cloud-Firmware-Version, Update wird übersprungen",
+      "updating": "Firmware wird aktualisiert, bitte warten Sie geduldig",
+      "tip": "Ziehen Sie das Kabel während des Upgrades nicht ab und schließen Sie die Software nicht, Update sollte innerhalb von 5 Minuten abgeschlossen sein",
+      "childProcessDone": "Ein Unterprozess wurde abgeschlossen",
+      "SHA512Mismatch": "Firmware-Datei-HASH stimmt nicht überein, bitte erneut versuchen oder Kundenservice kontaktieren",
+      "firmwareDownloaded": "Cloud-Firmware-Download abgeschlossen",
+      "notSupportedOnMac": "Firmware-Upgrade wird auf Mac nicht unterstützt. Bitte verwenden Sie einen Windows-Computer für das Upgrade."
+    }
+  }
+}

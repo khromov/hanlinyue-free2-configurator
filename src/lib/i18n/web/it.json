@@ -1,0 +1,138 @@
+{
+  "app": {
+    "tagline": "Configuratore per voltapagine",
+    "disclaimer": "Progetto open source non ufficiale. Non affiliato a Hanlinyue. Le impostazioni vengono salvate solo in questo browser."
+  },
+  "nav": {
+    "label": "Navigazione principale",
+    "presets": "Preset",
+    "custom": "Personalizza",
+    "scripts": "Macro",
+    "light": "Luce",
+    "more": "Altro"
+  },
+  "status": {
+    "usb": "USB",
+    "ble": "Bluetooth",
+    "disconnect": "Disconnetti",
+    "demo": "Demo"
+  },
+  "saving": "Salvataggio…",
+  "savedShort": "Salvato",
+  "errors": {
+    "sendFailed": "Impossibile inviare al dispositivo: {message}"
+  },
+  "afterSave": {
+    "body": "Al termine, scollega il cavo USB-C. Il voltapagine entrerà in modalità di accoppiamento (l’indicatore luminoso pulsa), così potrai associarlo via Bluetooth al tuo e-reader, telefono o computer."
+  },
+  "connect": {
+    "eyebrow": "Hanlinyue Free2 · Free3 · E1 Pro · E3 Control",
+    "title": "Collega il tuo voltapagine",
+    "subtitle": "Rimappa i pulsanti, registra macro e regola le luci direttamente nel browser. Niente da installare.",
+    "usb": "Connetti via USB",
+    "ble": "Bluetooth (beta)",
+    "connecting": "Connessione…",
+    "reading": "Lettura delle informazioni del dispositivo…",
+    "step1": "Collega il voltapagine a questo computer con un cavo USB-C.",
+    "step2": "Fai clic su «Connetti via USB» e scegli il dispositivo nell’elenco del browser. Potrebbe comparire come «USB Composite Device».",
+    "step3": "Modifica le impostazioni e salva. Poi scollega il cavo per usarlo via Bluetooth.",
+    "unsupportedTitle": "Questo browser non può comunicare con dispositivi USB",
+    "unsupportedBody": "Apri questa pagina in Chrome, Edge o Opera su un computer desktop. Safari, Firefox e i browser per dispositivi mobili non supportano Web Serial.",
+    "noSerial": "Per l’USB servono Chrome, Edge o Opera su un computer desktop.",
+    "failed": "Impossibile connettersi: {message}",
+    "busy": "Il dispositivo è occupato. Chiudi l’app ufficiale Hanlinyue ed eventuali altre schede che lo stanno usando, poi riprova.",
+    "closeOfficial": "Chiudi l’app ufficiale Hanlinyue e le altre schede del browser che potrebbero usare il dispositivo.",
+    "linuxHint": "Su Linux, assicurati che il tuo utente possa aprire le porte seriali (ad esempio aggiungendolo al gruppo dialout), poi riconnettiti.",
+    "bleNote": "La configurazione via Bluetooth è sperimentale e potrebbe non funzionare con tutti i modelli o tutte le versioni del firmware. Si consiglia l’USB.",
+    "demo": "Nessun dispositivo a portata di mano? Prova la demo →"
+  },
+  "unsupported": {
+    "title": "Questo modello non è ancora supportato",
+    "body": "Il dispositivo collegato si identifica come «{model}», un modello che questo configuratore non conosce ancora. Apri una segnalazione con questo nome di modello, così potrà esserne aggiunto il supporto.",
+    "report": "Segnala su GitHub"
+  },
+  "presets": {
+    "subtitle": "Scegli una configurazione pronta per i pulsanti, poi salvala sul dispositivo.",
+    "pick": "Scegli un preset",
+    "lastSaved": "Ultimo salvato"
+  },
+  "slot": {
+    "plus": "Laterale +",
+    "minus": "Laterale −",
+    "switch": "Altro"
+  },
+  "shift": {
+    "label": "Interruttore a scorrimento",
+    "hint": "Le impostazioni vengono salvate nella posizione selezionata dell’interruttore."
+  },
+  "layer": {
+    "title": "Attivazione",
+    "click": "Clic",
+    "doubleclick": "Doppio clic",
+    "longpress": "Pressione lunga"
+  },
+  "custom": {
+    "subtitle": "Fai clic su un pulsante del dispositivo per scegliere quali tasti o quale azione del telefono invia.",
+    "buttons": "Pulsanti",
+    "choose": "Scegli",
+    "change": "Cambia",
+    "clear": "Cancella",
+    "notSet": "Non impostato",
+    "nothingToSave": "Scegli prima un’azione per almeno un pulsante.",
+    "profiles": "Profili rapidi",
+    "profile": "Profilo {n}",
+    "profilesHint": "Conserva fino a tre configurazioni in questo browser. Scegli un profilo per caricarlo; se salvi con un profilo selezionato, la configurazione viene memorizzata anche lì.",
+    "saveProfile": "Salva su dispositivo e profilo {n}"
+  },
+  "picker": {
+    "title": "Pulsante {n}",
+    "listen": "Digita i tasti",
+    "listening": "In ascolto…",
+    "remove": "Rimuovi"
+  },
+  "scripts": {
+    "phoneTab": "Azioni telefono",
+    "keyboardTab": "Macro da tastiera",
+    "phoneTitle": "Azioni telefono",
+    "keyboardTitle": "Macro da tastiera",
+    "actionPerButton": "Azione per pulsante",
+    "noAction": "Nessuna azione",
+    "record": "Registra",
+    "recordHint": "Premi «Registra», poi digita i tasti che il pulsante dovrà riprodurre.",
+    "saveTarget": "Salva qui",
+    "saveTo": "Salva sul pulsante {n}"
+  },
+  "light": {
+    "subtitle": "Scegli un pulsante, poi il comportamento della sua luce.",
+    "power": "Luce",
+    "on": "Accesa",
+    "off": "Spenta",
+    "saveKey": "Salva pulsante {n}",
+    "modeHint": {
+      "lucky": "Alterna colori casuali.",
+      "rainbow": "Scorre dolcemente lo spettro dei colori.",
+      "custom": "Un colore e una luminosità fissi a tua scelta."
+    }
+  },
+  "more": {
+    "reportedModel": "Modello rilevato",
+    "refresh": "Aggiorna",
+    "firmwareNote": "Gli aggiornamenti del firmware usano lo strumento per Windows di Hanlinyue, che non può funzionare in un browser. Aggiorna da un PC Windows con il client ufficiale oppure contatta l’assistenza.",
+    "preferences": "Preferenze",
+    "appearance": "Aspetto",
+    "theme": {
+      "system": "Sistema",
+      "light": "Chiaro",
+      "dark": "Scuro"
+    },
+    "manual": "Manuale utente",
+    "log": "Log sviluppatore",
+    "logHint": "Comandi grezzi scambiati con il dispositivo. Utile per segnalare un problema.",
+    "show": "Mostra",
+    "hide": "Nascondi",
+    "copyLog": "Copia",
+    "clearLog": "Cancella",
+    "about": "Questo configuratore open source comunica con il tuo voltapagine direttamente dal browser, usando lo stesso protocollo dell’app ufficiale Hanlinyue. Le tue impostazioni vengono ricordate solo in questo browser.",
+    "source": "Codice sorgente su GitHub"
+  }
+}

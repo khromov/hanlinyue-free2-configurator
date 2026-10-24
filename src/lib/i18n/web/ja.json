@@ -1,0 +1,138 @@
+{
+  "app": {
+    "tagline": "ページターナー設定ツール",
+    "disclaimer": "非公式のオープンソースプロジェクトです。Hanlinyue とは関係ありません。設定はこのブラウザーにのみ保存されます。"
+  },
+  "nav": {
+    "label": "メインナビゲーション",
+    "presets": "プリセット",
+    "custom": "カスタム",
+    "scripts": "マクロ",
+    "light": "ライト",
+    "more": "その他"
+  },
+  "status": {
+    "usb": "USB",
+    "ble": "Bluetooth",
+    "disconnect": "切断",
+    "demo": "デモ"
+  },
+  "saving": "保存中…",
+  "savedShort": "保存済み",
+  "errors": {
+    "sendFailed": "デバイスに送信できませんでした：{message}"
+  },
+  "afterSave": {
+    "body": "設定が終わったら USB-C ケーブルを抜いてください。ページターナーがペアリングモードになり（インジケーターが呼吸するように点滅）、電子書籍リーダー、スマートフォン、パソコンと Bluetooth でペアリングできます。"
+  },
+  "connect": {
+    "eyebrow": "Hanlinyue Free2 · Free3 · E1 Pro · E3 Control",
+    "title": "ページターナーを接続",
+    "subtitle": "ボタンの割り当て、マクロの記録、ライトの設定をブラウザー上で。インストールは不要です。",
+    "usb": "USB で接続",
+    "ble": "Bluetooth（ベータ）",
+    "connecting": "接続中…",
+    "reading": "デバイス情報を読み込み中…",
+    "step1": "USB-C ケーブルでページターナーをこのパソコンに接続します。",
+    "step2": "「USB で接続」をクリックし、ブラウザーの一覧からデバイスを選択します。「USB Composite Device」と表示される場合があります。",
+    "step3": "設定を変更して保存します。その後ケーブルを抜けば、Bluetooth で使用できます。",
+    "unsupportedTitle": "このブラウザーは USB デバイスと通信できません",
+    "unsupportedBody": "パソコンの Chrome、Edge、Opera でこのページを開いてください。Safari、Firefox、モバイルブラウザーは Web Serial に対応していません。",
+    "noSerial": "USB 接続にはパソコン版の Chrome、Edge、Opera が必要です。",
+    "failed": "接続できませんでした：{message}",
+    "busy": "デバイスが使用中です。Hanlinyue 公式アプリと、デバイスを使用している他のタブを閉じてから、もう一度お試しください。",
+    "closeOfficial": "Hanlinyue 公式アプリと、デバイスを使用している可能性のある他のブラウザータブを閉じてください。",
+    "linuxHint": "Linux では、ユーザーがシリアルポートを開けることを確認してから（例：dialout グループに追加）、再接続してください。",
+    "bleNote": "Bluetooth での設定は実験的な機能で、モデルやファームウェアのバージョンによっては動作しない場合があります。USB を推奨します。",
+    "demo": "デバイスが手元にない？デモを試す →"
+  },
+  "unsupported": {
+    "title": "このモデルはまだサポートされていません",
+    "body": "接続されたデバイスは「{model}」と報告していますが、この設定ツールはまだこのモデルを認識できません。サポートを追加できるよう、このモデル名を添えて Issue を作成してください。",
+    "report": "GitHub で報告"
+  },
+  "presets": {
+    "subtitle": "ボタンのレイアウトをプリセットから選び、デバイスに保存します。",
+    "pick": "プリセットを選択",
+    "lastSaved": "前回保存"
+  },
+  "slot": {
+    "plus": "サイド +",
+    "minus": "サイド −",
+    "switch": "その他"
+  },
+  "shift": {
+    "label": "スライドスイッチ",
+    "hint": "設定は選択中のスイッチ位置に保存されます。"
+  },
+  "layer": {
+    "title": "トリガー",
+    "click": "クリック",
+    "doubleclick": "ダブルクリック",
+    "longpress": "長押し"
+  },
+  "custom": {
+    "subtitle": "デバイス上のボタンをクリックして、送信するキーやスマホ操作を選びます。",
+    "buttons": "ボタン",
+    "choose": "選択",
+    "change": "変更",
+    "clear": "クリア",
+    "notSet": "未設定",
+    "nothingToSave": "少なくとも 1 つのボタンに操作を選択してください。",
+    "profiles": "クイックプロファイル",
+    "profile": "プロファイル {n}",
+    "profilesHint": "このブラウザーに最大 3 つのレイアウトを保存できます。プロファイルを選ぶと読み込まれ、選択中に保存するとそのプロファイルにもレイアウトが保存されます。",
+    "saveProfile": "デバイスとプロファイル {n} に保存"
+  },
+  "picker": {
+    "title": "ボタン {n}",
+    "listen": "キー入力",
+    "listening": "入力待ち…",
+    "remove": "削除"
+  },
+  "scripts": {
+    "phoneTab": "スマホ操作",
+    "keyboardTab": "キーボードマクロ",
+    "phoneTitle": "スマホ操作",
+    "keyboardTitle": "キーボードマクロ",
+    "actionPerButton": "ボタンごとの操作",
+    "noAction": "操作なし",
+    "record": "記録",
+    "recordHint": "「記録」を押してから、ボタンで再生したいキーを入力してください。",
+    "saveTarget": "ここに保存",
+    "saveTo": "ボタン {n} に保存"
+  },
+  "light": {
+    "subtitle": "ボタンを選んで、ライトの動作を設定します。",
+    "power": "ライト",
+    "on": "オン",
+    "off": "オフ",
+    "saveKey": "ボタン {n} を保存",
+    "modeHint": {
+      "lucky": "ランダムな色に切り替わります。",
+      "rainbow": "スペクトルの色が滑らかに移り変わります。",
+      "custom": "好みの色と明るさで固定します。"
+    }
+  },
+  "more": {
+    "reportedModel": "報告されたモデル",
+    "refresh": "更新",
+    "firmwareNote": "ファームウェアの更新には Hanlinyue 独自の Windows ツールが必要で、ブラウザーでは実行できません。公式クライアントを入れた Windows PC で更新するか、サポートにお問い合わせください。",
+    "preferences": "環境設定",
+    "appearance": "外観",
+    "theme": {
+      "system": "システム",
+      "light": "ライト",
+      "dark": "ダーク"
+    },
+    "manual": "取扱説明書",
+    "log": "開発者ログ",
+    "logHint": "デバイスとやり取りした生のコマンドです。問題を報告する際に役立ちます。",
+    "show": "表示",
+    "hide": "非表示",
+    "copyLog": "コピー",
+    "clearLog": "クリア",
+    "about": "このオープンソースの設定ツールは、Hanlinyue 公式アプリと同じプロトコルを使い、ブラウザーから直接ページターナーと通信します。設定はこのブラウザーにのみ保存されます。",
+    "source": "GitHub のソースコード"
+  }
+}

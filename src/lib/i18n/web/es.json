@@ -1,0 +1,138 @@
+{
+  "app": {
+    "tagline": "Configurador de pasador de página",
+    "disclaimer": "Proyecto de código abierto no oficial. Sin relación con Hanlinyue. La configuración se guarda solo en este navegador."
+  },
+  "nav": {
+    "label": "Navegación principal",
+    "presets": "Preajustes",
+    "custom": "Personalizar",
+    "scripts": "Macros",
+    "light": "Luz",
+    "more": "Más"
+  },
+  "status": {
+    "usb": "USB",
+    "ble": "Bluetooth",
+    "disconnect": "Desconectar",
+    "demo": "Demo"
+  },
+  "saving": "Guardando…",
+  "savedShort": "Guardado",
+  "errors": {
+    "sendFailed": "No se pudo enviar al dispositivo: {message}"
+  },
+  "afterSave": {
+    "body": "Desconecta el cable USB-C cuando termines. El pasador de página entrará en modo de emparejamiento (el indicador parpadea suavemente) y podrás emparejarlo por Bluetooth con tu lector, teléfono u ordenador."
+  },
+  "connect": {
+    "eyebrow": "Hanlinyue Free2 · Free3 · E1 Pro · E3 Control",
+    "title": "Conecta tu pasador de página",
+    "subtitle": "Reasigna botones, graba macros y ajusta las luces directamente en tu navegador. Sin instalar nada.",
+    "usb": "Conectar por USB",
+    "ble": "Bluetooth (beta)",
+    "connecting": "Conectando…",
+    "reading": "Leyendo información del dispositivo…",
+    "step1": "Conecta el pasador de página a este ordenador con un cable USB-C.",
+    "step2": "Haz clic en «Conectar por USB» y elige el dispositivo en la lista del navegador. Puede aparecer como «USB Composite Device».",
+    "step3": "Cambia la configuración y guárdala. Después, desconecta el cable para usarlo por Bluetooth.",
+    "unsupportedTitle": "Este navegador no puede comunicarse con dispositivos USB",
+    "unsupportedBody": "Abre esta página en Chrome, Edge u Opera en un ordenador de escritorio. Safari, Firefox y los navegadores móviles no son compatibles con Web Serial.",
+    "noSerial": "Para USB se necesita Chrome, Edge u Opera en un ordenador de escritorio.",
+    "failed": "No se pudo conectar: {message}",
+    "busy": "El dispositivo está ocupado. Cierra la aplicación oficial de Hanlinyue y cualquier otra pestaña que lo esté usando, y vuelve a intentarlo.",
+    "closeOfficial": "Cierra la aplicación oficial de Hanlinyue y otras pestañas del navegador que puedan estar usando el dispositivo.",
+    "linuxHint": "En Linux, asegúrate de que tu usuario pueda abrir puertos serie (por ejemplo, añadiéndolo al grupo dialout) y vuelve a conectar.",
+    "bleNote": "La configuración por Bluetooth es experimental y puede no funcionar con todos los modelos o versiones de firmware. Se recomienda USB.",
+    "demo": "¿No tienes un dispositivo a mano? Prueba la demo →"
+  },
+  "unsupported": {
+    "title": "Este modelo aún no es compatible",
+    "body": "El dispositivo conectado se identifica como «{model}», que este configurador aún no conoce. Abre una incidencia con ese nombre de modelo para que se pueda añadir compatibilidad.",
+    "report": "Informar en GitHub"
+  },
+  "presets": {
+    "subtitle": "Elige una distribución predefinida para los botones y guárdala en el dispositivo.",
+    "pick": "Elige un preajuste",
+    "lastSaved": "Último guardado"
+  },
+  "slot": {
+    "plus": "Lateral +",
+    "minus": "Lateral −",
+    "switch": "Otro"
+  },
+  "shift": {
+    "label": "Interruptor deslizante",
+    "hint": "La configuración se guarda en la posición seleccionada del interruptor."
+  },
+  "layer": {
+    "title": "Activación",
+    "click": "Clic",
+    "doubleclick": "Doble clic",
+    "longpress": "Pulsación larga"
+  },
+  "custom": {
+    "subtitle": "Haz clic en un botón del dispositivo para elegir qué teclas o acción del teléfono envía.",
+    "buttons": "Botones",
+    "choose": "Elegir",
+    "change": "Cambiar",
+    "clear": "Borrar",
+    "notSet": "Sin asignar",
+    "nothingToSave": "Primero elige una acción para al menos un botón.",
+    "profiles": "Perfiles rápidos",
+    "profile": "Perfil {n}",
+    "profilesHint": "Guarda hasta tres distribuciones en este navegador. Elige un perfil para cargarlo; si guardas con un perfil seleccionado, la distribución también se almacena en él.",
+    "saveProfile": "Guardar en el dispositivo y el perfil {n}"
+  },
+  "picker": {
+    "title": "Botón {n}",
+    "listen": "Escribir teclas",
+    "listening": "Escuchando…",
+    "remove": "Quitar"
+  },
+  "scripts": {
+    "phoneTab": "Acciones del teléfono",
+    "keyboardTab": "Macro de teclado",
+    "phoneTitle": "Acciones del teléfono",
+    "keyboardTitle": "Macro de teclado",
+    "actionPerButton": "Acción por botón",
+    "noAction": "Sin acción",
+    "record": "Grabar",
+    "recordHint": "Pulsa «Grabar» y luego escribe las teclas que quieres que reproduzca el botón.",
+    "saveTarget": "Guardar aquí",
+    "saveTo": "Guardar en el botón {n}"
+  },
+  "light": {
+    "subtitle": "Elige un botón y luego cómo se comporta su luz.",
+    "power": "Luz",
+    "on": "Encendida",
+    "off": "Apagada",
+    "saveKey": "Guardar botón {n}",
+    "modeHint": {
+      "lucky": "Alterna entre colores aleatorios.",
+      "rainbow": "Recorre suavemente el espectro de colores.",
+      "custom": "Un color y un brillo fijos a tu elección."
+    }
+  },
+  "more": {
+    "reportedModel": "Modelo detectado",
+    "refresh": "Actualizar",
+    "firmwareNote": "Las actualizaciones de firmware usan la herramienta para Windows de Hanlinyue, que no funciona en un navegador. Actualiza desde un PC con Windows y el cliente oficial, o contacta con el soporte.",
+    "preferences": "Preferencias",
+    "appearance": "Apariencia",
+    "theme": {
+      "system": "Sistema",
+      "light": "Claro",
+      "dark": "Oscuro"
+    },
+    "manual": "Manual de usuario",
+    "log": "Registro de desarrollador",
+    "logHint": "Comandos sin procesar intercambiados con el dispositivo. Útil para informar de un problema.",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "copyLog": "Copiar",
+    "clearLog": "Borrar",
+    "about": "Este configurador de código abierto se comunica con tu pasador de página directamente desde el navegador, usando el mismo protocolo que la aplicación oficial de Hanlinyue. Tu configuración solo se recuerda en este navegador.",
+    "source": "Código fuente en GitHub"
+  }
+}

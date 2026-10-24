@@ -1,0 +1,570 @@
+{
+  "name": "Español",
+  "sidebar": {
+    "/": "Inicio",
+    "function": "Funciones Preestablecidas",
+    "general": "Configuración general",
+    "custom": "Personalizado",
+    "script": "Script (Macro)",
+    "more": "Más",
+    "specification": "Manual",
+    "light": "Luz",
+    "about": "Acerca de",
+    "device": {
+      "connectEq": "Conectar Dispositivo",
+      "connectType": "Tipo de Conexión",
+      "title": "Conectado",
+      "power": "Batería del Dispositivo",
+      "mac": "SN",
+      "firmware": "Versión de Firmware"
+    }
+  },
+  "common": {
+    "tip": "Recordatorio Amigable",
+    "customFunctionTip": "Tras guardar, solo se admiten funciones personalizadas (no se suman a las del firmware anterior).",
+    "customFunctionTip2": "Restaurar firmware por defecto: con el dispositivo encendido, mantenga pulsada la tecla de encendido 30 segundos.",
+    "bluetooth": "Modo Bluetooth",
+    "usb": "USB",
+    "more": "Ver Más",
+    "cancel": "Cancelar",
+    "save": "Guardar Configuración",
+    "saved": "Configuración Guardada",
+    "saveFailed": "Guardado Fallido",
+    "iUnderstand": "Entiendo",
+    "iSure": "Confirmo",
+    "alertDiscount": "<div style=\"color: grey\">1. Haga clic en \"Entiendo\" a continuación<br>2. Haga clic en \"×\" en la esquina superior derecha para cerrar el software<br>3. Desconecte la conexión del cable Type-C<br>4. El mando a distancia entrará automáticamente en \"Modo de Emparejamiento (indicador parpadeando lentamente)\" para conectarse con Bluetooth de otro dispositivo</div>",
+    "alertDiscountTitle": "🎉¡Felicitaciones! Configuración de funciones completada, ¡un paso más para usar!",
+    "haveQuestion": "El dispositivo no se puede usar debido a una actualización de firmware incompleta. Por favor conecte el mando a distancia al USB del ordenador con cable Type-C, conéctelo firmemente. Haga clic en el botón a continuación para reparar el dispositivo",
+    "help": "Solución de Problemas",
+    "fixAndReset": "Reparar Dispositivo, Actualizar Firmware, Restaurar Fábrica",
+    "fixAndReseting": "Restaurando configuración de fábrica, por favor espere pacientemente hasta que la conexión del software tenga éxito",
+    "alertDouble": "Confirmación Doble",
+    "alertContact": "¡Por favor confirme nuevamente! No retire USB durante la restauración de fábrica"
+  },
+  "layer": {
+    "click": "Capa de Clic",
+    "doubleclick": "Capa de Doble Clic",
+    "longpress": "Capa de Mantener Presionado",
+    "clickDesc": "Activado por clic",
+    "doubleclickDesc": "Activado por doble clic",
+    "longpressDesc": "Activado por mantener presionado",
+    "clickTooltip": "Capa de Clic: Capa 1 | Hacer clic en el botón del dispositivo para activar la función de esta capa",
+    "doubleclickTooltip": "Capa de Doble Clic: Capa 2 | Hacer doble clic en el botón del dispositivo para activar la función de esta capa",
+    "longpressTooltip": "Capa de Mantener Presionado: Capa 3 | Mantener presionado el botón del dispositivo para activar la función de esta capa"
+  },
+  "function": {
+    "title": "Funciones Preestablecidas",
+    "saveBtn": "Guardar Configuración",
+    "free2": {
+      "description": "Free2 pasador de páginas de doble tecla, ligero y fácil de usar",
+      "func1": {
+        "name": "Establecer como [Pasador de páginas de lector de libros electrónicos Android]",
+        "keys": {
+          "k1": "Página Anterior",
+          "k2": "Página Siguiente"
+        }
+      },
+      "func2": {
+        "name": "Establecer como Teclado [Teclas de Flecha Izquierda/Derecha]",
+        "keys": {
+          "k1": "Tecla Izquierda ←",
+          "k2": "Tecla Derecha →"
+        }
+      },
+      "func3": {
+        "name": "Establecer como Teclado [Page Up/Down]",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down"
+        }
+      },
+      "func4": {
+        "name": "Establecer como Teclado [Copiar/Pegar]",
+        "keys": {
+          "k1": "Copiar",
+          "k2": "Pegar"
+        }
+      },
+      "func5": {
+        "name": "Teléfono [Cambio de Video Corto] iOS requiere función de zoom habilitada",
+        "keys": {
+          "k1": "Video Anterior",
+          "k2": "Video Siguiente"
+        }
+      },
+      "func6": {
+        "name": "Establecer como Teléfono [Cambio de Música]",
+        "keys": {
+          "k1": "Canción Anterior",
+          "k2": "Canción Siguiente"
+        }
+      },
+      "func7": {
+        "name": "Establecer como Teclado [Teclas de Flecha Arriba/Abajo]",
+        "keys": {
+          "k1": "Tecla Arriba ↑",
+          "k2": "Tecla Abajo ↓"
+        }
+      },
+      "func8": {
+        "name": "Teléfono [Cámara] iOS requiere función de zoom habilitada",
+        "keys": {
+          "k1": "Clic: Zoom+ Mantener: Zoom- ",
+          "k2": "Capturar",
+          "switch": "Cambiar Cámara"
+        }
+      }
+    },
+    "free3": {
+      "description": "Free3 pasador de páginas de triple tecla, soporta múltiples funciones preestablecidas",
+      "func1": {
+        "name": "Establecer como [Pasador de páginas de lector de libros electrónicos Android]",
+        "keys": {
+          "k1": "Página Anterior",
+          "k2": "Página Siguiente",
+          "k3": "Mantener: Bloquear Pantalla"
+        }
+      },
+      "func2": {
+        "name": "Establecer como Teclado [Teclas de Flecha Izquierda/Derecha]",
+        "keys": {
+          "k1": "Tecla Izquierda del Teclado",
+          "k2": "Tecla Derecha del Teclado",
+          "k3": "Mantener: Bloquear Pantalla"
+        }
+      },
+      "func3": {
+        "name": "Establecer como Teclado [Page Up/Down]",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "Mantener: Bloquear Pantalla"
+        }
+      },
+      "func4": {
+        "name": "Establecer como Teclado [Copiar/Pegar/Cortar]",
+        "keys": {
+          "k1": "Copiar",
+          "k2": "Pegar",
+          "k3": "Cortar"
+        }
+      },
+      "func5": {
+        "name": "Establecer como Teclado [Teclas de Flecha Arriba/Abajo]",
+        "keys": {
+          "k1": "Tecla Arriba del Teclado",
+          "k2": "Tecla Abajo del Teclado",
+          "k3": "Mantener: Bloquear Pantalla"
+        }
+      },
+      "func6": {
+        "name": "Teléfono [Cambio de Video Corto] iOS requiere función de zoom habilitada",
+        "keys": {
+          "k1": "Deslizar Hacia Abajo",
+          "k2": "Deslizar Hacia Arriba",
+          "k3": "Clic: Pausa\nDoble Clic: Me Gusta\nMantener: Bloquear Pantalla"
+        }
+      },
+      "func7": {
+        "name": "Establecer como Teléfono [Cambio de Música]",
+        "keys": {
+          "k1": "Canción Anterior",
+          "k2": "Canción Siguiente",
+          "k3": "Clic: Pausa\nMantener: Bloquear Pantalla"
+        }
+      },
+      "func8": {
+        "name": "Teléfono [Cámara] iOS requiere función de zoom habilitada",
+        "keys": {
+          "k1": "Zoom+",
+          "k2": "Zoom-",
+          "k3": "Capturar",
+          "switch": "Cambiar Cámara"
+        }
+      }
+    },
+    "e1pro": {
+      "description": "E1 Pro pasador de páginas de triple tecla, soporta múltiples funciones preestablecidas",
+      "func1": {
+        "name": "Establecer como [Pasador de páginas de libro electrónico Android]",
+        "keys": {
+          "k1": "Página Anterior",
+          "k2": "Página Siguiente",
+          "k3": "Inicio",
+          "plus": "Tecla de Volumen+",
+          "minus": "Tecla de Volumen-"
+        }
+      },
+      "func2": {
+        "name": "Establecer como [Pasador de páginas de lector Kobo]",
+        "keys": {
+          "k1": "Página Anterior",
+          "k2": "Página Siguiente",
+          "k3": "Inicio",
+          "plus": "Tecla de Volumen+",
+          "minus": "Tecla de Volumen-"
+        }
+      },
+      "func3": {
+        "name": "Establecer como Teclado [Teclas de Flecha Arriba/Abajo]",
+        "keys": {
+          "k1": "Tecla Arriba ↑",
+          "k2": "Tecla Abajo ↓",
+          "k3": "Inicio",
+          "plus": "Tecla de Volumen+",
+          "minus": "Tecla de Volumen-"
+        }
+      },
+      "func4": {
+        "name": "Establecer como Teclado [Teclas de Flecha Izquierda/Derecha]",
+        "keys": {
+          "k1": "Tecla Izquierda ←",
+          "k2": "Tecla Derecha →",
+          "k3": "Inicio",
+          "plus": "Tecla de Volumen+",
+          "minus": "Tecla de Volumen-"
+        }
+      },
+      "func5": {
+        "name": "Establecer como Teclado [Page Up/Down]",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "Inicio",
+          "plus": "Tecla de Volumen+",
+          "minus": "Tecla de Volumen-"
+        }
+      },
+      "func6": {
+        "name": "Establecer como [Win, Android Copiar/Pegar]",
+        "keys": {
+          "k1": "Copiar",
+          "k2": "Pegar",
+          "k3": "Inicio",
+          "plus": "Tecla de Volumen+",
+          "minus": "Tecla de Volumen-"
+        }
+      },
+      "func7": {
+        "name": "Establecer como [Mac, iOS Copiar/Pegar]",
+        "keys": {
+          "k1": "Copiar",
+          "k2": "Pegar",
+          "k3": "Inicio",
+          "plus": "Tecla de Volumen+",
+          "minus": "Tecla de Volumen-"
+        }
+      },
+      "func8": {
+        "name": "Establecer como [Cámara de Teléfono] iOS requiere función de zoom habilitada",
+        "keys": {
+          "k1": "Zoom+",
+          "k2": "Zoom-",
+          "k3": "Capturar",
+          "plus": "Cambiar Cámara",
+          "minus": "Cambiar Cámara"
+        }
+      }
+    }
+  },
+  "custom": {
+    "header": {
+      "h1": "Personalizado",
+      "h5": "Haga clic en el área azul para personalizar la función"
+    },
+    "keyRecorderPlaceholder": "Click to choose key",
+    "content": {
+      "light": {
+        "h1": "Configuración de luz",
+        "close": "Cerrar",
+        "open": "Abrir",
+        "colorMode": "Modo de Color",
+        "luckyColor": "Color de la Suerte",
+        "rainbowColor": "Color Arcoíris",
+        "customColor": "Color Personalizado",
+        "brightness": "Brillo",
+        "selectKey": "Seleccionar Tecla",
+        "key1": "Tecla 1",
+        "key2": "Tecla 2",
+        "key3": "Tecla 3",
+        "save": "Guardar Configuración",
+        "notSupported": "El dispositivo actual no admite configuración de luz",
+        "colorPicker": "Selector de Color",
+        "hexExample": "Por favor ingrese datos de color HEX sin símbolo #",
+        "hexFormatError": "Invalid HEX format, should be #FFFFFF"
+      },
+      "setting": {
+        "h1": "Primero haga clic en el botón que desea configurar",
+        "content": {
+          "p1": "Personalizar",
+          "p2": "Función del botón",
+          "span": "El dispositivo activará cíclicamente la función vinculada con un solo clic cuando se mantenga presionado"
+        },
+        "button": {
+          "p1": "Guardar",
+          "p2": "Botón"
+        }
+      }
+    },
+    "newContent": {
+      "placeholder": "Haga clic en el teclado para ingresar la posición de la tecla",
+      "keyboard": "Tecla de Acceso Rápido",
+      "quick": "Establecer como esta función de acceso rápido"
+    }
+  },
+  "keyboard": {
+    "title": "Select keys",
+    "mode": {
+      "keyboard": "Keyboard",
+      "phone": "Phone"
+    },
+    "section": {
+      "navigation": "Navigation keys",
+      "arrow": "Arrow keys",
+      "mac": "Mac keys",
+      "phone": "Phone touch actions"
+    },
+    "selectedLabel": "Selected:",
+    "actions": {
+      "clear": "Clear",
+      "confirm": "Confirm"
+    },
+    "tip": {
+      "keyboard": "Tip: Keyboard mode supports key operations and combo keys (e.g. Ctrl+C), up to 5 keys.",
+      "phone": "Tip: Phone mode is for touch actions (like, swipe, etc.), only one action can be selected.",
+      "ios": "iOS requires AssistiveTouch enabled"
+    },
+    "warning": {
+      "phoneSingle": "Phone mode only allows one action",
+      "maxKeys": "You can select up to 5 keys"
+    },
+    "none": "None",
+    "media": {
+      "mute": "Mute",
+      "volumeDown": "Volume -",
+      "volumeUp": "Volume +",
+      "previous": "Previous",
+      "pause": "Pause",
+      "next": "Next"
+    },
+    "phone": {
+      "like": "Like",
+      "lockScreen": "Lock screen",
+      "speed": "Speed",
+      "slideLeft": "Swipe left",
+      "slideRight": "Swipe right",
+      "slideUp": "Swipe up",
+      "slideDown": "Swipe down",
+      "pause": "Pause",
+      "back": "Back",
+      "home": "Home"
+    }
+  },
+  "script": {
+    "describe": "El macro se ejecuta automáticamente después de guardar",
+    "startRecording": "Click to start recording",
+    "stopRecording": "Stop recording",
+    "clear": "Clear",
+    "delaySetting": "Configuración de retraso",
+    "recordDelay": "Registrar retraso",
+    "defaultDelay": "Retraso por defecto",
+    "fixedDelay": "Retraso fijo",
+    "recordTip": "Registrar el tiempo durante la grabación, usar el tiempo de grabación como tiempo de retraso",
+    "defaultTip": "El tiempo de retraso por defecto es de 30 milisegundos",
+    "milliseconds": "Milisegundos",
+    "tPlaceholder": "Ingrese tiempo",
+    "repeatSetting": "Número de Ejecuciones",
+    "repeatForever": "Bucle Infinito",
+    "repeatNumber": "Repetir N veces",
+    "repeatPlaceholder": "Ingrese número",
+    "macroSetting": "Grabar Macro",
+    "recordTipPressKey": "Press the keys you want to record",
+    "recordTipClickStart": "Click the start recording button",
+    "tip1": "Primero haga clic en comenzar a grabar.",
+    "tip2": "Después de completar la grabación, haga clic en finalizar grabación",
+    "tip3": "Guardar en botón especificado",
+    "macroRecord": "Registro de Macro",
+    "saveToKey": "Tecla {keyNumber}",
+    "commandSizeExceeded": "Command size {size}KB exceeds limit {limit}KB, please reduce recording",
+    "noKeyEvents": "No key actions detected, please record again",
+    "macroCleared": "Recorded macro cleared",
+    "event": {
+      "keyDown": "{key} key down",
+      "keyUp": "{key} key up",
+      "wait": "Wait {ms} ms",
+      "unknown": "Unknown event"
+    }
+  },
+  "scriptPhone": {
+    "tab1": "Macro(Teléfono)",
+    "tab2": "Macro(Teclado)",
+    "describe": "Macros preestablecidos para videos cortos verticales de teléfono/likes de transmisión en vivo/configuración de automatización de lectura",
+    "placeholder": "Por favor seleccione",
+    "opt1": "Me Gusta",
+    "opt2": "Deslizar Izquierda",
+    "opt3": "Deslizar Derecha",
+    "opt4": "Deslizar Arriba",
+    "opt5": "Deslizar Abajo",
+    "buttonName": "Button {index}",
+    "needSelectKey": "Please select at least one key configuration"
+  },
+  "more": {
+    "h1": "Más Configuraciones",
+    "languageLabel": "Language",
+    "languagePlaceholder": "Please select language",
+    "specificationLabel": "Specifications",
+    "specificationView": "View specifications",
+    "firmwareLabel": "Firmware Upgrade",
+    "firmwareUpdate": "Upgrade firmware",
+    "firmwareDialogTitle": "Firmware Upgrade",
+    "deviceFirmwareVersion": "Device firmware version",
+    "softwareVersion": "Software version",
+    "downloadFirmware": "Download firmware",
+    "updateFirmware": "Update firmware",
+    "macFirmwareHint": "Firmware download and online upgrade are not offered on Mac. Install the Hanlinyue Windows client on a PC and connect your device there."
+  },
+  "macSupport": {
+    "title": "Actualización de firmware en Mac",
+    "hint": "La descarga y la actualización en línea del firmware aún no están disponibles en la app de Mac. Instala el cliente de Hanlinyue para Windows en un PC y conecta tu dispositivo para completar la actualización del firmware.",
+    "wechatTip": "Usuarios de China continental: escanea el código QR de abajo para añadir nuestro servicio de WeCom (WeChat Empresarial) y obtener soporte de actualización y técnico.",
+    "noWechatTip": "Si no usas WeChat, escribe a {email} para contactar con nuestro equipo y obtener soporte técnico y de actualización.",
+    "qrcodeAlt": "Código QR del servicio de atención de WeCom",
+    "email": "hly{'@'}hanlinyue.com.cn"
+  },
+  "specification": {
+    "kobo": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=8",
+    "link": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=12"
+  },
+  "about": {
+    "deviceInfo": {
+      "h2": "Información del Dispositivo",
+      "deviceName": "Nombre del Dispositivo",
+      "deviceNameValue": "Pasador de Página",
+      "model": "Nombre del Modelo",
+      "bluetoothVersion": "Versión de Bluetooth",
+      "transmitPower": "Potencia de Transmisión",
+      "frequency": "Frecuencia(Hz)",
+      "communicationDistance": "Distancia de Comunicación",
+      "bluetoothAddress": "Dirección Bluetooth",
+      "batteryCapacity": "Capacidad de la Batería",
+      "remainingBattery": "Batería Restante",
+      "execStandard": "Estándar de Ejecución",
+      "cmiitID": "CMIIT ID",
+      "manufacturer": "Fabricante",
+      "origin": "Origen",
+      "E1Pro": {
+        "deviceName": "Pasador de Página",
+        "model": "E1 Pro",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "Aprox. 5 metros",
+        "bluetoothAddress": "81-0D-E0-E3-7E-CE",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "24J44M8R0001",
+        "manufacturer": "Hanlinyue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "Free2": {
+        "deviceName": "Pasador de Página",
+        "model": "Free2",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Aprox. 10 metros",
+        "bluetoothAddress": "",
+        "batteryCapacity": "Versión de perfil bajo 130mAh/3.7v; Versión de perfil alto 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "Hanlinyue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "Free2_2026": {
+        "deviceName": "Pasador de Página",
+        "model": "Free2 2026",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Aprox. 10 metros",
+        "bluetoothAddress": "",
+        "batteryCapacity": "Versión de perfil bajo 130mAh/3.7v; Versión de perfil alto 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "Hanlinyue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "Free3": {
+        "deviceName": "Pasador de Página",
+        "model": "Free3",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "Aprox. 10 metros",
+        "bluetoothAddress": "",
+        "batteryCapacity": "380mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T 26572-2011",
+        "cmiitID": "",
+        "manufacturer": "Hanlinyue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      },
+      "E3Control": {
+        "deviceName": "Pasador de Página",
+        "model": "E3 Control",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "Aprox. 10 metros",
+        "bluetoothAddress": "",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T26572-2011",
+        "cmiitID": "",
+        "manufacturer": "Hanlinyue (Shenzhen) Technology Co., Ltd.",
+        "origin": "Shenzhen, China"
+      }
+    }
+  },
+  "stateMark": {
+    "usb": {
+      "state": {
+        "finding": "Detectando, por favor conecte mediante Type-C",
+        "ready": "Conectado mediante Type-C",
+        "disconnect": "Conexión del cable del dispositivo desconectada"
+      },
+      "p1": "Conecte E1 Pro al USB del ordenador usando cable Type-C",
+      "li1": "La conexión USB solo se puede usar para configurar el mando a distancia, no para uso",
+      "li2": "Después de completar la configuración de funciones, retire la conexión del cable USB, consulte el tutorial de conexión Bluetooth para emparejar con el dispositivo objetivo",
+      "li3": "<span style=\"color: red\">Para usar funciones, desconecte el cable y use el modo Bluetooth para conectar</span>",
+      "title": "No se puede entrar al programa después de conectar el dispositivo, resuelva de la siguiente manera",
+      "text1": "Cambie el puerto USB del ordenador, si es PC cambie al puerto USB trasero y conéctelo firmemente",
+      "text2": "Reemplace el cable de datos del teléfono y vuelva a intentar",
+      "text2_1": "Por favor, desconecte y vuelva a conectar Type-C",
+      "text3": "Para soporte técnico, únase al grupo QQ: "
+    }
+  },
+  "app": {
+    "unsupported": {
+      "title": "Your Hanlinyue device is connected, but this version does not support it. Please update the software.",
+      "tip": "If this is due to firmware version, please follow the steps below.",
+      "downloadFirmware": "Download firmware",
+      "updateFirmware": "Update firmware",
+      "macFirmwareHint": "This is the Mac app: firmware download and upgrade are only supported in the Windows Hanlinyue client. Connect your device to a Windows PC and use the official Windows build."
+    },
+    "firmware": {
+      "updateDone": "Actualización de Firmware Completada",
+      "bluetoothWarning": "No se puede actualizar firmware en modo Bluetooth, por favor cambie a USB y vuelva a intentar",
+      "sameWarning": "La versión de firmware actual es la misma que la última versión de firmware en la nube, omitiendo esta actualización",
+      "updating": "Firmware actualizando, por favor espere pacientemente",
+      "tip": "No desconecte el cable ni cierre el software durante la actualización, se espera que la actualización se complete en 5 minutos",
+      "childProcessDone": "Un proceso secundario completado",
+      "SHA512Mismatch": "HASH del archivo de firmware no coincide, por favor vuelva a intentar o contacte al servicio al cliente",
+      "firmwareDownloaded": "Descarga de firmware en la nube completada",
+      "notSupportedOnMac": "La actualización de firmware no es compatible con Mac. Por favor, use una computadora Windows para actualizar."
+    }
+  }
+}

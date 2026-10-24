@@ -1,0 +1,138 @@
+{
+  "app": {
+    "tagline": "翻页器配置工具",
+    "disclaimer": "非官方开源项目，与翰林阅无关联。设置仅保存在此浏览器中。"
+  },
+  "nav": {
+    "label": "主导航",
+    "presets": "预设",
+    "custom": "自定义",
+    "scripts": "宏",
+    "light": "灯光",
+    "more": "更多"
+  },
+  "status": {
+    "usb": "USB",
+    "ble": "蓝牙",
+    "disconnect": "断开连接",
+    "demo": "演示"
+  },
+  "saving": "保存中…",
+  "savedShort": "已保存",
+  "errors": {
+    "sendFailed": "无法发送到设备：{message}"
+  },
+  "afterSave": {
+    "body": "设置完成后请拔下 USB-C 数据线。翻页器随后会进入配对模式（指示灯呼吸闪烁），即可通过蓝牙与阅读器、手机或电脑配对。"
+  },
+  "connect": {
+    "eyebrow": "翰林阅 Free2 · Free3 · E1 Pro · E3 Control",
+    "title": "连接翻页器",
+    "subtitle": "直接在浏览器中重新映射按键、录制宏、设置灯光，无需安装任何软件。",
+    "usb": "通过 USB 连接",
+    "ble": "蓝牙（测试版）",
+    "connecting": "正在连接…",
+    "reading": "正在读取设备信息…",
+    "step1": "用 USB-C 数据线将翻页器连接到这台电脑。",
+    "step2": "点击“通过 USB 连接”，然后在浏览器弹出的列表中选择该设备。它可能显示为“USB Composite Device”。",
+    "step3": "修改设置并保存。完成后拔下数据线，即可通过蓝牙使用。",
+    "unsupportedTitle": "此浏览器无法访问 USB 设备",
+    "unsupportedBody": "请在电脑上使用 Chrome、Edge 或 Opera 打开此页面。Safari、Firefox 和手机浏览器不支持 Web Serial。",
+    "noSerial": "USB 连接需要电脑版 Chrome、Edge 或 Opera。",
+    "failed": "连接失败：{message}",
+    "busy": "设备正忙。请关闭翰林阅官方软件及其他正在使用该设备的标签页，然后重试。",
+    "closeOfficial": "请关闭翰林阅官方软件以及可能正在使用该设备的其他浏览器标签页。",
+    "linuxHint": "在 Linux 上，请确保当前用户有权限打开串口（例如将其加入 dialout 组），然后重新连接。",
+    "bleNote": "蓝牙配置为实验性功能，可能不适用于所有型号或固件版本。建议使用 USB。",
+    "demo": "手边没有设备？试试演示 →"
+  },
+  "unsupported": {
+    "title": "暂不支持此型号",
+    "body": "已连接设备报告的型号为“{model}”，本配置工具暂时无法识别。请提交反馈并附上该型号名称，以便添加支持。",
+    "report": "在 GitHub 上反馈"
+  },
+  "presets": {
+    "subtitle": "为按键选择一套现成的布局，然后保存到设备。",
+    "pick": "选择预设",
+    "lastSaved": "上次保存"
+  },
+  "slot": {
+    "plus": "侧键 +",
+    "minus": "侧键 −",
+    "switch": "其他"
+  },
+  "shift": {
+    "label": "拨动开关",
+    "hint": "设置将保存到当前选中的开关档位。"
+  },
+  "layer": {
+    "title": "触发方式",
+    "click": "单击",
+    "doubleclick": "双击",
+    "longpress": "长按"
+  },
+  "custom": {
+    "subtitle": "点击设备上的按键，选择它发送的键盘按键或手机操作。",
+    "buttons": "按键",
+    "choose": "选择",
+    "change": "更改",
+    "clear": "清除",
+    "notSet": "未设置",
+    "nothingToSave": "请先为至少一个按键选择操作。",
+    "profiles": "快捷方案",
+    "profile": "方案 {n}",
+    "profilesHint": "最多可在此浏览器中保存三套布局。选择方案即可载入；选中方案时保存，也会将布局存入该方案。",
+    "saveProfile": "保存到设备和方案 {n}"
+  },
+  "picker": {
+    "title": "按键 {n}",
+    "listen": "键盘输入",
+    "listening": "等待输入…",
+    "remove": "移除"
+  },
+  "scripts": {
+    "phoneTab": "手机操作",
+    "keyboardTab": "键盘宏",
+    "phoneTitle": "手机操作",
+    "keyboardTitle": "键盘宏",
+    "actionPerButton": "各按键操作",
+    "noAction": "无操作",
+    "record": "录制",
+    "recordHint": "点击“录制”，然后按下希望该按键回放的键。",
+    "saveTarget": "保存到此",
+    "saveTo": "保存到按键 {n}"
+  },
+  "light": {
+    "subtitle": "选择一个按键，然后设置它的灯光效果。",
+    "power": "灯光",
+    "on": "开启",
+    "off": "关闭",
+    "saveKey": "保存按键 {n}",
+    "modeHint": {
+      "lucky": "随机切换颜色。",
+      "rainbow": "在色谱中平滑渐变。",
+      "custom": "自选固定的颜色和亮度。"
+    }
+  },
+  "more": {
+    "reportedModel": "设备报告型号",
+    "refresh": "刷新",
+    "firmwareNote": "固件升级需使用翰林阅自己的 Windows 工具，无法在浏览器中运行。请在装有官方客户端的 Windows 电脑上升级，或联系客服。",
+    "preferences": "偏好设置",
+    "appearance": "外观",
+    "theme": {
+      "system": "跟随系统",
+      "light": "浅色",
+      "dark": "深色"
+    },
+    "manual": "说明书",
+    "log": "开发者日志",
+    "logHint": "与设备交互的原始指令，反馈问题时很有用。",
+    "show": "显示",
+    "hide": "隐藏",
+    "copyLog": "复制",
+    "clearLog": "清空",
+    "about": "这个开源配置工具使用与翰林阅官方软件相同的协议，直接在浏览器中与翻页器通信。你的设置仅保存在此浏览器中。",
+    "source": "GitHub 上的源代码"
+  }
+}

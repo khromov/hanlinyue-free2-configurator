@@ -1,0 +1,570 @@
+{
+  "name": "繁體中文",
+  "sidebar": {
+    "/": "首頁",
+    "function": "預設功能",
+    "general": "常用設置",
+    "custom": "自定義",
+    "script": "腳本(宏)",
+    "more": "更多",
+    "specification": "說明書",
+    "light": "燈光",
+    "about": "關於",
+    "device": {
+      "connectEq": "連接設備",
+      "connectType": "連接方式",
+      "title": "已 連 接",
+      "power": "設備電量",
+      "mac": "SN",
+      "firmware": "固件版本"
+    }
+  },
+  "common": {
+    "tip": "溫馨提醒",
+    "customFunctionTip": "自定義內容保存後僅支援自定義功能（與之前固件功能不疊加）。",
+    "customFunctionTip2": "恢復預設固件：翻頁器開機狀態下，長按開關鍵30秒。",
+    "bluetooth": "藍牙模式",
+    "usb": "USB",
+    "more": "查看更多",
+    "cancel": "取消",
+    "save": "保存設置",
+    "saved": "設置已保存",
+    "saveFailed": "保存失敗",
+    "iUnderstand": "我明白了",
+    "iSure": "我確定",
+    "alertDiscount": "<div style=\"color: grey\">1.點擊下面提醒\"我明白了\"<br>2.點擊右上角\"×\"關閉軟件<br>3.斷開Type-C數據線連接<br>4.遙控器會自動進入 \"配對模式(指示燈呼吸閃爍)\", 即可連接其他設備藍牙使用</div>",
+    "alertDiscountTitle": "🎉恭喜您功能設置完成, 再操作一步就可以使用啦!,",
+    "haveQuestion": "更新固件時沒有正常完成導致設備無法使用,請用Typc-C數據線將遙控器與電腦USB連接,插緊. 點擊下方按鈕修復設備",
+    "help": "疑難解答",
+    "fixAndReset": "修復設備,更新固件,恢復出廠",
+    "fixAndReseting": "正在恢復出廠設置,請耐心等待一段時間,直到本軟件連接成功",
+    "alertDouble": "重複確認",
+    "alertContact": "請你再次確認!恢復出廠期間請勿移除USB"
+  },
+  "layer": {
+    "click": "單擊層",
+    "doubleclick": "雙擊層",
+    "longpress": "長按層",
+    "clickDesc": "單擊觸發",
+    "doubleclickDesc": "雙擊觸發",
+    "longpressDesc": "長按觸發",
+    "clickTooltip": "單擊層: 第1層 | 單擊設備按鍵觸發此層級的功能",
+    "doubleclickTooltip": "雙擊層: 第2層 | 雙擊設備按鍵觸發此層級的功能",
+    "longpressTooltip": "長按層: 第3層 | 長按設備按鍵觸發此層級的功能"
+  },
+  "function": {
+    "title": "預設功能",
+    "saveBtn": "保存設置",
+    "free2": {
+      "description": "Free2 雙鍵翻頁器，輕便易用",
+      "func1": {
+        "name": "設為【安卓電子書閱讀器翻頁】",
+        "keys": {
+          "k1": "上一頁",
+          "k2": "下一頁"
+        }
+      },
+      "func2": {
+        "name": "設為鍵盤【左右方向鍵】",
+        "keys": {
+          "k1": "左鍵←",
+          "k2": "右鍵→"
+        }
+      },
+      "func3": {
+        "name": "設為鍵盤【Page Up/Down】",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down"
+        }
+      },
+      "func4": {
+        "name": "設為鍵盤【複製/粘貼】",
+        "keys": {
+          "k1": "複製",
+          "k2": "粘貼"
+        }
+      },
+      "func5": {
+        "name": "手機【短片切換】IOS系統需打開縮放功能",
+        "keys": {
+          "k1": "上一視頻",
+          "k2": "下一視頻"
+        }
+      },
+      "func6": {
+        "name": "設為手機【音樂切換】",
+        "keys": {
+          "k1": "上一首",
+          "k2": "下一首"
+        }
+      },
+      "func7": {
+        "name": "設為鍵盤【上下方向鍵】",
+        "keys": {
+          "k1": "上鍵↑",
+          "k2": "下鍵↓"
+        }
+      },
+      "func8": {
+        "name": "手機【拍攝】IOS系統需打開縮放功能",
+        "keys": {
+          "k1": "單擊: 變焦+ 長按: 變焦- ",
+          "k2": "拍攝",
+          "switch": "切換鏡頭"
+        }
+      }
+    },
+    "free3": {
+      "description": "Free3 三鍵翻頁器，支持多種預設功能",
+      "func1": {
+        "name": "設為【安卓電子書閱讀器翻頁】",
+        "keys": {
+          "k1": "上一頁",
+          "k2": "下一頁",
+          "k3": "長按：鎖屏"
+        }
+      },
+      "func2": {
+        "name": "設為鍵盤【左右方向鍵】",
+        "keys": {
+          "k1": "鍵盤左鍵",
+          "k2": "鍵盤右鍵",
+          "k3": "長按：鎖屏"
+        }
+      },
+      "func3": {
+        "name": "設為鍵盤【Page Up/Down】",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "長按：鎖屏"
+        }
+      },
+      "func4": {
+        "name": "設為鍵盤【複製/粘貼/剪切】",
+        "keys": {
+          "k1": "複製",
+          "k2": "粘貼",
+          "k3": "剪切"
+        }
+      },
+      "func5": {
+        "name": "設為鍵盤【上下方向鍵】",
+        "keys": {
+          "k1": "鍵盤向上鍵",
+          "k2": "鍵盤向下鍵",
+          "k3": "長按：鎖屏"
+        }
+      },
+      "func6": {
+        "name": "手機【短片切換】iOS需打開縮放功能",
+        "keys": {
+          "k1": "向下滑動",
+          "k2": "向上滑動",
+          "k3": "單擊：暫停\n雙擊：點讚\n長按：鎖屏"
+        }
+      },
+      "func7": {
+        "name": "設為手機【音樂切換】",
+        "keys": {
+          "k1": "上一曲",
+          "k2": "下一曲",
+          "k3": "單擊：暫停\n長按：鎖屏"
+        }
+      },
+      "func8": {
+        "name": "手機【拍攝】iOS需打開縮放功能",
+        "keys": {
+          "k1": "變焦+",
+          "k2": "變焦-",
+          "k3": "拍攝",
+          "switch": "切換鏡頭"
+        }
+      }
+    },
+    "e1pro": {
+      "description": "E1 Pro 三鍵翻頁器，支持多種預設功能",
+      "func1": {
+        "name": "設為【安卓電子書翻頁】",
+        "keys": {
+          "k1": "上一頁",
+          "k2": "下一頁",
+          "k3": "主頁",
+          "plus": "音量鍵+",
+          "minus": "音量鍵-"
+        }
+      },
+      "func2": {
+        "name": "設為【kobo閱讀器翻頁】",
+        "keys": {
+          "k1": "上一頁",
+          "k2": "下一頁",
+          "k3": "主頁",
+          "plus": "音量鍵+",
+          "minus": "音量鍵-"
+        }
+      },
+      "func3": {
+        "name": "設為鍵盤【上下方向鍵】",
+        "keys": {
+          "k1": "上鍵↑",
+          "k2": "下鍵↓",
+          "k3": "主頁",
+          "plus": "音量鍵+",
+          "minus": "音量鍵-"
+        }
+      },
+      "func4": {
+        "name": "設為鍵盤【左右方向鍵】",
+        "keys": {
+          "k1": "左鍵←",
+          "k2": "右鍵→",
+          "k3": "主頁",
+          "plus": "音量鍵+",
+          "minus": "音量鍵-"
+        }
+      },
+      "func5": {
+        "name": "設為鍵盤【Page Up/Down】",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "主頁",
+          "plus": "音量鍵+",
+          "minus": "音量鍵-"
+        }
+      },
+      "func6": {
+        "name": "設為【Win、安卓複製/粘貼】",
+        "keys": {
+          "k1": "複製",
+          "k2": "粘貼",
+          "k3": "主頁",
+          "plus": "音量鍵+",
+          "minus": "音量鍵-"
+        }
+      },
+      "func7": {
+        "name": "設為【Mac、iOS複製/粘貼】",
+        "keys": {
+          "k1": "複製",
+          "k2": "粘貼",
+          "k3": "主頁",
+          "plus": "音量鍵+",
+          "minus": "音量鍵-"
+        }
+      },
+      "func8": {
+        "name": "設為【手機拍攝】IOS系統需打開縮放功能",
+        "keys": {
+          "k1": "變焦+",
+          "k2": "變焦-",
+          "k3": "拍攝",
+          "plus": "切換鏡頭",
+          "minus": "切換鏡頭"
+        }
+      }
+    }
+  },
+  "custom": {
+    "header": {
+      "h1": "自定義",
+      "h5": "點擊藍色區域自定義功能"
+    },
+    "keyRecorderPlaceholder": "點擊選擇鍵位",
+    "content": {
+      "light": {
+        "h1": "燈光設置",
+        "close": "關閉",
+        "open": "開啟",
+        "colorMode": "顏色模式",
+        "luckyColor": "幸運色",
+        "rainbowColor": "彩虹色",
+        "customColor": "自定義顏色",
+        "brightness": "亮度",
+        "selectKey": "選擇按鍵",
+        "key1": "按鍵 1",
+        "key2": "按鍵 2",
+        "key3": "按鍵 3",
+        "save": "保存設置",
+        "notSupported": "當前設備不支持燈光設置",
+        "colorPicker": "顏色選擇器",
+        "hexExample": "請輸入不帶#號的HEX格式顏色數據",
+        "hexFormatError": "HEX格式錯誤，需為#FFFFFF格式"
+      },
+      "setting": {
+        "h1": "請先點擊要設置的按鍵",
+        "content": {
+          "p1": "自定義",
+          "p2": "號按鍵功能",
+          "span": "設備長按時會循環觸發單擊綁定的功能"
+        },
+        "button": {
+          "p1": "保存",
+          "p2": "號按鍵"
+        }
+      }
+    },
+    "newContent": {
+      "placeholder": "點擊鍵盤需要輸入鍵位即可",
+      "keyboard": "快捷鍵",
+      "quick": "設置為此快捷功能"
+    }
+  },
+  "keyboard": {
+    "title": "請選擇按鍵",
+    "mode": {
+      "keyboard": "鍵盤",
+      "phone": "手機"
+    },
+    "section": {
+      "navigation": "導航鍵",
+      "arrow": "方向鍵",
+      "mac": "Mac按鍵",
+      "phone": "手機觸屏功能"
+    },
+    "selectedLabel": "已選擇:",
+    "actions": {
+      "clear": "清除",
+      "confirm": "確認"
+    },
+    "tip": {
+      "keyboard": "提示：鍵盤功能適用於按鍵操作，支持組合鍵（如Ctrl+C），最多5個按鍵組合",
+      "phone": "提示：手機功能適用於觸屏操作（點讚、滑動等），只能選擇一個功能",
+      "ios": "IOS系統需要打開輔助觸控"
+    },
+    "warning": {
+      "phoneSingle": "手機模式只能選擇一個功能",
+      "maxKeys": "最多只能選擇5個按鍵組合"
+    },
+    "none": "無",
+    "media": {
+      "mute": "靜音",
+      "volumeDown": "音量－",
+      "volumeUp": "音量＋",
+      "previous": "上一首",
+      "pause": "暫停",
+      "next": "下一首"
+    },
+    "phone": {
+      "like": "點讚",
+      "lockScreen": "鎖屏",
+      "speed": "快進",
+      "slideLeft": "向左滑動",
+      "slideRight": "向右滑動",
+      "slideUp": "向上滑動",
+      "slideDown": "向下滑動",
+      "pause": "暫停",
+      "back": "返回",
+      "home": "主頁"
+    }
+  },
+  "script": {
+    "describe": "宏在保存後自動運行",
+    "startRecording": "點我開始錄製",
+    "stopRecording": "結束錄製",
+    "clear": "清空",
+    "delaySetting": "設置延時",
+    "recordDelay": "記錄延時",
+    "defaultDelay": "默認延時",
+    "fixedDelay": "固定延時",
+    "recordTip": "記錄錄製時候的時間，以錄入時間為記錄延時時間",
+    "defaultTip": "默認延時時間為30毫秒",
+    "milliseconds": "毫秒",
+    "tPlaceholder": "輸入時間",
+    "repeatSetting": "執行次數",
+    "repeatForever": "無限循環",
+    "repeatNumber": "重複指定次數",
+    "repeatPlaceholder": "輸入次數",
+    "macroSetting": "錄製宏",
+    "recordTipPressKey": "請按下您需要的鍵盤按鍵",
+    "recordTipClickStart": "請點擊開始錄製按鈕",
+    "tip1": "先點擊開始錄製.",
+    "tip2": "錄製完畢後點擊結束錄製",
+    "tip3": "保存到指定按鍵上",
+    "macroRecord": "宏記錄",
+    "saveToKey": "保存{keyNumber}號鍵",
+    "commandSizeExceeded": "命令大小 {size}KB 超過限制 {limit}KB，請減少錄製內容",
+    "noKeyEvents": "未檢測到按鍵操作，請重新錄製",
+    "macroCleared": "已清空錄製的宏",
+    "event": {
+      "keyDown": "{key} 鍵按下",
+      "keyUp": "{key} 鍵抬起",
+      "wait": "等待 {ms} 毫秒",
+      "unknown": "未知事件"
+    }
+  },
+  "scriptPhone": {
+    "tab1": "預設宏（手機類）",
+    "tab2": "錄製宏（鍵盤錄入）",
+    "describe": "預設宏針對手機豎屏短片/直播點讚/閱讀自動化設置輕鬆自動化",
+    "placeholder": "請選擇",
+    "opt1": "點讚",
+    "opt2": "向左滑動",
+    "opt3": "向右滑動",
+    "opt4": "向上滑動",
+    "opt5": "向下滑動",
+    "buttonName": "按鈕{index}",
+    "needSelectKey": "請至少選擇一個按鍵配置"
+  },
+  "more": {
+    "h1": "更多設置",
+    "languageLabel": "語言設置",
+    "languagePlaceholder": "請選擇語言",
+    "specificationLabel": "規格參數",
+    "specificationView": "查看規格參數",
+    "firmwareLabel": "固件升級",
+    "firmwareUpdate": "點我升級固件",
+    "firmwareDialogTitle": "固件升級",
+    "deviceFirmwareVersion": "設備固件版本",
+    "softwareVersion": "軟件版本",
+    "downloadFirmware": "下載固件",
+    "updateFirmware": "更新固件",
+    "macFirmwareHint": "Mac 版不提供固件下載與線上升級，請在 Windows 電腦上安裝翰林閱客戶端並連接設備後操作。"
+  },
+  "macSupport": {
+    "title": "Mac 版韌體升級說明",
+    "hint": "Mac 版暫不支援韌體下載與線上升級。請在 Windows 電腦上安裝翰林閱用戶端，將裝置連接電腦後即可完成韌體升級。",
+    "wechatTip": "中國大陸使用者：請掃描下方 QR Code 加入企業微信客服，取得升級與技術支援。",
+    "noWechatTip": "若您沒有微信，可寄送電子郵件至 {email} 聯絡官方客服取得升級技術支援。",
+    "qrcodeAlt": "企業微信客服 QR Code",
+    "email": "hly{'@'}hanlinyue.com.cn"
+  },
+  "specification": {
+    "kobo": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=8",
+    "link": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=12"
+  },
+  "about": {
+    "deviceInfo": {
+      "h2": "設備信息",
+      "deviceName": "設備名稱",
+      "deviceNameValue": "翻頁器",
+      "model": "型號名稱",
+      "bluetoothVersion": "藍牙版本",
+      "transmitPower": "發射功率",
+      "frequency": "頻率(Hz)",
+      "communicationDistance": "通訊距離",
+      "bluetoothAddress": "藍牙地址",
+      "batteryCapacity": "電池容量",
+      "remainingBattery": "剩餘電量",
+      "execStandard": "執行標準",
+      "cmiitID": "CMIIT ID",
+      "manufacturer": "製造商",
+      "origin": "產地",
+      "E1Pro": {
+        "deviceName": "翻頁器",
+        "model": "E1 Pro",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "約5米",
+        "bluetoothAddress": "81-0D-E0-E3-7E-CE",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "24J44M8R0001",
+        "manufacturer": "翰林閱（深圳）科技有限公司",
+        "origin": "中國深圳"
+      },
+      "Free2": {
+        "deviceName": "翻頁器",
+        "model": "Free2",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "約10米",
+        "bluetoothAddress": "",
+        "batteryCapacity": "矮軸版130mAh/3.7v; 高軸版230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "翰林閱（深圳）科技有限公司",
+        "origin": "中國深圳"
+      },
+      "Free2_2026": {
+        "deviceName": "翻頁器",
+        "model": "Free2 2026",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "約10米",
+        "bluetoothAddress": "",
+        "batteryCapacity": "矮軸版130mAh/3.7v; 高軸版230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "翰林閱（深圳）科技有限公司",
+        "origin": "中國深圳"
+      },
+      "Free3": {
+        "deviceName": "翻頁器",
+        "model": "Free3",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "約10米",
+        "bluetoothAddress": "",
+        "batteryCapacity": "380mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T 26572-2011",
+        "cmiitID": "",
+        "manufacturer": "翰林閱（深圳）科技有限公司",
+        "origin": "中國深圳"
+      },
+      "E3Control": {
+        "deviceName": "翻頁器",
+        "model": "E3 Control",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "約10米",
+        "bluetoothAddress": "",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T26572-2011",
+        "cmiitID": "",
+        "manufacturer": "翰林閱（深圳）科技有限公司",
+        "origin": "中國深圳"
+      }
+    }
+  },
+  "stateMark": {
+    "usb": {
+      "state": {
+        "finding": "正在檢測,請通過Type-C連接",
+        "ready": "已通過Type-C連接",
+        "disconnect": "設備數據線連接已斷開"
+      },
+      "p1": "使用Type-C數據線將E1 Pro和電腦USB連接即可",
+      "li1": "USB連接僅能用於對遙控器設置功能, 不支持使用",
+      "li2": "功能設置完畢後請移除USB數據線連接, 參考藍牙連接教程配對目標設備使用",
+      "li3": "<span style=\"color: red\">使用功能需斷開數據線後使用藍牙模式連接使用</span>",
+      "title": "連接設備後無法進入程序，請按照一下方式解決",
+      "text1": "更換電腦 USB 接口，如是 PC 電腦請更換後置 USB 接口並插緊",
+      "text2": "更換手機數據線並重試",
+      "text2_1": "請重新拔插TypeC嘗試",
+      "text3": "技術支持請加QQ群："
+    }
+  },
+  "app": {
+    "unsupported": {
+      "title": "您插入了翰林閱的產品，但當前版本不支持此硬件設置，請更新本軟件",
+      "tip": "如因固件版本導致，請按下面功能操作",
+      "downloadFirmware": "固件下載",
+      "updateFirmware": "更新固件",
+      "macFirmwareHint": "您使用的是 Mac 版客戶端：固件下載與升級需在 Windows 版翰林閱中操作，請將設備連接至 Windows 電腦後安裝並使用官方 Windows 客戶端。"
+    },
+    "firmware": {
+      "updateDone": "固件更新完畢",
+      "bluetoothWarning": "藍牙模式無法更新固件, 請切換USB後再試",
+      "sameWarning": "當前固件與最新雲端固件版本相同,跳過本次更新",
+      "updating": "固件更新中, 請耐心等待",
+      "tip": "升級過程中請勿拔掉數據線或關閉軟件,預計五分鐘內更新完畢",
+      "childProcessDone": "一個子任務執行完畢",
+      "SHA512Mismatch": "固件文件HASH不匹配,請重試或聯繫客服",
+      "firmwareDownloaded": "雲端固件下載完畢",
+      "notSupportedOnMac": "Mac 版不支援固件下載與升級。請將翻頁器以資料線連接至 Windows 電腦，於 Windows 版翰林閱客戶端中完成下載或升級。"
+    }
+  }
+}

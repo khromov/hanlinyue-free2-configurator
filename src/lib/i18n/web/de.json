@@ -1,0 +1,138 @@
+{
+  "app": {
+    "tagline": "Konfigurator für Seitenumblätterer",
+    "disclaimer": "Inoffizielles Open-Source-Projekt. Nicht mit Hanlinyue verbunden. Einstellungen werden nur in diesem Browser gespeichert."
+  },
+  "nav": {
+    "label": "Hauptnavigation",
+    "presets": "Presets",
+    "custom": "Anpassen",
+    "scripts": "Makros",
+    "light": "Licht",
+    "more": "Mehr"
+  },
+  "status": {
+    "usb": "USB",
+    "ble": "Bluetooth",
+    "disconnect": "Trennen",
+    "demo": "Demo"
+  },
+  "saving": "Wird gespeichert…",
+  "savedShort": "Gespeichert",
+  "errors": {
+    "sendFailed": "Senden an das Gerät fehlgeschlagen: {message}"
+  },
+  "afterSave": {
+    "body": "Ziehen Sie das USB-C-Kabel ab, wenn Sie fertig sind. Der Seitenumblätterer wechselt dann in den Kopplungsmodus (die Anzeigeleuchte pulsiert), sodass Sie ihn per Bluetooth mit Ihrem E-Reader, Smartphone oder Computer koppeln können."
+  },
+  "connect": {
+    "eyebrow": "Hanlinyue Free2 · Free3 · E1 Pro · E3 Control",
+    "title": "Seitenumblätterer verbinden",
+    "subtitle": "Tasten neu belegen, Makros aufzeichnen und die Beleuchtung einstellen – direkt im Browser, ohne Installation.",
+    "usb": "Über USB verbinden",
+    "ble": "Bluetooth (Beta)",
+    "connecting": "Verbindung wird hergestellt…",
+    "reading": "Geräteinformationen werden gelesen…",
+    "step1": "Schließen Sie den Seitenumblätterer mit einem USB-C-Kabel an diesen Computer an.",
+    "step2": "Klicken Sie auf „Über USB verbinden“ und wählen Sie das Gerät in der Liste des Browsers aus. Es wird möglicherweise als „USB Composite Device“ angezeigt.",
+    "step3": "Ändern Sie die Einstellungen und speichern Sie. Ziehen Sie danach das Kabel ab, um das Gerät über Bluetooth zu verwenden.",
+    "unsupportedTitle": "Dieser Browser kann nicht mit USB-Geräten kommunizieren",
+    "unsupportedBody": "Öffnen Sie diese Seite in Chrome, Edge oder Opera auf einem Desktop-Computer. Safari, Firefox und mobile Browser unterstützen Web Serial nicht.",
+    "noSerial": "USB erfordert Chrome, Edge oder Opera auf einem Desktop-Computer.",
+    "failed": "Verbindung fehlgeschlagen: {message}",
+    "busy": "Das Gerät ist belegt. Schließen Sie die offizielle Hanlinyue-App und alle anderen Tabs, die es verwenden, und versuchen Sie es erneut.",
+    "closeOfficial": "Schließen Sie die offizielle Hanlinyue-App und andere Browser-Tabs, die das Gerät verwenden könnten.",
+    "linuxHint": "Stellen Sie unter Linux sicher, dass Ihr Benutzer serielle Schnittstellen öffnen darf (z. B. indem Sie ihn zur Gruppe dialout hinzufügen), und verbinden Sie dann erneut.",
+    "bleNote": "Die Konfiguration über Bluetooth ist experimentell und funktioniert möglicherweise nicht mit jedem Modell oder jeder Firmware-Version. USB wird empfohlen.",
+    "demo": "Kein Gerät zur Hand? Demo ausprobieren →"
+  },
+  "unsupported": {
+    "title": "Dieses Modell wird noch nicht unterstützt",
+    "body": "Das verbundene Gerät meldet sich als „{model}“, das dieser Konfigurator noch nicht kennt. Bitte eröffnen Sie ein Issue mit diesem Modellnamen, damit die Unterstützung ergänzt werden kann.",
+    "report": "Auf GitHub melden"
+  },
+  "presets": {
+    "subtitle": "Wählen Sie eine fertige Tastenbelegung und speichern Sie sie auf dem Gerät.",
+    "pick": "Preset wählen",
+    "lastSaved": "Zuletzt gespeichert"
+  },
+  "slot": {
+    "plus": "Seite +",
+    "minus": "Seite −",
+    "switch": "Sonstige"
+  },
+  "shift": {
+    "label": "Schiebeschalter",
+    "hint": "Einstellungen werden für die gewählte Schalterstellung gespeichert."
+  },
+  "layer": {
+    "title": "Auslöser",
+    "click": "Klick",
+    "doubleclick": "Doppelklick",
+    "longpress": "Langer Druck"
+  },
+  "custom": {
+    "subtitle": "Klicken Sie auf eine Taste am Gerät, um festzulegen, welche Tasten oder welche Smartphone-Aktion sie sendet.",
+    "buttons": "Tasten",
+    "choose": "Wählen",
+    "change": "Ändern",
+    "clear": "Entfernen",
+    "notSet": "Nicht belegt",
+    "nothingToSave": "Wählen Sie zuerst für mindestens eine Taste eine Aktion.",
+    "profiles": "Schnellprofile",
+    "profile": "Profil {n}",
+    "profilesHint": "Bis zu drei Belegungen lassen sich in diesem Browser speichern. Wählen Sie ein Profil, um es zu laden; ist beim Speichern ein Profil ausgewählt, wird die Belegung auch darin abgelegt.",
+    "saveProfile": "Auf Gerät & Profil {n} speichern"
+  },
+  "picker": {
+    "title": "Taste {n}",
+    "listen": "Tasten eingeben",
+    "listening": "Warte auf Eingabe…",
+    "remove": "Entfernen"
+  },
+  "scripts": {
+    "phoneTab": "Smartphone-Aktionen",
+    "keyboardTab": "Tastaturmakro",
+    "phoneTitle": "Smartphone-Aktionen",
+    "keyboardTitle": "Tastaturmakro",
+    "actionPerButton": "Aktion pro Taste",
+    "noAction": "Keine Aktion",
+    "record": "Aufnehmen",
+    "recordHint": "Klicken Sie auf „Aufnehmen“ und tippen Sie dann die Tastenfolge ein, die die Taste wiedergeben soll.",
+    "saveTarget": "Hier speichern",
+    "saveTo": "Auf Taste {n} speichern"
+  },
+  "light": {
+    "subtitle": "Wählen Sie eine Taste und legen Sie fest, wie ihr Licht leuchtet.",
+    "power": "Licht",
+    "on": "An",
+    "off": "Aus",
+    "saveKey": "Taste {n} speichern",
+    "modeHint": {
+      "lucky": "Wechselt zufällig zwischen Farben.",
+      "rainbow": "Läuft sanft durch das Farbspektrum.",
+      "custom": "Eine feste Farbe und Helligkeit Ihrer Wahl."
+    }
+  },
+  "more": {
+    "reportedModel": "Gemeldetes Modell",
+    "refresh": "Aktualisieren",
+    "firmwareNote": "Firmware-Updates laufen über das eigene Windows-Tool von Hanlinyue, das nicht im Browser funktioniert. Aktualisieren Sie auf einem Windows-PC mit dem offiziellen Client oder wenden Sie sich an den Support.",
+    "preferences": "Einstellungen",
+    "appearance": "Erscheinungsbild",
+    "theme": {
+      "system": "System",
+      "light": "Hell",
+      "dark": "Dunkel"
+    },
+    "manual": "Handbuch",
+    "log": "Entwicklerprotokoll",
+    "logHint": "Rohbefehle, die mit dem Gerät ausgetauscht wurden. Hilfreich, wenn Sie ein Problem melden.",
+    "show": "Anzeigen",
+    "hide": "Ausblenden",
+    "copyLog": "Kopieren",
+    "clearLog": "Leeren",
+    "about": "Dieser Open-Source-Konfigurator kommuniziert direkt aus dem Browser mit Ihrem Seitenumblätterer und nutzt dasselbe Protokoll wie die offizielle Hanlinyue-App. Ihre Einstellungen werden nur in diesem Browser gespeichert.",
+    "source": "Quellcode auf GitHub"
+  }
+}

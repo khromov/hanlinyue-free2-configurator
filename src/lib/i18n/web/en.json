@@ -1,0 +1,138 @@
+{
+  "app": {
+    "tagline": "Page turner configurator",
+    "disclaimer": "Unofficial open-source project. Not affiliated with Hanlinyue. Settings are stored only in this browser."
+  },
+  "nav": {
+    "label": "Main navigation",
+    "presets": "Presets",
+    "custom": "Custom",
+    "scripts": "Macros",
+    "light": "Light",
+    "more": "More"
+  },
+  "status": {
+    "usb": "USB",
+    "ble": "Bluetooth",
+    "disconnect": "Disconnect",
+    "demo": "Demo"
+  },
+  "saving": "Saving…",
+  "savedShort": "Saved",
+  "errors": {
+    "sendFailed": "Couldn't send to the device: {message}"
+  },
+  "afterSave": {
+    "body": "Unplug the USB-C cable when you're done. The page turner then enters pairing mode (the indicator light breathes), so you can pair it over Bluetooth with your reader, phone or computer."
+  },
+  "connect": {
+    "eyebrow": "Hanlinyue Free2 · Free3 · E1 Pro · E3 Control",
+    "title": "Connect your page turner",
+    "subtitle": "Remap buttons, record macros and set the lights right in your browser. Nothing to install.",
+    "usb": "Connect via USB",
+    "ble": "Bluetooth (beta)",
+    "connecting": "Connecting…",
+    "reading": "Reading device info…",
+    "step1": "Plug the page turner into this computer with a USB-C cable.",
+    "step2": "Click “Connect via USB” and choose the device in the browser's list. It may be listed as “USB Composite Device”.",
+    "step3": "Change settings and save. Unplug the cable afterwards to use it over Bluetooth.",
+    "unsupportedTitle": "This browser can't talk to USB devices",
+    "unsupportedBody": "Open this page in Chrome, Edge or Opera on a desktop computer. Safari, Firefox and mobile browsers don't support Web Serial.",
+    "noSerial": "USB needs Chrome, Edge or Opera on a desktop computer.",
+    "failed": "Couldn't connect: {message}",
+    "busy": "The device is busy. Close the official Hanlinyue app and any other tab using it, then try again.",
+    "closeOfficial": "Close the official Hanlinyue app and other browser tabs that might be using the device.",
+    "linuxHint": "On Linux, make sure your user can open serial ports (for example, add it to the dialout group), then reconnect.",
+    "bleNote": "Bluetooth configuration is experimental and may not work with every model or firmware version. USB is recommended.",
+    "demo": "No device at hand? Try the demo →"
+  },
+  "unsupported": {
+    "title": "This model isn't supported yet",
+    "body": "The connected device reports itself as “{model}”, which this configurator doesn't know yet. Please open an issue with that model name so support can be added.",
+    "report": "Report on GitHub"
+  },
+  "presets": {
+    "subtitle": "Pick a ready-made layout for the buttons, then save it to the device.",
+    "pick": "Choose a preset",
+    "lastSaved": "Last saved"
+  },
+  "slot": {
+    "plus": "Side +",
+    "minus": "Side −",
+    "switch": "Other"
+  },
+  "shift": {
+    "label": "Slide switch",
+    "hint": "Settings are saved to the selected switch position."
+  },
+  "layer": {
+    "title": "Trigger",
+    "click": "Click",
+    "doubleclick": "Double-click",
+    "longpress": "Long press"
+  },
+  "custom": {
+    "subtitle": "Click a button on the device to choose which keys or phone action it sends.",
+    "buttons": "Buttons",
+    "choose": "Choose",
+    "change": "Change",
+    "clear": "Clear",
+    "notSet": "Not set",
+    "nothingToSave": "Choose an action for at least one button first.",
+    "profiles": "Quick profiles",
+    "profile": "Profile {n}",
+    "profilesHint": "Keep up to three layouts in this browser. Pick a profile to load it; saving while a profile is selected also stores the layout in it.",
+    "saveProfile": "Save to device & profile {n}"
+  },
+  "picker": {
+    "title": "Button {n}",
+    "listen": "Type keys",
+    "listening": "Listening…",
+    "remove": "Remove"
+  },
+  "scripts": {
+    "phoneTab": "Phone actions",
+    "keyboardTab": "Keyboard macro",
+    "phoneTitle": "Phone actions",
+    "keyboardTitle": "Keyboard macro",
+    "actionPerButton": "Action per button",
+    "noAction": "No action",
+    "record": "Record",
+    "recordHint": "Press Record, then type the keys you want the button to play back.",
+    "saveTarget": "Save here",
+    "saveTo": "Save to button {n}"
+  },
+  "light": {
+    "subtitle": "Choose a button, then pick how its light behaves.",
+    "power": "Light",
+    "on": "On",
+    "off": "Off",
+    "saveKey": "Save button {n}",
+    "modeHint": {
+      "lucky": "Cycles through random colors.",
+      "rainbow": "Fades smoothly through the color spectrum.",
+      "custom": "A fixed color and brightness of your choice."
+    }
+  },
+  "more": {
+    "reportedModel": "Reported model",
+    "refresh": "Refresh",
+    "firmwareNote": "Firmware updates use Hanlinyue's own Windows tool, which can't run in a browser. Use a Windows PC with the official client to update, or contact support.",
+    "preferences": "Preferences",
+    "appearance": "Appearance",
+    "theme": {
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "manual": "User manual",
+    "log": "Developer log",
+    "logHint": "Raw commands exchanged with the device. Useful when reporting a problem.",
+    "show": "Show",
+    "hide": "Hide",
+    "copyLog": "Copy",
+    "clearLog": "Clear",
+    "about": "This open-source configurator talks to your page turner directly from the browser using the same protocol as the official Hanlinyue app. Your settings are remembered only in this browser.",
+    "source": "Source code on GitHub"
+  }
+}

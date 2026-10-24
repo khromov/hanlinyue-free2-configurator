@@ -1,0 +1,570 @@
+{
+  "name": "日本語",
+  "sidebar": {
+    "/": "ホーム",
+    "function": "プリセット機能",
+    "general": "一般設定",
+    "custom": "カスタム",
+    "script": "スクリプト（マクロ）",
+    "more": "その他",
+    "specification": "取扱説明書",
+    "light": "ライト",
+    "about": "について",
+    "device": {
+      "connectEq": "デバイスを接続",
+      "connectType": "接続方式",
+      "title": "接続済み",
+      "power": "デバイスバッテリー",
+      "mac": "SN",
+      "firmware": "ファームウェアバージョン"
+    }
+  },
+  "common": {
+    "tip": "親切なリマインダー",
+    "customFunctionTip": "カスタム内容保存後はカスタム機能のみ対応（従来のファームウェア機能とは併用されません）。",
+    "customFunctionTip2": "デフォルト復元：電源オン時に電源キーを30秒長押し。",
+    "bluetooth": "Bluetoothモード",
+    "usb": "USB",
+    "more": "もっと見る",
+    "cancel": "キャンセル",
+    "save": "設定を保存",
+    "saved": "設定が保存されました",
+    "saveFailed": "保存に失敗しました",
+    "iUnderstand": "了解しました",
+    "iSure": "確認しました",
+    "alertDiscount": "<div style=\"color: grey\">1.下の「了解しました」をクリック<br>2.右上の「×」をクリックしてソフトウェアを閉じる<br>3.Type-Cケーブル接続を切断<br>4.リモコンは自動的に「ペアリングモード（インジケーターが呼吸フラッシュ）」に入り、他のデバイスのBluetoothに接続して使用できます</div>",
+    "alertDiscountTitle": "🎉おめでとうございます！機能設定が完了しました。あと1ステップで使用できます！",
+    "haveQuestion": "ファームウェア更新が正常に完了しなかったため、デバイスが使用できません。Type-CケーブルでリモコンをコンピュータのUSBに接続し、しっかり差し込んでください。下のボタンをクリックしてデバイスを修復してください",
+    "help": "トラブルシューティング",
+    "fixAndReset": "デバイスを修復、ファームウェアを更新、工場出荷時の設定に復元",
+    "fixAndReseting": "工場出荷時の設定に復元中です。ソフトウェア接続が成功するまでお待ちください",
+    "alertDouble": "二重確認",
+    "alertContact": "再度確認してください！工場出荷時の設定に復元中はUSBを外さないでください"
+  },
+  "layer": {
+    "click": "クリック層",
+    "doubleclick": "ダブルクリック層",
+    "longpress": "長押し層",
+    "clickDesc": "クリックでトリガー",
+    "doubleclickDesc": "ダブルクリックでトリガー",
+    "longpressDesc": "長押しでトリガー",
+    "clickTooltip": "クリック層: 第1層 | デバイスボタンをクリックしてこの層の機能をトリガー",
+    "doubleclickTooltip": "ダブルクリック層: 第2層 | デバイスボタンをダブルクリックしてこの層の機能をトリガー",
+    "longpressTooltip": "長押し層: 第3層 | デバイスボタンを長押ししてこの層の機能をトリガー"
+  },
+  "function": {
+    "title": "プリセット機能",
+    "saveBtn": "設定を保存",
+    "free2": {
+      "description": "Free2 デュアルキーページターナー、軽量で使いやすい",
+      "func1": {
+        "name": "Android E-ブック",
+        "keys": {
+          "k1": "前のページ",
+          "k2": "次のページ"
+        }
+      },
+      "func2": {
+        "name": "キーボード ←→",
+        "keys": {
+          "k1": "左キー←",
+          "k2": "右キー→"
+        }
+      },
+      "func3": {
+        "name": "Page Up/Down",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down"
+        }
+      },
+      "func4": {
+        "name": "コピー/貼り付け",
+        "keys": {
+          "k1": "コピー",
+          "k2": "貼り付け"
+        }
+      },
+      "func5": {
+        "name": "動画 (iOS)",
+        "keys": {
+          "k1": "前の動画",
+          "k2": "次の動画"
+        }
+      },
+      "func6": {
+        "name": "音楽",
+        "keys": {
+          "k1": "前の曲",
+          "k2": "次の曲"
+        }
+      },
+      "func7": {
+        "name": "キーボード ↑↓",
+        "keys": {
+          "k1": "上キー↑",
+          "k2": "下キー↓"
+        }
+      },
+      "func8": {
+        "name": "カメラ (iOS)",
+        "keys": {
+          "k1": "クリック: ズーム+ 長押し: ズーム- ",
+          "k2": "撮影",
+          "switch": "カメラ切り替え"
+        }
+      }
+    },
+    "free3": {
+      "description": "Free3 トリプルキーページターナー、複数のプリセット機能をサポート",
+      "func1": {
+        "name": "Android E-ブック",
+        "keys": {
+          "k1": "前のページ",
+          "k2": "次のページ",
+          "k3": "長押し：ロック画面"
+        }
+      },
+      "func2": {
+        "name": "キーボード ←→",
+        "keys": {
+          "k1": "キーボード左キー",
+          "k2": "キーボード右キー",
+          "k3": "長押し：ロック画面"
+        }
+      },
+      "func3": {
+        "name": "Page Up/Down",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "長押し：ロック画面"
+        }
+      },
+      "func4": {
+        "name": "コピー/貼り付け/切り取り",
+        "keys": {
+          "k1": "コピー",
+          "k2": "貼り付け",
+          "k3": "切り取り"
+        }
+      },
+      "func5": {
+        "name": "キーボード ↑↓",
+        "keys": {
+          "k1": "キーボード上キー",
+          "k2": "キーボード下キー",
+          "k3": "長押し：ロック画面"
+        }
+      },
+      "func6": {
+        "name": "動画 (iOS)",
+        "keys": {
+          "k1": "下にスワイプ",
+          "k2": "上にスワイプ",
+          "k3": "クリック：一時停止\nダブルクリック：いいね\n長押し：ロック画面"
+        }
+      },
+      "func7": {
+        "name": "音楽",
+        "keys": {
+          "k1": "前の曲",
+          "k2": "次の曲",
+          "k3": "クリック：一時停止\n長押し：ロック画面"
+        }
+      },
+      "func8": {
+        "name": "カメラ (iOS)",
+        "keys": {
+          "k1": "ズーム+",
+          "k2": "ズーム-",
+          "k3": "撮影",
+          "switch": "カメラ切り替え"
+        }
+      }
+    },
+    "e1pro": {
+      "description": "E1 Pro トリプルキーページターナー、複数のプリセット機能をサポート",
+      "func1": {
+        "name": "Android E-ブック",
+        "keys": {
+          "k1": "前のページ",
+          "k2": "次のページ",
+          "k3": "ホーム",
+          "plus": "音量キー+",
+          "minus": "音量キー-"
+        }
+      },
+      "func2": {
+        "name": "Kobo",
+        "keys": {
+          "k1": "前のページ",
+          "k2": "次のページ",
+          "k3": "ホーム",
+          "plus": "音量キー+",
+          "minus": "音量キー-"
+        }
+      },
+      "func3": {
+        "name": "キーボード ↑↓",
+        "keys": {
+          "k1": "上キー↑",
+          "k2": "下キー↓",
+          "k3": "ホーム",
+          "plus": "音量キー+",
+          "minus": "音量キー-"
+        }
+      },
+      "func4": {
+        "name": "キーボード ←→",
+        "keys": {
+          "k1": "左キー←",
+          "k2": "右キー→",
+          "k3": "ホーム",
+          "plus": "音量キー+",
+          "minus": "音量キー-"
+        }
+      },
+      "func5": {
+        "name": "Page Up/Down",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "ホーム",
+          "plus": "音量キー+",
+          "minus": "音量キー-"
+        }
+      },
+      "func6": {
+        "name": "Win/Android",
+        "keys": {
+          "k1": "コピー",
+          "k2": "貼り付け",
+          "k3": "ホーム",
+          "plus": "音量キー+",
+          "minus": "音量キー-"
+        }
+      },
+      "func7": {
+        "name": "Mac/iOS",
+        "keys": {
+          "k1": "コピー",
+          "k2": "貼り付け",
+          "k3": "ホーム",
+          "plus": "音量キー+",
+          "minus": "音量キー-"
+        }
+      },
+      "func8": {
+        "name": "カメラ (iOS)",
+        "keys": {
+          "k1": "ズーム+",
+          "k2": "ズーム-",
+          "k3": "撮影",
+          "plus": "カメラ切り替え",
+          "minus": "カメラ切り替え"
+        }
+      }
+    }
+  },
+  "custom": {
+    "header": {
+      "h1": "カスタム",
+      "h5": "青いエリアをクリックして機能をカスタマイズ"
+    },
+    "keyRecorderPlaceholder": "Click to choose key",
+    "content": {
+      "light": {
+        "h1": "ライト設定",
+        "close": "オフ",
+        "open": "オン",
+        "colorMode": "カラーモード",
+        "luckyColor": "ラッキーカラー",
+        "rainbowColor": "レインボーカラー",
+        "customColor": "カスタムカラー",
+        "brightness": "明るさ",
+        "selectKey": "キーを選択",
+        "key1": "キー 1",
+        "key2": "キー 2",
+        "key3": "キー 3",
+        "save": "設定を保存",
+        "notSupported": "現在のデバイスはライト設定をサポートしていません",
+        "colorPicker": "カラーピッカー",
+        "hexExample": "#記号なしのHEX形式の色データを入力してください",
+        "hexFormatError": "Invalid HEX format, should be #FFFFFF"
+      },
+      "setting": {
+        "h1": "まず設定したいボタンをクリックしてください",
+        "content": {
+          "p1": "カスタム",
+          "p2": "番号ボタン機能",
+          "span": "デバイスを長押しすると、シングルクリックでバインドされた機能が循環的にトリガーされます"
+        },
+        "button": {
+          "p1": "保存",
+          "p2": "番号ボタン"
+        }
+      }
+    },
+    "newContent": {
+      "placeholder": "キーボードをクリックしてキー位置を入力",
+      "keyboard": "ショートカットキー",
+      "quick": "このショートカット機能に設定"
+    }
+  },
+  "keyboard": {
+    "title": "Select keys",
+    "mode": {
+      "keyboard": "Keyboard",
+      "phone": "Phone"
+    },
+    "section": {
+      "navigation": "Navigation keys",
+      "arrow": "Arrow keys",
+      "mac": "Mac keys",
+      "phone": "Phone touch actions"
+    },
+    "selectedLabel": "Selected:",
+    "actions": {
+      "clear": "Clear",
+      "confirm": "Confirm"
+    },
+    "tip": {
+      "keyboard": "Tip: Keyboard mode supports key operations and combo keys (e.g. Ctrl+C), up to 5 keys.",
+      "phone": "Tip: Phone mode is for touch actions (like, swipe, etc.), only one action can be selected.",
+      "ios": "iOS requires AssistiveTouch enabled"
+    },
+    "warning": {
+      "phoneSingle": "Phone mode only allows one action",
+      "maxKeys": "You can select up to 5 keys"
+    },
+    "none": "None",
+    "media": {
+      "mute": "Mute",
+      "volumeDown": "Volume -",
+      "volumeUp": "Volume +",
+      "previous": "Previous",
+      "pause": "Pause",
+      "next": "Next"
+    },
+    "phone": {
+      "like": "Like",
+      "lockScreen": "Lock screen",
+      "speed": "Speed",
+      "slideLeft": "Swipe left",
+      "slideRight": "Swipe right",
+      "slideUp": "Swipe up",
+      "slideDown": "Swipe down",
+      "pause": "Pause",
+      "back": "Back",
+      "home": "Home"
+    }
+  },
+  "script": {
+    "describe": "マクロは保存後に自動実行されます",
+    "startRecording": "Click to start recording",
+    "stopRecording": "Stop recording",
+    "clear": "Clear",
+    "delaySetting": "遅延設定",
+    "recordDelay": "遅延を記録",
+    "defaultDelay": "デフォルトの遅延",
+    "fixedDelay": "固定遅延",
+    "recordTip": "記録時の時間を記録し、記録時間を遅延時間として使用",
+    "defaultTip": "デフォルトの遅延時間は30ミリ秒です",
+    "milliseconds": "ミリ秒",
+    "tPlaceholder": "時間を入力",
+    "repeatSetting": "実行回数",
+    "repeatForever": "無限ループ",
+    "repeatNumber": "N回繰り返す",
+    "repeatPlaceholder": "回数を入力",
+    "macroSetting": "マクロを記録",
+    "recordTipPressKey": "Press the keys you want to record",
+    "recordTipClickStart": "Click the start recording button",
+    "tip1": "まず記録開始をクリックしてください。",
+    "tip2": "記録完了後、記録終了をクリックしてください",
+    "tip3": "指定のボタンに保存",
+    "macroRecord": "マクロ記録",
+    "saveToKey": "キー{keyNumber}",
+    "commandSizeExceeded": "Command size {size}KB exceeds limit {limit}KB, please reduce recording",
+    "noKeyEvents": "No key actions detected, please record again",
+    "macroCleared": "Recorded macro cleared",
+    "event": {
+      "keyDown": "{key} key down",
+      "keyUp": "{key} key up",
+      "wait": "Wait {ms} ms",
+      "unknown": "Unknown event"
+    }
+  },
+  "scriptPhone": {
+    "tab1": "プリセット(電話)",
+    "tab2": "記録(キーボード)",
+    "describe": "携帯電話縦画面ショート動画/ライブストリーミングいいね/読書自動化設定のプリセットマクロ",
+    "placeholder": "選択してください",
+    "opt1": "いいね",
+    "opt2": "左にスワイプ",
+    "opt3": "右にスワイプ",
+    "opt4": "上にスワイプ",
+    "opt5": "下にスワイプ",
+    "buttonName": "Button {index}",
+    "needSelectKey": "Please select at least one key configuration"
+  },
+  "more": {
+    "h1": "その他の設定",
+    "languageLabel": "Language",
+    "languagePlaceholder": "Please select language",
+    "specificationLabel": "Specifications",
+    "specificationView": "View specifications",
+    "firmwareLabel": "Firmware Upgrade",
+    "firmwareUpdate": "Upgrade firmware",
+    "firmwareDialogTitle": "Firmware Upgrade",
+    "deviceFirmwareVersion": "Device firmware version",
+    "softwareVersion": "Software version",
+    "downloadFirmware": "Download firmware",
+    "updateFirmware": "Update firmware",
+    "macFirmwareHint": "Firmware download and online upgrade are not offered on Mac. Install the Hanlinyue Windows client on a PC and connect your device there."
+  },
+  "macSupport": {
+    "title": "Mac 版ファームウェア更新について",
+    "hint": "Mac 版アプリではファームウェアのダウンロードとオンライン更新にまだ対応していません。Windows パソコンに Hanlinyue クライアントをインストールし、デバイスを接続してファームウェアの更新を行ってください。",
+    "wechatTip": "中国本土のユーザー様：下の QR コードをスキャンして企業向け WeChat（WeCom）カスタマーサポートを追加し、更新および技術サポートを受けてください。",
+    "noWechatTip": "WeChat をご利用でない場合は、{email} までメールでお問い合わせいただき、更新および技術サポートをお受けください。",
+    "qrcodeAlt": "WeCom カスタマーサポートの QR コード",
+    "email": "hly{'@'}hanlinyue.com.cn"
+  },
+  "specification": {
+    "kobo": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=8",
+    "link": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=12"
+  },
+  "about": {
+    "deviceInfo": {
+      "h2": "デバイス情報",
+      "deviceName": "デバイス名",
+      "deviceNameValue": "ページターナー",
+      "model": "モデル名",
+      "bluetoothVersion": "Bluetoothバージョン",
+      "transmitPower": "送信出力",
+      "frequency": "周波数(Hz)",
+      "communicationDistance": "通信距離",
+      "bluetoothAddress": "Bluetoothアドレス",
+      "batteryCapacity": "バッテリー容量",
+      "remainingBattery": "残量",
+      "execStandard": "実行標準",
+      "cmiitID": "CMIIT ID",
+      "manufacturer": "製造者",
+      "origin": "産地",
+      "E1Pro": {
+        "deviceName": "ページターナー",
+        "model": "E1 Pro",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "約5メートル",
+        "bluetoothAddress": "81-0D-E0-E3-7E-CE",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "24J44M8R0001",
+        "manufacturer": "翰林阅（深圳）科技有限公司",
+        "origin": "中国深圳"
+      },
+      "Free2": {
+        "deviceName": "ページターナー",
+        "model": "Free2",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "約10メートル",
+        "bluetoothAddress": "",
+        "batteryCapacity": "低プロファイル版130mAh/3.7v; 高プロファイル版230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "翰林阅（深圳）科技有限公司",
+        "origin": "中国深圳"
+      },
+      "Free2_2026": {
+        "deviceName": "ページターナー",
+        "model": "Free2 2026",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "約10メートル",
+        "bluetoothAddress": "",
+        "batteryCapacity": "低プロファイル版130mAh/3.7v; 高プロファイル版230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "翰林阅（深圳）科技有限公司",
+        "origin": "中国深圳"
+      },
+      "Free3": {
+        "deviceName": "ページターナー",
+        "model": "Free3",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "約10メートル",
+        "bluetoothAddress": "",
+        "batteryCapacity": "380mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T 26572-2011",
+        "cmiitID": "",
+        "manufacturer": "翰林阅（深圳）科技有限公司",
+        "origin": "中国深圳"
+      },
+      "E3Control": {
+        "deviceName": "ページターナー",
+        "model": "E3 Control",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "約10メートル",
+        "bluetoothAddress": "",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T26572-2011",
+        "cmiitID": "",
+        "manufacturer": "翰林阅（深圳）科技有限公司",
+        "origin": "中国深圳"
+      }
+    }
+  },
+  "stateMark": {
+    "usb": {
+      "state": {
+        "finding": "検出中、Type-Cで接続してください",
+        "ready": "Type-Cで接続済み",
+        "disconnect": "デバイスケーブル接続が切断されました"
+      },
+      "p1": "Type-CケーブルでE1 ProとコンピュータのUSBを接続してください",
+      "li1": "USB接続はリモコンの設定機能のみに使用でき、使用には対応していません",
+      "li2": "機能設定完了後、USBケーブル接続を外し、Bluetooth接続チュートリアルを参照してターゲットデバイスとペアリングして使用してください",
+      "li3": "<span style=\"color: red\">機能を使用するには、ケーブルを切断してBluetoothモードで接続して使用してください</span>",
+      "title": "デバイス接続後プログラムに入れない場合、以下の方法で解決してください",
+      "text1": "コンピュータのUSBポートを変更してください。PCの場合は背面USBポートに変更してしっかり差し込んでください",
+      "text2": "携帯電話のデータケーブルを交換して再試行してください",
+      "text2_1": "Type-Cを抜き差しして再試行してください",
+      "text3": "技術サポートはQQグループに参加してください："
+    }
+  },
+  "app": {
+    "unsupported": {
+      "title": "Your Hanlinyue device is connected, but this version does not support it. Please update the software.",
+      "tip": "If this is due to firmware version, please follow the steps below.",
+      "downloadFirmware": "Download firmware",
+      "updateFirmware": "Update firmware",
+      "macFirmwareHint": "This is the Mac app: firmware download and upgrade are only supported in the Windows Hanlinyue client. Connect your device to a Windows PC and use the official Windows build."
+    },
+    "firmware": {
+      "updateDone": "ファームウェア更新完了",
+      "bluetoothWarning": "Bluetoothモードではファームウェアを更新できません。USBに切り替えてから再試行してください",
+      "sameWarning": "現在のファームウェアバージョンが最新のクラウドファームウェアバージョンと同じです。この更新をスキップします",
+      "updating": "ファームウェア更新中、お待ちください",
+      "tip": "アップグレード中はケーブルを抜いたりソフトウェアを閉じたりしないでください。更新は5分以内に完了する予定です",
+      "childProcessDone": "子プロセスが完了しました",
+      "SHA512Mismatch": "ファームウェアファイルのHASHが一致しません。再試行するか、カスタマーサービスにお問い合わせください",
+      "firmwareDownloaded": "クラウドファームウェアのダウンロードが完了しました",
+      "notSupportedOnMac": "ファームウェアアップグレードはMacに対応していません。Windowsパソコンで行ってください。"
+    }
+  }
+}

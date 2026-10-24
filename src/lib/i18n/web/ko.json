@@ -1,0 +1,138 @@
+{
+  "app": {
+    "tagline": "페이지 넘김기 설정 도구",
+    "disclaimer": "비공식 오픈 소스 프로젝트이며 Hanlinyue와 관련이 없습니다. 설정은 이 브라우저에만 저장됩니다."
+  },
+  "nav": {
+    "label": "주 메뉴",
+    "presets": "프리셋",
+    "custom": "커스텀",
+    "scripts": "매크로",
+    "light": "조명",
+    "more": "더보기"
+  },
+  "status": {
+    "usb": "USB",
+    "ble": "블루투스",
+    "disconnect": "연결 해제",
+    "demo": "데모"
+  },
+  "saving": "저장 중…",
+  "savedShort": "저장됨",
+  "errors": {
+    "sendFailed": "장치로 보내지 못했습니다: {message}"
+  },
+  "afterSave": {
+    "body": "작업이 끝나면 USB-C 케이블을 분리하세요. 페이지 넘김기가 페어링 모드로 전환되며(LED가 숨쉬듯 깜박임), 블루투스로 전자책 리더기, 휴대폰 또는 컴퓨터와 페어링할 수 있습니다."
+  },
+  "connect": {
+    "eyebrow": "Hanlinyue Free2 · Free3 · E1 Pro · E3 Control",
+    "title": "페이지 넘김기 연결",
+    "subtitle": "버튼 매핑, 매크로 기록, 조명 설정을 브라우저에서 바로 할 수 있습니다. 설치할 필요가 없습니다.",
+    "usb": "USB로 연결",
+    "ble": "블루투스(베타)",
+    "connecting": "연결 중…",
+    "reading": "장치 정보를 읽는 중…",
+    "step1": "USB-C 케이블로 페이지 넘김기를 이 컴퓨터에 연결하세요.",
+    "step2": "“USB로 연결”을 클릭하고 브라우저 목록에서 장치를 선택하세요. “USB Composite Device”로 표시될 수 있습니다.",
+    "step3": "설정을 변경하고 저장하세요. 그런 다음 케이블을 분리하면 블루투스로 사용할 수 있습니다.",
+    "unsupportedTitle": "이 브라우저는 USB 장치와 통신할 수 없습니다",
+    "unsupportedBody": "데스크톱 컴퓨터의 Chrome, Edge 또는 Opera에서 이 페이지를 여세요. Safari, Firefox 및 모바일 브라우저는 Web Serial을 지원하지 않습니다.",
+    "noSerial": "USB 연결에는 데스크톱용 Chrome, Edge 또는 Opera가 필요합니다.",
+    "failed": "연결하지 못했습니다: {message}",
+    "busy": "장치가 사용 중입니다. Hanlinyue 공식 앱과 장치를 사용 중인 다른 탭을 닫은 후 다시 시도하세요.",
+    "closeOfficial": "Hanlinyue 공식 앱과 장치를 사용 중일 수 있는 다른 브라우저 탭을 닫으세요.",
+    "linuxHint": "Linux에서는 사용자가 시리얼 포트를 열 수 있는지 확인한 후(예: dialout 그룹에 추가) 다시 연결하세요.",
+    "bleNote": "블루투스 설정은 실험적 기능으로, 일부 모델이나 펌웨어 버전에서는 작동하지 않을 수 있습니다. USB 사용을 권장합니다.",
+    "demo": "장치가 없나요? 데모 체험하기 →"
+  },
+  "unsupported": {
+    "title": "아직 지원되지 않는 모델입니다",
+    "body": "연결된 장치가 “{model}”(으)로 표시되지만, 이 설정 도구에서는 아직 인식할 수 없습니다. 지원을 추가할 수 있도록 이 모델 이름과 함께 이슈를 등록해 주세요.",
+    "report": "GitHub에서 제보"
+  },
+  "presets": {
+    "subtitle": "버튼에 사용할 프리셋 레이아웃을 고른 다음 장치에 저장하세요.",
+    "pick": "프리셋 선택",
+    "lastSaved": "마지막 저장"
+  },
+  "slot": {
+    "plus": "측면 +",
+    "minus": "측면 −",
+    "switch": "기타"
+  },
+  "shift": {
+    "label": "슬라이드 스위치",
+    "hint": "설정은 선택한 스위치 위치에 저장됩니다."
+  },
+  "layer": {
+    "title": "트리거",
+    "click": "클릭",
+    "doubleclick": "더블 클릭",
+    "longpress": "길게 누르기"
+  },
+  "custom": {
+    "subtitle": "장치의 버튼을 클릭하여 해당 버튼이 보낼 키나 휴대폰 동작을 선택하세요.",
+    "buttons": "버튼",
+    "choose": "선택",
+    "change": "변경",
+    "clear": "지우기",
+    "notSet": "설정 안 됨",
+    "nothingToSave": "먼저 하나 이상의 버튼에 동작을 선택하세요.",
+    "profiles": "빠른 프로필",
+    "profile": "프로필 {n}",
+    "profilesHint": "이 브라우저에 최대 3개의 레이아웃을 보관할 수 있습니다. 프로필을 선택하면 불러오며, 프로필이 선택된 상태에서 저장하면 해당 프로필에도 레이아웃이 저장됩니다.",
+    "saveProfile": "장치 및 프로필 {n}에 저장"
+  },
+  "picker": {
+    "title": "버튼 {n}",
+    "listen": "키 입력",
+    "listening": "입력 대기 중…",
+    "remove": "제거"
+  },
+  "scripts": {
+    "phoneTab": "휴대폰 동작",
+    "keyboardTab": "키보드 매크로",
+    "phoneTitle": "휴대폰 동작",
+    "keyboardTitle": "키보드 매크로",
+    "actionPerButton": "버튼별 동작",
+    "noAction": "동작 없음",
+    "record": "기록",
+    "recordHint": "“기록”을 누른 다음 버튼으로 재생할 키를 입력하세요.",
+    "saveTarget": "여기에 저장",
+    "saveTo": "버튼 {n}에 저장"
+  },
+  "light": {
+    "subtitle": "버튼을 선택한 다음 조명 동작 방식을 고르세요.",
+    "power": "조명",
+    "on": "켜기",
+    "off": "끄기",
+    "saveKey": "버튼 {n} 저장",
+    "modeHint": {
+      "lucky": "무작위 색상으로 바뀝니다.",
+      "rainbow": "색 스펙트럼을 따라 부드럽게 변합니다.",
+      "custom": "원하는 색상과 밝기로 고정합니다."
+    }
+  },
+  "more": {
+    "reportedModel": "보고된 모델",
+    "refresh": "새로 고침",
+    "firmwareNote": "펌웨어 업데이트는 Hanlinyue 자체 Windows 도구를 사용하며 브라우저에서는 실행할 수 없습니다. 공식 클라이언트가 설치된 Windows PC에서 업데이트하거나 고객 지원에 문의하세요.",
+    "preferences": "환경설정",
+    "appearance": "테마",
+    "theme": {
+      "system": "시스템",
+      "light": "라이트",
+      "dark": "다크"
+    },
+    "manual": "사용 설명서",
+    "log": "개발자 로그",
+    "logHint": "장치와 주고받은 원시 명령입니다. 문제를 제보할 때 유용합니다.",
+    "show": "표시",
+    "hide": "숨기기",
+    "copyLog": "복사",
+    "clearLog": "지우기",
+    "about": "이 오픈 소스 설정 도구는 Hanlinyue 공식 앱과 동일한 프로토콜을 사용해 브라우저에서 페이지 넘김기와 직접 통신합니다. 설정은 이 브라우저에만 저장됩니다.",
+    "source": "GitHub 소스 코드"
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "name": "한국어",
+  "sidebar": {
+    "/": "홈",
+    "function": "사전 설정 기능",
+    "general": "일반 설정",
+    "custom": "사용자 정의",
+    "script": "스크립트(매크로)",
+    "more": "더보기",
+    "specification": "설명서",
+    "light": "조명",
+    "about": "정보",
+    "device": {
+      "connectEq": "장치 연결",
+      "connectType": "연결 방식",
+      "title": "연결됨",
+      "power": "장치 배터리",
+      "mac": "SN",
+      "firmware": "펌웨어 버전"
+    }
+  },
+  "common": {
+    "tip": "친절한 알림",
+    "customFunctionTip": "사용자 지정 내용 저장 후 사용자 지정 기능만 지원됩니다(이전 펌웨어 기능과 중복 적용되지 않음).",
+    "customFunctionTip2": "기본 복원: 전원 켠 상태에서 전원 키 30초 길게 누르기.",
+    "bluetooth": "블루투스 모드",
+    "usb": "USB",
+    "more": "더 보기",
+    "cancel": "취소",
+    "save": "설정 저장",
+    "saved": "설정이 저장되었습니다",
+    "saveFailed": "저장에 실패했습니다",
+    "iUnderstand": "알겠습니다",
+    "iSure": "확인했습니다",
+    "alertDiscount": "<div style=\"color: grey\">1.아래 \"알겠습니다\"를 클릭<br>2.오른쪽 상단의 \"×\"를 클릭하여 소프트웨어 닫기<br>3.Type-C 케이블 연결 끊기<br>4.리모컨이 자동으로 \"페어링 모드(LED 숨쉬기 모드 깜빡임)\"로 들어가 다른 장치의 블루투스에 연결하여 사용할 수 있습니다</div>",
+    "alertDiscountTitle": "🎉축하합니다! 기능 설정이 완료되었습니다. 한 단계만 더 하면 사용할 수 있습니다!",
+    "haveQuestion": "펌웨어 업데이트가 정상적으로 완료되지 않아 장치를 사용할 수 없습니다. Type-C 케이블로 리모컨을 컴퓨터 USB에 연결하고 꽂아 주세요. 아래 버튼을 클릭하여 장치를 수리하세요",
+    "help": "문제 해결",
+    "fixAndReset": "장치 수리, 펌웨어 업데이트, 공장 초기화 복원",
+    "fixAndReseting": "공장 초기화를 복원하는 중입니다. 소프트웨어 연결이 성공할 때까지 기다려 주세요",
+    "alertDouble": "이중 확인",
+    "alertContact": "다시 확인해 주세요! 공장 초기화 복원 중에는 USB를 제거하지 마세요"
+  },
+  "layer": {
+    "click": "클릭 레이어",
+    "doubleclick": "더블 클릭 레이어",
+    "longpress": "길게 누르기 레이어",
+    "clickDesc": "클릭으로 트리거",
+    "doubleclickDesc": "더블 클릭으로 트리거",
+    "longpressDesc": "길게 누르기로 트리거",
+    "clickTooltip": "클릭 레이어: 제1층 | 장치 버튼을 클릭하여 이 층의 기능을 트리거",
+    "doubleclickTooltip": "더블 클릭 레이어: 제2층 | 장치 버튼을 더블 클릭하여 이 층의 기능을 트리거",
+    "longpressTooltip": "길게 누르기 레이어: 제3층 | 장치 버튼을 길게 눌러 이 층의 기능을 트리거"
+  },
+  "function": {
+    "title": "사전 설정 기능",
+    "saveBtn": "설정 저장",
+    "free2": {
+      "description": "Free2 듀얼 키 페이지 넘김기, 가볍고 사용하기 쉬움",
+      "func1": {
+        "name": "【안드로이드 전자책 리더 페이지 넘김】으로 설정",
+        "keys": {
+          "k1": "이전 페이지",
+          "k2": "다음 페이지"
+        }
+      },
+      "func2": {
+        "name": "키보드【좌우 화살표 키】로 설정",
+        "keys": {
+          "k1": "왼쪽 키 ←",
+          "k2": "오른쪽 키 →"
+        }
+      },
+      "func3": {
+        "name": "키보드【Page Up/Down】로 설정",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down"
+        }
+      },
+      "func4": {
+        "name": "키보드【복사/붙여넣기】로 설정",
+        "keys": {
+          "k1": "복사",
+          "k2": "붙여넣기"
+        }
+      },
+      "func5": {
+        "name": "휴대폰【짧은 동영상 전환】iOS는 확대/축소 기능을 활성화해야 합니다",
+        "keys": {
+          "k1": "이전 동영상",
+          "k2": "다음 동영상"
+        }
+      },
+      "func6": {
+        "name": "휴대폰【음악 전환】으로 설정",
+        "keys": {
+          "k1": "이전 곡",
+          "k2": "다음 곡"
+        }
+      },
+      "func7": {
+        "name": "키보드【상하 화살표 키】로 설정",
+        "keys": {
+          "k1": "위쪽 키 ↑",
+          "k2": "아래쪽 키 ↓"
+        }
+      },
+      "func8": {
+        "name": "휴대폰【촬영】iOS는 확대/축소 기능을 활성화해야 합니다",
+        "keys": {
+          "k1": "클릭: 확대+ 길게 누르기: 확대- ",
+          "k2": "촬영",
+          "switch": "카메라 전환"
+        }
+      }
+    },
+    "free3": {
+      "description": "Free3 트리플 키 페이지 넘김기, 여러 사전 설정 기능 지원",
+      "func1": {
+        "name": "【안드로이드 전자책 리더 페이지 넘김】으로 설정",
+        "keys": {
+          "k1": "이전 페이지",
+          "k2": "다음 페이지",
+          "k3": "길게 누르기: 화면 잠금"
+        }
+      },
+      "func2": {
+        "name": "키보드【좌우 화살표 키】로 설정",
+        "keys": {
+          "k1": "키보드 왼쪽 키",
+          "k2": "키보드 오른쪽 키",
+          "k3": "길게 누르기: 화면 잠금"
+        }
+      },
+      "func3": {
+        "name": "키보드【Page Up/Down】로 설정",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "길게 누르기: 화면 잠금"
+        }
+      },
+      "func4": {
+        "name": "키보드【복사/붙여넣기/잘라내기】로 설정",
+        "keys": {
+          "k1": "복사",
+          "k2": "붙여넣기",
+          "k3": "잘라내기"
+        }
+      },
+      "func5": {
+        "name": "키보드【상하 화살표 키】로 설정",
+        "keys": {
+          "k1": "키보드 위쪽 키",
+          "k2": "키보드 아래쪽 키",
+          "k3": "길게 누르기: 화면 잠금"
+        }
+      },
+      "func6": {
+        "name": "휴대폰【짧은 동영상 전환】iOS는 확대/축소 기능을 활성화해야 합니다",
+        "keys": {
+          "k1": "아래로 스와이프",
+          "k2": "위로 스와이프",
+          "k3": "클릭: 일시 정지\n더블 클릭: 좋아요\n길게 누르기: 화면 잠금"
+        }
+      },
+      "func7": {
+        "name": "휴대폰【음악 전환】으로 설정",
+        "keys": {
+          "k1": "이전 곡",
+          "k2": "다음 곡",
+          "k3": "클릭: 일시 정지\n길게 누르기: 화면 잠금"
+        }
+      },
+      "func8": {
+        "name": "휴대폰【촬영】iOS는 확대/축소 기능을 활성화해야 합니다",
+        "keys": {
+          "k1": "확대+",
+          "k2": "확대-",
+          "k3": "촬영",
+          "switch": "카메라 전환"
+        }
+      }
+    },
+    "e1pro": {
+      "description": "E1 Pro 트리플 키 페이지 넘김기, 여러 사전 설정 기능 지원",
+      "func1": {
+        "name": "【안드로이드 전자책 페이지 넘김】으로 설정",
+        "keys": {
+          "k1": "이전 페이지",
+          "k2": "다음 페이지",
+          "k3": "홈",
+          "plus": "볼륨 키+",
+          "minus": "볼륨 키-"
+        }
+      },
+      "func2": {
+        "name": "【Kobo 리더 페이지 넘김】으로 설정",
+        "keys": {
+          "k1": "이전 페이지",
+          "k2": "다음 페이지",
+          "k3": "홈",
+          "plus": "볼륨 키+",
+          "minus": "볼륨 키-"
+        }
+      },
+      "func3": {
+        "name": "키보드【상하 화살표 키】로 설정",
+        "keys": {
+          "k1": "위쪽 키 ↑",
+          "k2": "아래쪽 키 ↓",
+          "k3": "홈",
+          "plus": "볼륨 키+",
+          "minus": "볼륨 키-"
+        }
+      },
+      "func4": {
+        "name": "키보드【좌우 화살표 키】로 설정",
+        "keys": {
+          "k1": "왼쪽 키 ←",
+          "k2": "오른쪽 키 →",
+          "k3": "홈",
+          "plus": "볼륨 키+",
+          "minus": "볼륨 키-"
+        }
+      },
+      "func5": {
+        "name": "키보드【Page Up/Down】로 설정",
+        "keys": {
+          "k1": "Page Up",
+          "k2": "Page Down",
+          "k3": "홈",
+          "plus": "볼륨 키+",
+          "minus": "볼륨 키-"
+        }
+      },
+      "func6": {
+        "name": "【Win, 안드로이드 복사/붙여넣기】로 설정",
+        "keys": {
+          "k1": "복사",
+          "k2": "붙여넣기",
+          "k3": "홈",
+          "plus": "볼륨 키+",
+          "minus": "볼륨 키-"
+        }
+      },
+      "func7": {
+        "name": "【Mac, iOS 복사/붙여넣기】로 설정",
+        "keys": {
+          "k1": "복사",
+          "k2": "붙여넣기",
+          "k3": "홈",
+          "plus": "볼륨 키+",
+          "minus": "볼륨 키-"
+        }
+      },
+      "func8": {
+        "name": "【휴대폰 촬영】iOS는 확대/축소 기능을 활성화해야 합니다",
+        "keys": {
+          "k1": "확대+",
+          "k2": "확대-",
+          "k3": "촬영",
+          "plus": "카메라 전환",
+          "minus": "카메라 전환"
+        }
+      }
+    }
+  },
+  "custom": {
+    "header": {
+      "h1": "사용자 정의",
+      "h5": "파란색 영역을 클릭하여 기능을 사용자 정의하세요"
+    },
+    "keyRecorderPlaceholder": "Click to choose key",
+    "content": {
+      "light": {
+        "h1": "조명 설정",
+        "close": "끄기",
+        "open": "켜기",
+        "colorMode": "색상 모드",
+        "luckyColor": "럭키 컬러",
+        "rainbowColor": "무지개 색상",
+        "customColor": "사용자 정의 색상",
+        "brightness": "밝기",
+        "selectKey": "키 선택",
+        "key1": "키 1",
+        "key2": "키 2",
+        "key3": "키 3",
+        "save": "설정 저장",
+        "notSupported": "현재 장치는 조명 설정을 지원하지 않습니다",
+        "colorPicker": "색상 선택기",
+        "hexExample": "# 기호 없이 HEX 형식 색상 데이터를 입력하세요",
+        "hexFormatError": "Invalid HEX format, should be #FFFFFF"
+      },
+      "setting": {
+        "h1": "먼저 설정할 버튼을 클릭하세요",
+        "content": {
+          "p1": "사용자 정의",
+          "p2": "번 버튼 기능",
+          "span": "장치를 길게 누르면 클릭에 바인딩된 기능이 반복적으로 실행됩니다"
+        },
+        "button": {
+          "p1": "저장",
+          "p2": "번 버튼"
+        }
+      }
+    },
+    "newContent": {
+      "placeholder": "키보드를 클릭하여 키 위치를 입력하세요",
+      "keyboard": "단축키",
+      "quick": "이 단축 기능으로 설정"
+    }
+  },
+  "keyboard": {
+    "title": "Select keys",
+    "mode": {
+      "keyboard": "Keyboard",
+      "phone": "Phone"
+    },
+    "section": {
+      "navigation": "Navigation keys",
+      "arrow": "Arrow keys",
+      "mac": "Mac keys",
+      "phone": "Phone touch actions"
+    },
+    "selectedLabel": "Selected:",
+    "actions": {
+      "clear": "Clear",
+      "confirm": "Confirm"
+    },
+    "tip": {
+      "keyboard": "Tip: Keyboard mode supports key operations and combo keys (e.g. Ctrl+C), up to 5 keys.",
+      "phone": "Tip: Phone mode is for touch actions (like, swipe, etc.), only one action can be selected.",
+      "ios": "iOS requires AssistiveTouch enabled"
+    },
+    "warning": {
+      "phoneSingle": "Phone mode only allows one action",
+      "maxKeys": "You can select up to 5 keys"
+    },
+    "none": "None",
+    "media": {
+      "mute": "Mute",
+      "volumeDown": "Volume -",
+      "volumeUp": "Volume +",
+      "previous": "Previous",
+      "pause": "Pause",
+      "next": "Next"
+    },
+    "phone": {
+      "like": "Like",
+      "lockScreen": "Lock screen",
+      "speed": "Speed",
+      "slideLeft": "Swipe left",
+      "slideRight": "Swipe right",
+      "slideUp": "Swipe up",
+      "slideDown": "Swipe down",
+      "pause": "Pause",
+      "back": "Back",
+      "home": "Home"
+    }
+  },
+  "script": {
+    "describe": "매크로는 저장 후 자동 실행됩니다",
+    "startRecording": "Click to start recording",
+    "stopRecording": "Stop recording",
+    "clear": "Clear",
+    "delaySetting": "지연 설정",
+    "recordDelay": "지연 기록",
+    "defaultDelay": "기본 지연",
+    "fixedDelay": "고정 지연",
+    "recordTip": "기록할 때의 시간을 기록하여 기록 시간을 지연 시간으로 사용",
+    "defaultTip": "기본 지연 시간은 30밀리초입니다",
+    "milliseconds": "밀리초",
+    "tPlaceholder": "시간 입력",
+    "repeatSetting": "실행 횟수",
+    "repeatForever": "무한 루프",
+    "repeatNumber": "N회 반복",
+    "repeatPlaceholder": "횟수 입력",
+    "macroSetting": "매크로 기록",
+    "recordTipPressKey": "Press the keys you want to record",
+    "recordTipClickStart": "Click the start recording button",
+    "tip1": "먼저 기록 시작을 클릭하세요.",
+    "tip2": "기록 완료 후 기록 종료를 클릭하세요",
+    "tip3": "지정된 버튼에 저장",
+    "macroRecord": "매크로 기록",
+    "saveToKey": "키 {keyNumber}",
+    "commandSizeExceeded": "Command size {size}KB exceeds limit {limit}KB, please reduce recording",
+    "noKeyEvents": "No key actions detected, please record again",
+    "macroCleared": "Recorded macro cleared",
+    "event": {
+      "keyDown": "{key} key down",
+      "keyUp": "{key} key up",
+      "wait": "Wait {ms} ms",
+      "unknown": "Unknown event"
+    }
+  },
+  "scriptPhone": {
+    "tab1": "매크로(전화)",
+    "tab2": "매크로(키보드)",
+    "describe": "휴대폰 세로 화면 짧은 동영상/라이브 스트리밍 좋아요/읽기 자동화 설정을 위한 사전 설정 매크로",
+    "placeholder": "선택하세요",
+    "opt1": "좋아요",
+    "opt2": "왼쪽으로 스와이프",
+    "opt3": "오른쪽으로 스와이프",
+    "opt4": "위로 스와이프",
+    "opt5": "아래로 스와이프",
+    "buttonName": "Button {index}",
+    "needSelectKey": "Please select at least one key configuration"
+  },
+  "more": {
+    "h1": "추가 설정",
+    "languageLabel": "Language",
+    "languagePlaceholder": "Please select language",
+    "specificationLabel": "Specifications",
+    "specificationView": "View specifications",
+    "firmwareLabel": "Firmware Upgrade",
+    "firmwareUpdate": "Upgrade firmware",
+    "firmwareDialogTitle": "Firmware Upgrade",
+    "deviceFirmwareVersion": "Device firmware version",
+    "softwareVersion": "Software version",
+    "downloadFirmware": "Download firmware",
+    "updateFirmware": "Update firmware",
+    "macFirmwareHint": "Firmware download and online upgrade are not offered on Mac. Install the Hanlinyue Windows client on a PC and connect your device there."
+  },
+  "macSupport": {
+    "title": "Mac 펌웨어 업그레이드 안내",
+    "hint": "Mac 앱에서는 아직 펌웨어 다운로드 및 온라인 업그레이드를 지원하지 않습니다. Windows PC에 Hanlinyue 클라이언트를 설치한 후 기기를 연결하여 펌웨어 업그레이드를 진행해 주세요.",
+    "wechatTip": "중국 본토 사용자: 아래 QR 코드를 스캔하여 위챗 기업용(WeCom) 고객지원을 추가하고 업그레이드 및 기술 지원을 받으세요.",
+    "noWechatTip": "WeChat을 사용하지 않는 경우 {email} 으로 이메일을 보내 업그레이드 및 기술 지원을 문의해 주세요.",
+    "qrcodeAlt": "WeCom 고객지원 QR 코드",
+    "email": "hly{'@'}hanlinyue.com.cn"
+  },
+  "specification": {
+    "kobo": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=8",
+    "link": "https://doc.hanlinyue.com.cn/#/pages/book/index?id=12"
+  },
+  "about": {
+    "deviceInfo": {
+      "h2": "장치 정보",
+      "deviceName": "장치 이름",
+      "deviceNameValue": "페이지 넘김기",
+      "model": "모델 이름",
+      "bluetoothVersion": "블루투스 버전",
+      "transmitPower": "전송 전력",
+      "frequency": "주파수(Hz)",
+      "communicationDistance": "통신 거리",
+      "bluetoothAddress": "블루투스 주소",
+      "batteryCapacity": "배터리 용량",
+      "remainingBattery": "남은 배터리",
+      "execStandard": "실행 표준",
+      "cmiitID": "CMIIT ID",
+      "manufacturer": "제조업체",
+      "origin": "원산지",
+      "E1Pro": {
+        "deviceName": "페이지 넘김기",
+        "model": "E1 Pro",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "약 5미터",
+        "bluetoothAddress": "81-0D-E0-E3-7E-CE",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "24J44M8R0001",
+        "manufacturer": "한림열(선전)과학기술유한회사",
+        "origin": "중국 선전"
+      },
+      "Free2": {
+        "deviceName": "페이지 넘김기",
+        "model": "Free2",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "약 10미터",
+        "bluetoothAddress": "",
+        "batteryCapacity": "로우 프로파일 버전 130mAh/3.7v; 하이 프로파일 버전 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "한림열(선전)과학기술유한회사",
+        "origin": "중국 선전"
+      },
+      "Free2_2026": {
+        "deviceName": "페이지 넘김기",
+        "model": "Free2 2026",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "약 10미터",
+        "bluetoothAddress": "",
+        "batteryCapacity": "로우 프로파일 버전 130mAh/3.7v; 하이 프로파일 버전 230mAh/3.7v",
+        "remainingBattery": "100%",
+        "execStandard": "GB4943-2022",
+        "cmiitID": "",
+        "manufacturer": "한림열(선전)과학기술유한회사",
+        "origin": "중국 선전"
+      },
+      "Free3": {
+        "deviceName": "페이지 넘김기",
+        "model": "Free3",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "≤20dBm",
+        "frequency": "2400~2483.5MHZ",
+        "communicationDistance": "약 10미터",
+        "bluetoothAddress": "",
+        "batteryCapacity": "380mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T 26572-2011",
+        "cmiitID": "",
+        "manufacturer": "한림열(선전)과학기술유한회사",
+        "origin": "중국 선전"
+      },
+      "E3Control": {
+        "deviceName": "페이지 넘김기",
+        "model": "E3 Control",
+        "bluetoothVersion": "5.4",
+        "transmitPower": "",
+        "frequency": "",
+        "communicationDistance": "약 10미터",
+        "bluetoothAddress": "",
+        "batteryCapacity": "400mAh/3.7V",
+        "remainingBattery": "100%",
+        "execStandard": "GB/T26572-2011",
+        "cmiitID": "",
+        "manufacturer": "한림열(선전)과학기술유한회사",
+        "origin": "중국 선전"
+      }
+    }
+  },
+  "stateMark": {
+    "usb": {
+      "state": {
+        "finding": "감지 중, Type-C로 연결해 주세요",
+        "ready": "Type-C로 연결됨",
+        "disconnect": "장치 케이블 연결이 끊어졌습니다"
+      },
+      "p1": "Type-C 케이블로 E1 Pro와 컴퓨터 USB를 연결하세요",
+      "li1": "USB 연결은 리모컨 설정 기능에만 사용할 수 있으며, 사용은 지원하지 않습니다",
+      "li2": "기능 설정 완료 후 USB 케이블 연결을 제거하고, 블루투스 연결 튜토리얼을 참조하여 대상 장치와 페어링하여 사용하세요",
+      "li3": "<span style=\"color: red\">기능을 사용하려면 케이블을 분리한 후 블루투스 모드로 연결하여 사용하세요</span>",
+      "title": "장치 연결 후 프로그램에 들어갈 수 없는 경우, 다음 방법으로 해결하세요",
+      "text1": "컴퓨터 USB 포트를 변경하세요. PC인 경우 후면 USB 포트로 변경하고 꽂아 주세요",
+      "text2": "휴대폰 데이터 케이블을 교체하고 다시 시도하세요",
+      "text2_1": "Type-C를 뽑았다가 다시 꽂아 시도해 보세요",
+      "text3": "기술 지원은 QQ 그룹에 가입하세요: "
+    }
+  },
+  "app": {
+    "unsupported": {
+      "title": "Your Hanlinyue device is connected, but this version does not support it. Please update the software.",
+      "tip": "If this is due to firmware version, please follow the steps below.",
+      "downloadFirmware": "Download firmware",
+      "updateFirmware": "Update firmware",
+      "macFirmwareHint": "This is the Mac app: firmware download and upgrade are only supported in the Windows Hanlinyue client. Connect your device to a Windows PC and use the official Windows build."
+    },
+    "firmware": {
+      "updateDone": "펌웨어 업데이트 완료",
+      "bluetoothWarning": "블루투스 모드에서는 펌웨어를 업데이트할 수 없습니다. USB로 전환한 후 다시 시도하세요",
+      "sameWarning": "현재 펌웨어 버전이 최신 클라우드 펌웨어 버전과 동일합니다. 이 업데이트를 건너뜁니다",
+      "updating": "펌웨어 업데이트 중, 기다려 주세요",
+      "tip": "업그레이드 중에는 케이블을 뽑거나 소프트웨어를 닫지 마세요. 업데이트는 5분 이내에 완료될 예정입니다",
+      "childProcessDone": "하위 프로세스가 완료되었습니다",
+      "SHA512Mismatch": "펌웨어 파일 HASH가 일치하지 않습니다. 다시 시도하거나 고객 서비스에 문의하세요",
+      "firmwareDownloaded": "클라우드 펌웨어 다운로드 완료",
+      "notSupportedOnMac": "펌웨어 업그레이드는 Mac에서 지원되지 않습니다. Windows 컴퓨터를 사용하여 업그레이드하세요."
+    }
+  }
+}
